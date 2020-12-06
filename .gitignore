@@ -1,7 +1,7 @@
 # project-specific
 data_*/
 output/
-assignment2/2.2 ner/data/glove.6B.100d.txt
+assignment_2/2.2 ner/data/glove.6B.100d.txt
 
 # IDE
 .vscode/
