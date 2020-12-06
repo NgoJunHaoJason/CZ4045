@@ -1,0 +1,8 @@
+Items
+Helm of the Dominator
+	Creep damage reduced from +40 to +25
+	Recipe cost increased by 250 gold
+
+Monkey King Bar
+	Now has a 350 gold recipe
+

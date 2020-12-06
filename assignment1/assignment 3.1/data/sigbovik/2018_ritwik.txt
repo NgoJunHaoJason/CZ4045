@@ -1,0 +1,148 @@
+Ritwik Density Estimation and Analysis Using Real Techniques
+
+Ritwik, Ritwik, Ritwik
+
+ritwikg1, rsdas, ritwikr
+
+Gupta, Das, Rajendra∗
+@ andrew.cmu.edu
+
+The Council of Ritwiks @ Carnegie Mellon
+
+Abstract
+
+The distribution of Ritwiks across the world is a question pursued by countless researchers across a
+variety of ﬁelds. A yet unanswered question1, we seek to once and for all put this question to rest. We
+also provide auxiliary discussion and proofs demonstrating various statistical properties of the Ritwik
+population.
+
+1 Distribution of Ritwiks
+
+Comprehensive, boots on the ground research was done to eﬀectively determine the distribution of Ritwiks
+across the world. Using Facebook2, we were able to ascertain the location of and establish contact with
+Ritwiks everywhere (see Figure 1). We collected a large sample size (N = 12) and used Hamiltonian Monte
+
+Figure 1: Geographical density of Ritwiks, green being low and red being high.The white areas denote the
+authors were lazy to make a heat map covering the globe.
+
+Carlo methods to simulate certain parameters that are backed by Bayesian goodness, undeniably proving
+that our method is rock solid. We cast a net out to collect the samples , the deep kind of net therefore
+guaranteeing the best sample. All data was analyzed with cutting edge tools [1, 2]. The following math not
+only looks cool, but makes reviewers think that we did real work because math makes it look that way.
+
+
+∗Authors are listed in the order of narcissism towards their ﬁrst names
+1https://scholar.google.com/scholar?hl=en&as sdt=0%2C39&q=distribution+of+ritwiks&btnG=
+2https://facebook.com
+
+
+1.1 Estimating the Density of “Ritwik” Using Novel Methods
+
+Ritwik is a low frequency name, a statement which has been shown to be true using time-tested methods of
+Expected Author Intuition Level (EAIL). Li et. al. [3] state that low frequency names are related to each
+other using Zipf’s Law which is stated as follows:
+
+Let X = x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, ..., xN
+of names present in the world. 
+Let Y = states that: y1, y2, y3, ...yN{}
+, N = some large number and X is the vector
+
+}
+be the ranking of each xi. Therefore, Zipf’s Law
+
+Y∝1 
+Count(X)+ ξ
+
+We completely ignore this rule and use deep learning since representation learning solves all problems.
+Assume a low density uniform prior on the density of Ritwik over geographical locations (which are sorted
+alphabetically and mapped to whole numbers). When you imagine it in your head, it sure does look like a
+line, right? Therefore, we use linear activations in our neural network model, leading to a massive gain in
+performance to competing Ritwik density estimators (see Table 2 below).
+
+Method
+SVM
+SVM + BBN
+RBM
+Linear NN (ours)
+
+MAP MRP GDP
+9.65
+0.02
+0.05
+3.21
+0.21
+0.45
+2.96
+0.44
+0.68
+0.01
+0.99
+1.00
+
+Table 1: Performance of Ritwik density methods.To generate this table we used a rigorous foolproof exper-
+imentation technique called YOLO (You Only Lie Once).
+
+An example of an architecture we did not use is included below as reference, carefully created in MS
+
+Paint for the highest quality rendering and production value.
+
+Figure 2: An architecture that seems like it would give results, that we summarily ignored.
+
+To make our results reproducible, we have stuck to well-backed academic practices of releasing all of our
+code on private GitHub repositories only accessible via an email to one of our auxiliary email addresses that
+we check once in a blue moon, or after we publish everything of use from the dataset.
+
+
+2Popularityof“Ritwik”OverTimeThoughRitwiksthemselvesareinsanelypopular3,thenameRitwikitselfhasnotseenwidespreadgaininusagethroughouthistory.Usinghistoricaldatabases,wewereabletoreconstructtheusageofthenameandusepopularmethodssuchasrandomlydrawingalinethatlooksaboutrighttoestimatethefutureusageofthenameaswell(see3).Asevident,thenameRitwikispredictedtoskyrocketasthispaperismadepublic.Eventually,allpeoplewillbenamedRitwik,andtheuniversewillbeatpeace.Figure3:TheoccurrenceofthenameRitwikovertime.Greenlinerepresentstheyearthispaperwaspublished.3OntheImmortalityofRitwiksBasedonthevastquantityofRitwikswehavemet,noneofthemhavebeendeadordeceased.Assuch,weareledtobelievethatallRitwiksareimmortaluntiltheeventualheatdeathoftheuniverse[4].Lemma1.GivenanyRitwik,theaveragelifespanoftheindividualwillbe∞.Figure4:SearchoftheU.S.SocialSecurityDeathIndexfor“Ritwik”.3Refertoourpeers.Proof. Let us assume that all Ritwiks die, for the sake of contradiction. Therefore, a record of death must
+exist within the United States Social Security Death Index4. However, we can see in Figure 4, no records of
+deceased Ritwiks exist. Therefore, Lemma 1 must hold.
+
+4 Adversarial Ritwiks
+
+With the recent successes in people being able to ﬁnally spell our name properly, adversarial attacks against
+our nomenclature have become prevalent. Simple aﬃne transformations often result in massive confusion
+amongst peers and colleagues. An example of these transformations can be seen in Table 2 below. Many
+
+Transformation
+Ritvik
+Ritwick
+Rick
+Hrithik
+“How about I call you Rob?”
+
+Table 2: Example of aﬃne transformations on the name “Ritwik”
+
+defenses exist against adversarial attacks against the name “Ritwik”. Papernot et. al.
+[5] suggests that
+distilling these toxic people out of your life demonstrates a sizable increase in the quality of life. However,
+many attacks have been shown directly bypassing distillation, which means that you’re stuck with hearing
+various people call you diﬀerent names for the rest of your life, which as shown in Section 3, is forever.
+
+We have demonstrated absolutely nothing of use, but are still proud of our contribution to the world. If you
+are a Ritwik and are currently not a member of the Council, please email us at once to rectify this grave
+mistake. If you are currently not named Ritwik and would like to be a member of the Council, please refer
+to your country’s name change applications. No Ritwiks were harmed in the making of this paper.
+
+5 Conclusion
+
+References
+
+[1] Matei Zaharia, Mosharaf Chowdhury, Tathagata Das, Ankur Dave, Justin Ma, Murphy McCauley,
+Michael J. Franklin, Scott Shenker, and Ion Stoica. Resilient distributed datasets: A fault-tolerant
+abstraction for in-memory cluster computing. In Proceedings of the 9th USENIX Conference on Net-
+worked Systems Design and Implementation, NSDI’12, pages 2–2, Berkeley, CA, USA, 2012. USENIX
+Association.
+
+[2] Fonnesbeck C. Salvatier J., Wiecki T.V. Probabilistic programming in python using pymc3. In PeerJ
+
+Computer Science, 2016.
+
+[3] Wentian Li. Analyses of baby name popularity distribution in u.s. for the last 131 years. 18:1, 09 2012.
+
+[4] Chas A. Egan and Charles H. Lineweaver. A larger estimate of the entropy of the universe. 2009.
+
+[5] N. Papernot, P. McDaniel, X. Wu, S. Jha, and A. Swami. Distillation as a defense to adversarial
+perturbations against deep neural networks. In 2016 IEEE Symposium on Security and Privacy (SP),
+2016.
+
+4http://search.ancestry.com/search/db.aspx?dbid=3693

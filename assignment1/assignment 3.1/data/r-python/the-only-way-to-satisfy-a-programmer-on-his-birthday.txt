@@ -1,0 +1,171 @@
+
+The indentation will make him cry again
+Tabs or spaces?
+
+
+No
+Could also have put “Happy Birthday to “ into a variable to avoid repeating the text multiple times in the code.
+
+name.capitalise() could go directly in the print statement as it’s only used once.
+
+No error handling.
+
+Frankly this needs a ton of work. At present it's totally half baked.
+I'd say the lack of white space would piss me off, but in this context that doesn't really make any sense considering there is plenty of white space.
+ROLL UP, ROLL UP.  Show your best and worst implementations for a chance to win this '**;**' rare semicolon.
+
+    def happy_birthday(name='Voldemort'):
+        to_whom = (*('to you,', ) * 2, f'dear {name.capitalize()},', 'to you,', *('Hip Hip Hooray!', ) * 3)
+        print('\n'.join(f"{'Happy Birthday ' if idx < 4 else ''}{who}" for idx, who in enumerate(to_whom)))
+Initially I thought this would not satisfy me on my birthday however having thought about it, code that I can easily explain to someone that it is wrong and how to improve it would definitely be satisfying.. this comment section is a great example of that!
+I find your lack of indentation disturbing
+Indentation error oof
+Happy Birthday to you. Happy Birthday to name! Happy birthday to you.  
+Happy Birthday to you. Happy Birthday to name! Happy birthday to you.  
+Happy Birthday to you. Happy Birthday to name! Happy birthday to you.  
+Hip Hip Hooray!  
+Hip Hip Hooray!
+
+Hip Hip Hooray!
+
+Something seems off.
+just because it's your birthday you can't throw indentation off the roof...
+Python comes with “batteries included”.  Shouldn’t the cake be:
+
+from birthday_utils import happy_birthday
+
+happy_birthday(‘kookoo’)
+The lack of indentation is hurting my nerves, btw great cake 10/10 would eat
+~~the indentation~~
+He must be pretty much pissed after he saw that the indentation error!
+The syntax highlighting with colors is a really nice touch.
+IndentationError: expected an indented block.......
+jk this is too cute Happy Birthday!
+It's a sin. The code should be in dark mode.
+Indention Error at line 6.
+I have been trying to teach myself python recently and was actually able to understand what was going on with this cake. This feels like kind of a big deal. I finally get the jokes.
+no indentation :(
+I find the lack of indentation disturbing ...
+indentation Error!
+How am I the only person who felt compelled to fix and refactor this? Even the song is off!
+
+	import time
+
+	def happy_birthday(name):
+		name = name.title()
+		template = "Happy Birthday {}"
+		s1 = template.format("to you!")
+		s2 = template.format(f"dear {name},")
+        song = [s1, s1, s2, s1] + \
+               ["Hip Hip, Hooray!"]*3
+		for line in song:
+			print(line)
+			sleep(1)
+		
+	if __name__ == '__main__'
+		happy_birthday('Kookoo')
+No indentation buddy
+The lack of indentations made my eyes burn
+ this is a good idea but disregarding the indentation error it wouldn’t even sing happy bday in the right order lol
+Happy birthday *dear* name, not *to*
+# Sorry: IndentationError: ('unindent does not match any outer indentation level', ('[HappyBirthday.py](https://HappyBirthday.py)', 1016, 8, "print('Happy Birthday to you.')))
+I am proud of myself for understanding what each component of that does. I just started to teach myself and this was surprisingly a big boost of confidence.
+
+Happy birthday!
+Syntax error line 4 expected indent
+use f-strings
+where is main.  WHERE IS MAIN.
+The indentations and the song is not right. 😭😭
+You should use play sound module!
+I love the thought that went into this. I’m also concerned at the amount of anxiety the lack of indentation causes me. I’ve been writing Python for far too long...
+r/badcode
+Oops IndentationError
+Sad times about indentation, it's a shame it'll never run but amazing cake !
+The thing that hurts more than the missing indentation is that this code isn't using .format()
+Indentation error. Nice thought though
+This is perfect for me as it is my birthday today on 28th june : the most perfect day of the year as it is made of the first two numbers that exist....
+com essa indentação vai fazer o cara fugir... kakakaka
+You could save some space using cake.format()
+Must be a testers birthday party.
+You know it's a geek place when a gag like this get corrected and optimized
+Happy...
+
+Expected Indentation, Birthday Invalid
+Printer clogged with cake, instructions unclear
+If i got anything like this for my bday i would appreaciate it, but it just feels, wrong.
+You don't just place code on a bday cake
+The lack of indentation is infuriarating. And I really hope there is a dark mode one next to it.
+Anybody else concerned about that "frosting". Big yikes.
+I would be thrilled!
+this needs some monospaced font
+PEP 8!
+You were suppose to run the .py file and then run it in visual code
+find the syntax error
+I'm going to invent an icing printer that includes a tab key and revolutionize the baking world.
+Use a logger God damnit
+Ffs use the logger
+The indentation error is hurting my brain
+The lack of indentation is killing me
+Damn, print does ‘ ‘.join() TIL
+Your birthday is the day before mine! It's past midnight where I live, but happy birthday anyways.
+I am new to programming and being able to understand this script (2) made me so happy :)
+
+Happy birthday to you. And thanks for the great share.
+I just started learning python and I’m stoked that I understood what was happening in this cake! Dope cake as well! (Indentation set to .5mm)
+No spaces/new lines  between prints. That's even worse than the indentations!
+By giving them bad code!
+Noice
+Cool idea, but would be better if it ran properly. Get a bigger cake and indent it properly, I say.
+Lol I did not know that there was a `.capitalize()` method in python. Makes you wonder what other helpful methods and functions there are that you would probably never know about.
+I'd be sitting there, quietly code-reviewing it in my head.
+omg how did she do this? i have to do this for my brother lol
+God damn the indentation, SYNTAX ERROR. It’s still nice tho
+I really liked the import time part
+Not to bash, but does anyone else dislike these pseudo code type things? I just find all of them cheesy I guess idk
+The lack of indentation is killing me
+Needs a pep8 linter
+Everyone goes on about indentation, but a full second sleep in between lines? Where's the rhythm?
+Indentation!
+>print("Happy Birthday to",name,"!");
+
+There is not space after the **to** :(
+You could have chosen other languages. Indentation error will make him cry!!
+Everyone talking about indentation, but the real atrocity was committed before a single line was written: **non-monospaced font**. Disgusting!
+I'd be soo infuriated with that indentation
+dude, the indentation!!
+
+ps: nice cake, happy birthday
+Error:
+Expected indent at “Happy birthday.py” in Line 5: “def happy_birthday(name):” <—
+
+Otherwise nice cake 🎂, lets hope there is no more bugs
+That's actually so much worse, he'll have to spend some time getting the indentation right. 
+
+Also the .capitalise function is not defined.
+The indentation tho
+The font isn't mono too! :-(
+TABBING!!!! FUCKING TABBING IS INCORRECT!!!! AAAAAAAAAAAAHHHHHHHHH. I'm going to have to spam down arrow, home key, and tab!!!!!!
+
+
+
+
+That's what a programmer would think
+r/softwaregore
+print statement under for loop not indented. So it would cause error and drive the programmer crazy but not satisfied
+IndentationError: expected an indented block
+Get them f-strings for their next birthday
+I think it doesn't work, it doesn't have tabs.
+time is the best fucking thing in all of python
+More like:
+
+from celebrations import birthday
+
+print(birthday.lyrics(‘Simon’))
+I need it
+I'm so happy to understand this simple code !
+Is it a cultural thing somewhere to sing “to NAME” instead of “dear NAME”? I’m in the US and have always sung the latter
+Is NOBODY going to comment on the lack of f-strings?
+bd = lambda n="you": print(f"happy birthday to {n}")
+
+hbty = [bd("name") if i==2 else bd() for i in range(4)]
+Commenting to get to 256 comments

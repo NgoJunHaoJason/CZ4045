@@ -1,0 +1,149 @@
+Proceedings of SIGBOVIK 2019
+
+A LL YOU N EED IS D OGBALL
+Kai Arulkumaran
+Imperial College London
+London, UK
+ka709@ic.ac.uk
+
+Matthew Kelcey
+Victoria, Australia
+matthew.kelcey@gmail.com
+
+Andrew Brock
+Heriot-Watt University
+Edinburgh, UK
+ajb5@hw.ac.uk
+
+A BSTRACT
+The year is 2019, and humanity is on the brink of destruction. The latter fact has nothing to do with
+the current state of AI, but if we do manage to survive the next few decades, it may well do. If AI
+can now beat us at our own simulated war games, or convince us that there exists a secret herd of
+unicorns in South America, what next? All things considered, we propose that a reasonable option
+is to always look on the bright side of life. More speciﬁcally, we chronicle here the conception of
+the well-loved AI creation, Dogball, and its later adventures on the interwebs.
+
+I NTRODUCTION
+
+First, we were told that attention is all you need (Vaswani et al., 2017). Then, we were told that, just maybe, you didn’t
+need attention (Press & Smith, 2018). And somewhere along the way, we were also told that all we needed was CNNs
+(Chen & Wu, 2017), but by that point Bored Yann LeCun was getting a little repetitive and we kind of ignored that
+one #torched. So now, we’re here to say that all you need is Dogball, because YOLO (Redmon & Farhadi, 2018).
+The origins of Dogball lie in the Inception wars of 2016-2018 (Salimans et al., 2016), in which research groups
+worldwide were competing to make the prettiest, most high resolution faces in the name of science. Despite heroic
+efforts to reduce GAN violence (Albanie et al., 2017), the arms race escalated in recent years, culminating in the
+notorious BigGAN1 (Brock et al., 2019). With one fell swoop and a lot of TPUs (Buchlovsky et al., 2019), BigGAN
+blew other GANs out the water, putting an end to the conﬂict2 .
+Many experiments went into the creation of the ﬁnal BigGAN models, and these were duly chronicled in the appendix.
+Indeed, the community noted the level of detail available, a feat usually reserved for works by Hochreiter (Klambauer
+et al., 2017). Experiments ranged over hyperparameters, regularisation strategies, noise distributions3 , and much more.
+However, the most serendipitous ﬁnding was Dogball, a creation from a BigGAN in the middle of training. Dogball
+and his family of chimeras (see Figure 1) were the result of a phenomenon that was named class leakage, bringing
+literal meaning to the maxim that deep learning is alchemy.
+
+(a) Dogball
+
+(b) Catﬂower
+
+(c) Hendog
+
+(d) Nope
+
+Figure 1: Dogball family portraits. (a-c) Dogball, Catﬂower and Hendog are all members of the classus leakus family.
+(d) Nope is extended family from the father’s side.
+1
+
+Whose aliases also include “the BFG” (big feedforward GAN).
+At least until StyleGAN showed up a few months later (Karras et al., 2018).
+3
+RIP Bernie the Bernoulli BigGAN, your hypercubic binary latent space was beautiful, but alas you were not amenable to the
+truncation trick.
+
+
+Proceedings of SIGBOVIK 2019
+
+C ULTURAL I MPACT
+
+Deep learning research is no stranger to whimsy. From ﬁguratively (Kaiser et al., 2017; Schmidhuber, 2018) to literally
+outrageous (Shazeer et al., 2017) names, deep learning researchers are fond of their wordplay (Donahue et al., 2017;
+Tomczak & Welling, 2018). The community is also a fan of animals, with a veritable zoo of models, including MAMLs
+(Finn et al., 2017), Reptiles (Nichol & Schulman, 2018), SNAILs (Mishra et al., 2018) and even DRAGANs (Kodali
+et al., 2017). Given all of this, it was perhaps inevitable that we could put all the seriousness aside for a moment4 , and
+relish in the glory that was Dogball (see Figure 2).
+
+Figure 2: GANs are only useful for making pretty pict-ALL GLORY TO THE DOGBALL!
+Dogball appealed through classic memes (see Figure 3) and other pop culture references (see Figure 4). Despite the
+small backlash to the proliferation of Dogball memes (see Figure 5), resistance was futile (see Figure 6), and was
+eventually assimilated (see Figure 7).
+
+Figure 3: On the phone with the English-speaking South American unicorns, another example of AI-created phenomenon (Radford et al., 2019).
+Current topics included how many meta-’s to include in your meta-learning algorithm, and choosing which Sesame Street
+character to name your new NLP model after.
+
+
+Proceedings of SIGBOVIK 2019
+
+(a) DogBall
+
+(b) Captain Dogball
+
+(c) Fear and Dogball in Las Vegas
+
+Figure 4: Films are parables for modern times. (a) is the source of the common adage, “If you can dodge a wrench,
+you can dodge a Dogball.” (b) is about dressing for the job you want. (c) drugs are bad, OK?
+
+Proceedings of SIGBOVIK 2019
+
+Figure 5: Oh my God, Mat! You can’t just ask people to stop making dogball memes!
+
+Figure 6: “Likelihood-based models have no chance to survive make your time.”
+
+Proceedings of SIGBOVIK 2019
+
+Figure 7: Honestly, neither do we.
+
+
+CONCLUSION
+
+Despite the short-lived nature of fame on the internet and the even shorter-lived nature of state-of-the-art results in
+deep learning, the legacy of BigGAN and Dogball lives on in various places, such as in the custom emoji of various
+research lab Slack channels. The authors hope that this work serves as a reminder that, once in a while, it’s nice to
+instead work on the frivolous uses of AI.
+
+R EFERENCES
+Samuel Albanie, Sébastien Ehrhardt, and João F Henriques. Stopping GAN Violence: Generative Unadversarial
+Networks. In SIGBOVIK, 2017.
+Andrew Brock, Jeff Donahue, and Karen Simonyan. Large Scale GAN Training for High Fidelity Natural Image
+Synthesis. In ICLR, 2019.
+Peter Buchlovsky, David Budden, Dominik Grewe, Chris Jones, John Aslanides, Frederic Besse, Andy Brock, Aidan
+Clark, Sergio Gómez Colmenarejo, Aedan Pope, et al. TF-Replicator: Distributed Machine Learning for Researchers. arXiv preprint arXiv:1902.00465, 2019.
+Qiming Chen and Ren Wu. CNN Is All You Need. arXiv preprint arXiv:1712.09662, 2017.
+Chris Donahue, Zachary C Lipton, and Julian McAuley. Dance Dance Convolution. In ICML, pp. 1039–1048, 2017.
+Chelsea Finn, Pieter Abbeel, and Sergey Levine. Model-agnostic Meta-learning for Fast Adaptation of Deep Networks.
+In ICML, 2017.
+Lukasz Kaiser, Aidan N Gomez, Noam Shazeer, Ashish Vaswani, Niki Parmar, Llion Jones, and Jakob Uszkoreit. One
+Model to Learn Them All. arXiv preprint arXiv:1706.05137, 2017.
+Tero Karras, Samuli Laine, and Timo Aila. A Style-based Generator Architecture for Generative Adversarial Networks. arXiv preprint arXiv:1812.04948, 2018.
+Günter Klambauer, Thomas Unterthiner, Andreas Mayr, and Sepp Hochreiter. Self-normalizing Neural Networks. In
+NIPS, pp. 971–980, 2017.
+
+
+Proceedings of SIGBOVIK 2019
+
+Naveen Kodali, Jacob Abernethy, James Hays, and Zsolt Kira. On Convergence and Stability of GANs. arXiv preprint
+arXiv:1705.07215, 2017.
+Nikhil Mishra, Mostafa Rohaninejad, Xi Chen, and Pieter Abbeel. A Simple Neural Attentive Meta-learner. In ICLR,
+2018.
+Alex Nichol and John Schulman. Reptile: A Scalable Metalearning Algorithm. arXiv preprint arXiv:1803.02999,
+2018.
+Oﬁr Press and Noah A Smith. You May Not Need Attention. arXiv preprint arXiv:1810.13409, 2018.
+Alex Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language Models are
+Unsupervised Multitask Learners. Technical report, OpenAI, 2019.
+Joseph Redmon and Ali Farhadi. YOLOv3: An Incremental Improvement. arXiv preprint arXiv:1804.02767, 2018.
+Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, and Xi Chen. Improved Techniques
+for Training GANs. In NIPS, pp. 2234–2242, 2016.
+Juergen Schmidhuber. One Big Net For Everything. arXiv preprint arXiv:1802.08864, 2018.
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously Large Neural Networks: The Sparsely-gated Mixture-of-experts Layer. In ICLR, 2017.
+Jakub Tomczak and Max Welling. VAE with a VampPrior. In AISTATS, pp. 1214–1223, 2018.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia
+Polosukhin. Attention is All you Need. In NIPS, pp. 5998–6008, 2017.

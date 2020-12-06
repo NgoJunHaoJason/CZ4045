@@ -1,0 +1,108 @@
+
+Sources at https://github.com/matplotlib/cheatsheets
+This is amazing, I  don't use matplotlib on the usual, I only need to pick it up like every other month or so and inevitably go through the phase of "how the fuck was that dongle called again?". This will save me a lot of pain. Thanks man!
+Thanks man, this will actually come in handy for me. Great Share!
+Yeah, but did you do create them with matplotlib? Back to the drawing board... (just kidding of course,great work and much appreciated)
+>sees helpful post on Reddit
+>>saves it
+>>>Immediately forgets it
+I've seen a few tutorials on line that use %matplotlib but it never seems to work in the new Spyder3. Is this an old way to use matplotlib?
+dude you are a find thanks!!
+Plotly needs one too yo
+Thank you!
+All these people saying they don't use matplotlib, then what are you using?
+Thank You, they are beautiful!
+Hi I'm new here. What is API and what does it mean in context of the usage?
+Thank you very much.   Obviously a lot of time went into this to write that TeX code.   Which by the way looks like the type of TeX code I could learn from.
+Ooh, never used matplotlib before but I want to find something to graph now! 😁
+Amazing! I used matplotlib for a physics course in uni, to animate the position of a disk along a curve. Great tool.
+Very useful
+Ah legend!
+Very useful, thanks for your work :)
+Oh my God, I don't know why I never thought cheat sheet of Python existed. You opened a whole new world to me!!! 😂
+You have the PDF version with some extra second page as well. Cool man :D [https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets.pdf](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets.pdf)
+Thank you for this!
+God damn this is what I needed.
+great job!
+Thank you. Why I can't upvote this post.
+Awesome stuff
+Thanks, great work!
+thanks for sharing, great work
+I don't know this lib but damn this sheet is splendid, excellent presentation.
+Wow! Very nice, thanks!
+Is there some way to get this printed on a giant poster paper?
+Downloaded, cheers boss !
+*Jeff Goldblum Jurassic Park meme*
+
+You did it. You crazy soon of a bitch, you did it.
+
+
+
+Well done, OP!
+Thank you very much, this is all seriously helpful!
+Hey, I don‘t know if this is the right place to ask this, but.
+How important is the neatness of a code? 
+I had to hand in a code, which decrypts and encrypts letters/words that I write into fields (we‘re using Lazarus/Pascal). So everything worked fine, whatever I wrote in there it could get encrypted and decrypted. While that was the "hardest“ level for our exam. 
+So I just got my grade and it is 9 points out of 15. Where I live this is an "alright plus". I wonder why I just got so little points and my teacher said it was because the code wasn‘t that tidy/neat. But in classes he never really mentioned that it was critical (for our program). 
+So my question is if it is valid that he takes so many points away only because it wasn‘t tidy enough even though I‘m of the opinion it‘s very clear what procedure is for what. I even commented on the side for what it was (only 2) although my program works fine
+This is fantastic, thanks.
+Thank you .
+What a fine human you are. Thank you!
+Killer job on these!! Excited to put em to use
+As always, you are making great content and projects! Thanks for your work (Vispy!)
+Definitely handy stuff here. Thank you!
+Very fricken helpful! Thank you!
+Thank you for this. I have been using matplotlib for a long time, but have not done a good job of keeping up with the changes. This is very useful for me, even as a longtime user.
+Thanks for this
+Thank you very much!
+You’re a goddamn hero
+Oh my god! This is the best thing I've seen since January 1st 2020. If I had money I would have given a gold medal but I don't so here's an emoji 🏅 🏅
+
+I was planning to write a Jupyter notebook for marplotlib to help me learn the functions and not forget them and this is just miles better.
+How does one make a graphic like this? Illustrator?
+This looks great. Sorry I feel like I am missing something here. I was thinking its just a convenient reference to print out. What would the point of downloading the fonts and compiling be?
+How did you make this cheat sheet
+Love a good cheat sheet
+Hello!
+It's okay if I translate this cheatset to spanish?
+ I'll fork the repository and add your name as source.
+
+I would like to share this with a community of astronomy students of public national universities that are self-learning python, for research purposes :)
+Yeah, thanks for that, this is certainly useful. MPL has one of the hardest to memorize, and most inconsistent APIs I have ever seen.
+That’s very useful thanks!!
+TIL about `'Cn'` colors. That's useful.
+
+A quick test also shows that it works when you set your own `axes.prop_cycle` too!
+God bless you!
+Nice. This reminds me of the VIM keyboard cheat sheet I had somewhere on a coffee mug once. Would this fit on a coffee mug? If not, that would be fine, because it would be an excuse to get a bigger mug. It would fit more coffee and more coffee is good.
+It's really cool, great job! 
+I tried the Animation code snippet from the cheatsheet and I ran into an error: list object has no attribute set_ydata. I have version 3.0.0 matplotlib and Python 3.6.6.
+
+Edit: Could anyone run that code snippet?
+Awesome!! I like it :)
+Very nice.
+I love you!
+Legend!
+How did you create the cheat sheet?  I'm going to have (eventually) to do some stuff for a class I'm taking and I'd really like to be able to create some good diagrams.
+First of all, thank you for putting this together.
+Would you mind sharing what tool(s) you've used to create the cheatsheet? I'm curious.
+Awesome. This one arrives just in time for my first Matplotlib real-life project
+This is awesome! Are there sheets like this for python basics?
+So what is matplot? Looks pretty cool
+Can anybody tell me if ggplot or Plotly are better than old trusty matplotlib?
+This is amazing.  So intuitively organized and so illustrative of all the various options.  Thank you so much for this!
+is there a way to export a matplot lib graph to an interactive form that can be viewed via javascript in browser
+This is great!  Thank you so much for this
+Great work. You have considered all the points.
+This is great! I wrote my PhD thesis 5 yrs ago around matplotlib figures and figured out most of this through lots of google. Would have been great to have in one place like this! Nice work
+Nice work done. Keep it up and Thanks.
+Just wondering Dy have some for Matlab? My sister could really use some.
+Yo absolute legend!!!!
+This is fantastic
+you genius
+Thanks! These are very helpful.
+Chapeau, Sir. Chapeau.
+Thank You!
+Great job.
+So how is this plotting and mapping going to help you in your endeavors of managing to impress "Trumps beauty" enough, to get them to message you back?
+9 Message Trumps Beauty

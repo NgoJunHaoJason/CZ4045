@@ -1,0 +1,117 @@
+
+How is this "Python 3 in One Pic"?
+
+Let's forget about all the built-in modules.
+
+Here are a bunch of features missing (not duplicating the other such complaint here on this page):
+
+* generators
+* list/dict/set comprehensions
+* f-strings
+* `with` statements
+* Function definitions
+* parameter passing (`args`, `kwargs`, etc)
+* Whatever it's called when you pull lists apart: `first, *rest = some_list`
+* list slicing
+
+I believe I could double the length of that list without much trouble.
+No `for/else` loop? No `try/except/else/finally` blocks?
+Does anyone else think it's fucking ludicrous we're still making, in general, the distinction between 2 and 3? Python 2 is dead, was originally supposed to have died 5 years ago already, and Python 3 is 12 years old!
+
+Other languages have gone through similarly drastic changes in much less time, but Python 2 is just refusing to die.
+I think this is pretty sweet, despite any incompleteness.
+
+Also bears a strange resemblance to a subway map.
+I notice it has `st = {}`, creating a dict, rather than a set.
+
+What’s it trying to depict with that? I’m only a few months in, so I might be overlooking something?
+As someone relatively new to python I think this is actually quite helpful. Thanks OP
+Tagging this doodle as "Resource" is insulting to tags, resources and the individual letters of the alphabet.
+I count myself as an intermediate Python programmer. And still even ignoring important packages this is missing very much. Reminds me of these, become a data scientist in three months advertisements.
+
+Better call it Python 3 for Beginners in one pic.
+I don't really get the point of this. It's incomplete, difficult to use, and doesn't really reveal anything about the language. Really it's just a list of datatypes and control flow... which seems pretty limited.
+Is it possible to download this mindmap? Thx in advance!
+Is there a tool to make this kind of pictures?
+This entire thread is a giant validation of [Cunningham's Law
+](https://meta.wikimedia.org/wiki/Cunningham%27s_Law)
+If you're going to redo this to add all the suggestions /missing bits, then consider getting rid of all the calls to print which add nothing but noise
+Am I missing something with that 6 in the tuple bit? Shouldn't it be 5?
+Maybe could add some common modules like numpy
+It's just a list that have basic python terminologies
+I'm confused by the intent of this.
+Is this a joke, this got so many upvotes? Please tell me that it is just this sub that has gone to shit. Otherwise, if this is the current state of the actual Python community, then we are screwed. I mean there are signs with so much bullshit being added in recent Python versions like walrus' testicles, subbollockspreters, type shits and what not, but I still believed that Python will continue to stay strong.
+Learning Python from scratch is easier than trying to understand this image.
+Mindmap programming! Good for structuring.
+python 3 in multiple pictures https://twitter.com/kippynyc/status/1265057357240963073?s=21
+You used python 3 to write python 3
+Everyone commenting "How is this Python 3?" "No this? No that?":How about you make something informative instead of bashing?
+
+Edit: I think this is really cool for someone who is just getting into Python btw
+At st.discard('t'), why is the '!' removed as well?
+I watched a Python development related video once and it looked a lot like some neural structure expanding. One branch kind of seemed bigger than all of this
+My new desktop wallpaper. 
+
+Thank you kind creator
+This is one hell of a pic
+Everyone forgets about the ellipsis type :(
+Damn this is fantastic. Thanks!
+Clearly lots of good work went into this! Thanks OP! I would love to see the completed version in some sort of interactive format where you can explore each branch. I wonder if it could be automatically generated from the existing documentation and some scraping
+tuples are more than "immutable list"; "Interior Mutability" is a big topic.
+Wow! This would make a good desk mat.
+No fstrings?
+I'm still surprised python had complex numbers built in but doesn't have exponentials
+The %s should be replaced with {} and .format.
+
+    “Hello, {}”.format(name)
+
+The % method is considered “old” and will likely be deprecated in the future.
+this is a very good pic ive been coding in python every now and again and this is SOOO helpful cause sometimes i forget stuff
+This is officially my little cheat sheet
+What is `1 + 2j`? I guess I am missing on some maths here...
+Saving this to my Google Drive! I had no idea that Python supported complex numbers!
+Thanks dude !
+Should be reformatted for desktop
+ I didn't realize python has native support for complex numbers. It's interesting they went with `j` instead of `i` like mathematicians. Also I don't understand the people complaining about this not being comprehensive. How can you expect the whole of python 3 to be fit into one picture? Despite being "incomplete" this is a quick start for programmers to get going with python.
+This is a way better post 
+https://www.reddit.com/r/Python/comments/f9azmd/learn_python_3_from_a_single_picture/
+Is this MindNode? I know there are lots of ways of doing this, but this looks a lot like their layout algorithm.
+I find this more useful:  https://learnxinyminutes.com/docs/python/
+You've completed step 1, [now draw the rest of the fucking owl](https://i.kym-cdn.com/photos/images/newsfeed/000/572/078/d6d.jpg)
+I think some stuff is missing.
+This is so awesome, going to put this up on my wall! Has all the basics that I struggle to remember as I'm learning this language. Thanks.
+Amazing. Thank you 😁
+"Am I a joke to you?" 
+
+\- [PEP 572](https://www.python.org/dev/peps/pep-0572/)
+This is not the complete picture. 🤷‍♂️
+N I C E , Can someone turn this to a interactive web page?
+How was this created? As in what software was used to create this? This looks sick
+This is so great! As an absolute beginner, this is worth so much. Thanks!
+Finally!  A clear version! Thanks! 
+
+This was on my Twitter feed yesterday but the picture looked like it had DTs while being compressed.
+I will print this and make a poster of it to use, applaudes for you
+Your mindmap looks like it could have been created with Freemind, but how did you get the syntax highlighting working?
+if you retitled this as "python3 basic syntax" and converted it to text, you'd have a much better response
+The set .pop result isn't quite right in that the result is not deterministic - it will randomly give you an element from the set.
+This is brilliant
+Can someone make one like this but in c++?
+That's pretty damn cool, tho the operators is lacking the integer division (//)
+One word :Useful
+This is quite overwhelming, but epic
+Super cool new background
+What's this?
+
+    for i in "Hello":
+        print(i)
+
+Use `i`for indices only. Even the following would be bad IMO:
+
+    for i in [4, 6, 1, 9]:
+        print(i)
+
+`i`would be OK here:
+
+    for i in range(10):
+        print(i)

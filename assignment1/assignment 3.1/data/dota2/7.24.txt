@@ -1,0 +1,570 @@
+General
+	Heroes now have a dedicated neutral items slot. A maximum of one neutral item can be equipped on your hero.
+	There is now a Neutral Item Stash in the fountain. Neutral items are now stored there instead of on the fountain floor. Right clicking on an available item in the new UI will place it in your stash/courier and can be delivered to you. This UI will also show the state and location of all the other items that have dropped.
+	Neutral items can now be teleported to your Neutral Item Stash at home through a right click context menu (from your backpack or your neutral slot)
+	Backpack slot count reduced from 4 to 3
+	Neutral item drop count per tier increased from 3 to 4 (chance from 9 to 10%)
+	Ancients neutral drop rates are 3x higher
+	Removed Shrines
+	Outposts moved to the primary jungles
+	Outposts vision reduced from 1400 flying to 700 ground vision (same for truesight)
+	Outposts now start as owned by the respective teams, and can be captured at any time (rewards still happen at the 10 minute mark)
+	Adjusted tree layout on the map edges near the previous outpost areas
+	Moved a medium camp in the Dire Primary Jungle to a nearby location
+	Lane bounty runes have been moved to the secondary jungles
+	Removed all GPM talents
+	Added Void Spirit and Snapfire to Captain's Mode
+	Hero respawn time increased from 6/8/10/14/16 for level 1-5 to 12/15/18/21/24
+	Buyback cost increased from 100 + NW/13 to 200 + NW/12
+	Courier death no longer disables your passive gold income
+	Courier bounty increased from 25+5*Level for each player to 30 + 7 * Level
+	Courier respawn time changed from 50 + 7 * Level to 60 + 7 * Level
+	Courier movement speed increased from 280 to 290
+	Courier can no longer plant wards at level 15
+	Courier can no longer use items at level 25
+	Implemented custom UI for charged-based abilities rather than using buffs
+	Melee attacks now have a bonus 150 range against Observer and Sentry Wards
+	Tier 5 items now drop at 60 minutes (item adjustments below)
+
+Items
+Ironwood Tree
+	Now drops the full item rather than a recipe
+	All stats reduced from +7 to +6
+
+Arcane Ring
+	Intelligence increased from +8 to +10
+
+Iron Talon
+	No longer has the Quell passive
+	Now provides +15 Attack Speed
+
+Keen Optic
+	Mana regen increased from 1 to 1.25
+
+Mango Tree
+	Vision range reduced from 1200 to 1000
+	Mangoes now fall a little further out
+
+Poor Man's Shield
+	Blocked damage from 20/10 for melee/range to 30/20
+
+Trusty Shovel
+	Health reduced from 150 to 100
+
+Ocean Heart
+	Health/Mana regen increased from 6/3 to 8/4
+
+Dragon Scale
+	Afterburn damage increased from 12 to 18
+
+Clumsy Net
+	Cast range reduced from 900 to 650
+	No longer pierces immunity on yourself
+
+Essence Ring
+	Now increases current/max health directly and is not considered a heal (does not get amplified/triggered by heal related abilities)
+
+Vambrace
+	Now drops the full item rather than a recipe
+	can now be toggled between the different attributes
+	from 12/6 primary/secondary stats to 10/5
+
+Vampire Fangs
+	Spell Lifesteal reduced from 8% to 6%
+
+Enchanted Quiver
+	Bonus magic damage increased from 270 to 300
+	Fixed it working with Wukong's Command
+
+Orb of Destruction
+	Slow reduced from 30/15% to 20/10%
+
+Craggy Coat
+	Armor reduced from 13 to 12
+
+Mind Breaker
+	Silence duration reduced from 2 to 1.5 seconds
+
+Telescope
+	Attack range bonus reduced from 150 to 125
+
+Repair Kit
+	Building Repair no longer has multishot
+	Health regen increased from 13 to 17
+
+Havoc Hammer
+	Havoc base damage increased from 175 to 225
+
+Flicker
+	Movement speed increased from +30 to +40
+
+Magic Lamp
+	Health threshold increased from 15% to 20%
+
+Apex
+	Changed to a fixed +75 Primary Attribute instead of a percentage increased
+
+Fusion Rune
+	Removed
+
+Ballista
+	Attack range reduced from +400 to +250
+	Now deals +30 Pure Damage
+
+Force Boots
+	Cooldown increased from 6 to 9 seconds
+	Movement speed reduced from +50% to +40%
+	Push distance/duration from 800/0.65 to 600/0.5
+
+Ex Machina
+	Reset Item Cooldowns increased from 30 to 45 seconds
+	Armor reduced from 25 to 20
+	Now has a 100 mana cost
+
+Mirror Shield
+	Cooldown increased from 4 to 8 seconds
+
+Pirate Hat
+	Attack speed reduced from +250 to +150
+	No longer drops a bounty rune on hero kills
+	You now steal 300 Gold from heroes you kill
+
+Seer Stone
+	Cast and Vision range reduced from 450 to 350
+
+Phoenix Ash
+	Removed
+
+Stygian Desolator
+	Damage reduced from 100 to 75
+	Armor reduction reduced from 12 to 10
+	Armor reduction duration reduced from 15 to 7
+
+Woodland Striders
+	Health regen reduced from 70 to 50
+	Tree duration reduced from 60 seconds to 15
+
+Fallen Sky
+	Has the same Blink rules with regards to damage
+	Now drops the full item rather than a recipe
+
+Trident
+	All bonuses reduced from 33% to 30%
+
+Book of the Dead
+	Changed from three sets of Necronomicon units to two sets with 50% more health and damage
+	Strength and Intelligence reduced from 35 to 30
+
+Enchanted Mango
+	Mana restore reduced from 125 to 110
+
+Quelling Blade
+	No longer kills wards (same for Iron Talon and Battle Fury)
+
+Tango
+	No longer kills wards
+
+Vladmir's Offering
+	Mana regeneration reduced from 1.5 to 1.25
+
+Void Stone
+	Mana regeneration increased from 1.75 to 2.25
+
+Perseverance
+	Mana regeneration increased from 2 to 2.25
+
+Battle Fury
+	Damage increased from 54 to 60
+	Cleave damage against heroes increased from 60% to 70%
+	Cleave damage against creeps decreased from 60% to 50%
+
+Maelstrom
+	Chain Lightning damage reduced from 150 to 140
+
+Necronomicon
+	Mana regeneration increased from 2/2.5/3 to 3/3.5/4
+
+Desolator
+	Armor reduction duration reduced from 15 to 7
+
+Radiance
+	Damage reduced from 65 to 60
+
+Blade Mail
+	Damage increased from +22 to +28
+
+Silver Edge
+	Damage increased from 40 to 45
+
+Mask of Madness
+	Damage increased from 10 to 15
+
+Armlet of Mordiggian
+	Damage increased from 9 to 15
+
+Crystalys
+	Damage increased from 38 to 45
+	Critical strike reduced from 175% to 160%
+
+Daedalus
+	Damage increased from 80 to 88
+	Critical strike reduced from 235% to 225%
+
+Bloodthorn
+	Damage increased from 68 to 75
+	Critical strike reduced from 175% to 160%
+	Soul Rend critical strike reduced from 140% to 130%
+
+Heroes
+Abaddon
+	Base damage reduced by 2
+	Mist Coil
+		Mist Coil cooldown increased from 4.5 to 5.5
+
+Alchemist
+	Strength gain increased from 2.4 to 2.7
+
+Ancient Apparition
+	Ice Blast
+		Ice Blast kill threshold increased from 10/11/12% to 12/13/14%
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +175 Chilling Touch Attack Range
+
+Axe
+	Movement speed increased by 5
+	Strength gain increased from 3.4 to 3.6
+
+Bounty Hunter
+	Base armor increased by 1
+
+Brewmaster
+	Base armor increased by 1
+
+Chaos Knight
+	Reality Rift
+		Reality Rift armor reduction increased from 2/3/4/5 to 3/4/5/6
+	Phantasm
+		Phantasm incoming damage reduced from 350% to 325%
+	Talents
+		Level 20 Talent changed from +150 Gold/Min to +10s Phantasm Duration
+
+Chen
+	Talents
+		Level 20 Talent changed from +180 Gold/Min to -30s Hand of God cooldown
+
+Clinkz
+	Burning Army
+		Burning Army base damage increased from 24/26/28% to 28%
+
+Crystal Maiden
+	Talents
+		Level 15 Talent changed from +150 Gold/Min to -2s Crystal Nova Cooldown
+
+Dark Seer
+	Surge
+		Surge speed changed from 25/40/55/70% to 70%
+		Surge duration reduced from 6 to 3/4/5/6
+
+Dark Willow
+	Talents
+		Level 15 Talent changed from +120 Gold/Min to +40 Bedlam Damage
+
+Death Prophet
+	Base armor increased by 1
+	Base movement speed increased by 5
+	Spirit Siphon
+		Spirit Siphon charge restore time reduced from 60/52/44/36 to 45/40/35/30
+
+Disruptor
+	Thunder Strike
+		Thunder Strike manacost increased from 130 to 130/140/150/160
+	Static Storm
+		Static Storm Scepter no longer increases duration from 5 to 7
+	Talents
+		Level 20 Talent changed from +180 Gold/Min to Kinetic Field Grants True Sight
+
+Doom
+	Strength gain reduced from 4.0 to 3.7
+	Scorched Earth
+		Scorched Earth movement speed reduced from 12/13/14/15% to 9/11/13/15%
+	Devour
+		Devour HP regen reduced from 3/8/13/18 to 3/7/11/15
+
+Dragon Knight
+	Base movement speed increased by 10
+	Elder Dragon Form
+		Elder Dragon Form movement speed bonus reduced from 30 to 25
+
+Drow Ranger
+	Multishot
+		Multishot damage reduced from 90/115/140/165% to 85/110/135/160%
+
+Earth Spirit
+	Stone Remnant
+		Stone Remnant charge replenish time reduced from 30 to 25
+	Talents
+		Level 20 Talent changed from +150 Gold/Min to +3.5s Geomagnetic Grip Silence
+
+Enigma
+	Malefice
+		Malefice damage increased from 30/50/70/90 to 30/55/80/105
+	Talents
+		Level 15 Talent changed from +150 Gold/Min to +40 Malefice Instance Damage
+
+Grimstroke
+	Base intelligence increased by 2
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +100 Ink Swell Max Damage
+		Level 15 Talent increased from +125 Cast Range to +175
+		Level 15 Talent increased from +12% Spell Amplification to +15%
+
+Io
+	Overcharge
+		Overcharge heal reduced from 0.6/0.8/1/1.2% to 0.55/0.7/0.85/1%
+		Overcharge cooldown increased from 16 to 22/20/18/16
+	Talents
+		Level 15 Talent changed from +120 Gold/Min to +400 Spirits Max Distance
+
+Jakiro
+	Dual Breath
+		Dual Breath now does its first damage instance immediately
+	Talents
+		Level 20 Talent changed from +150 Gold/Min to +400 Dual Breath Range
+
+Juggernaut
+	Base damage increased by 4
+	Base movement speed increased by 5
+
+Lich
+	Base damage reduced by 2
+	Frost Blast
+		Frost Blast manacost increased from 105/130/155/180 to 115/140/165/190
+	Sinister Gaze
+		Sinister Gaze duration reduced from 1.6/1.9/2.2/2.5 to 1.4/1.7/2.0/2.3
+
+Lion
+	Talents
+		Level 15 Talent changed from +150 Gold/Min to +60 Mana Drain
+
+Luna
+	Lunar Blessing
+		Lunar Blessing now affects base armor instead of total armor
+		Lunar Blessing increased from 10/15/20/25% to 15/20/25/30%
+
+Lycan
+	Base intelligence increased by 4
+	Shapeshift
+		Shapeshift transformation time from 1.5 to 1.25
+
+Magnus
+	Max damage reduced by 4
+	Empower
+		Empower cleave reduced from 15/25/35/45 to 10/20/30/40
+	Talents
+		Level 10 Talent reduced from +25 Attack Speed to +20
+
+Mars
+	Strength gain increased from 3.2 to 3.4
+	God's Rebuke
+		God's Rebuke slow duration increased from 1.5 to 2
+		God's Rebuke hero attack damage increased from 25 to 35
+
+Medusa
+	Intelligence gain increased from 3.4 to 4.0
+	Stone Gaze
+		Stone Gaze speed bonus increased from 35% to 50%
+
+Nyx Assassin
+	Vendetta
+		Vendetta bonus damage changed from physical to pure damage
+		Vendetta damage reduced from 250/400/550 to 250/375/500
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +0.3s Impale Stun Duration
+
+Ogre Magi
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +20 Ignite DPS
+
+Omniknight
+	Base armor reduced by 1
+	Strength gain reduced from 3.6 to 3.4
+	Purification
+		Purification cooldown increased from 17/15/13/11 to 18/16/14/12
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +10 Heavenly Grace HP Regen
+
+Oracle
+	Talents
+		Level 15 Talent changed from +120 Gold/Min to -1s Purifying Flames Cooldown
+
+Pangolier
+	Shield Crash
+		Shield Crash casts in-place when rooted
+
+Phantom Assassin
+	Base damage increased by 3
+
+Phantom Lancer
+	Talents
+		Level 15 Talent reduced from +275 Health to +250
+		Level 25 Talent reduced from -6s Doppelganger Cooldown to -5s
+
+Phoenix
+	Attack range increased from 500 to 525
+	Base health regen increased by 0.5
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +18% Icarus Dive Slow
+
+Puck
+	Base damage reduced by 3
+	Talents
+		Level 25 Talent changed from +420 Gold/Min to +425 Waning Rift AoE and Range
+
+Pudge
+	Dismember
+		Dismember tick rate changed from every 1 to every 0.5 seconds (same total damage)
+	Talents
+		Level 20 Talent changed from +180 Gold/Min to +1s Dismember Duration
+
+Pugna
+	Base agility increased by 8
+
+Queen of Pain
+	Intelligence gain increased from 2.9 to 3.4
+	Sonic Wave
+		Sonic Wave damage increased from 340/430/520 to 340/450/560
+
+Rubick
+	Arcane Supremacy
+		Arcane Supremacy debuff amplification reduced from 20/28/36/44% to 16/24/32/40%
+
+Shadow Demon
+	Demonic Purge
+		Demonic Purge damage increased from 200/300/400 to 250/350/450
+
+Silencer
+	Talents
+		Level 15 Talent changed from +120 Gold/Min to +12% Arcane Curse Slow
+
+Skywrath Mage
+	Talents
+		Level 25 Talent changed from +300 Gold/Min to Arcane Bolt Pierces Spell Immunity
+
+Slardar
+	Base movement speed increased by 10
+	Bash of the Deep
+		Bash of the Deep damage rescaled from 75/125/175/225 to 60/115/170/225
+
+Slark
+	Pounce
+		Pounce scepter replenish time increased from 20/16/12/8 to 10
+		Pounce scepter range reduced from 1400 to 1200
+	Talents
+		Level 15 Talent reduced from +30 Attack Speed to +25
+
+Snapfire
+	Added to Captain's Mode
+	Base damage reduced by 4
+	Fixed Firesnap Cookie moving units affected by Kinetic Field, Black Hole, and Chronosphere
+
+Spectre
+	Base health regen increased from 0 to 1.5
+
+Spirit Breaker
+	Bulldoze
+		Bulldoze cooldown reduced from 22 to 22/20/18/16
+
+Sven
+	Storm Hammer
+		Storm Hammer damage increased from 80/160/240/320 to 110/180/250/320
+	Warcry
+		Warcry self movement bonus increased from 6/10/14/18% to 10/14/18/22%
+		Warcry cooldown reduced from 36/32/28/24 to 32/28/24/20
+
+Techies
+	Blast Off self damage changed from Pure to Magical
+	Talents
+		Level 20 Talent changed from +150 Gold/Min to -28s Blast Off Cooldown
+
+Terrorblade
+	Movement speed increased from 310 to 315
+	Reflection
+		Reflection slow increased from 20% to 25%
+
+Tidehunter
+	Base intelligence increased by 2
+
+Tinker
+	Talents
+		Level 15 Talent changed from +150 Gold/Min to +2s March of the Machines Duration
+
+Tiny
+	Avalanche
+		Avalanche duration reduced from 1.8 to 1.4 seconds
+
+Treant Protector
+	Strength gain reduced from 3.5 to 3.4
+	Nature's Grasp
+		Nature's Grasp manacost increased from 60/70/80/90 to 75/80/85/90
+	Living Armor
+		Living Armor reduced from 4/6/8/10 to 5/6/7/8
+
+Troll Warlord
+	Min base damage increased by 4
+
+Tusk
+	Base health regen increased from 0.5 to 1
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +0.5s Walrus Punch Stun Duration
+
+Underlord
+	Talents
+		Level 15 Talent reduced from +7 Atrophy Permanent Damage to +6
+		Level 15 Talent increased from +150 Cast Range to +200
+		Level 20 Talent reduced from +70 Attack Speed to +60
+
+Undying
+	Fixed Helm of the Dominator not working on Zombies
+	Level 15 Zombie damage talent is now base damage
+	Tombstone
+		Tombstone Deathlust health thresholds is now always 40%
+		Tombstone Deathlust movement speed bonus from 50% to 35/40/45/50%
+		Tombstone Deathlust attack speed values from 75 to 50/60/70/80
+	Flesh Golem
+		Flesh Golem debuff duration increased from 5 to 6
+		Flesh Golem duration increased from 30 to 40
+		Flesh Golem now grants +30 Movement Speed
+
+Venomancer
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +15s Plague Wards Duration
+
+Visage
+	Soul Assumption
+		Soul Assumption gather damage threshold reduced from 110 to 100
+		Soul Assumption manacost from 170/160/150/140 to 150
+
+Void Spirit
+	Added to Captain's Mode
+
+Warlock
+	Shadow Word
+		Shadow Word cooldown reduced from 16 to 14
+
+Weaver
+	The Swarm
+		The Swarm attack rate improved from 1.25/1.1/0.95/0.8 to 1.15/1.0/0.85/0.7
+
+Winter Wyvern
+	Base strength reduced from 26 to 24
+	Cold Embrace
+		Cold Embrace percentage heal reduced from 3/4/5/6% to 2/3/4/5%
+		Cold Embrace base heal increased from 14/18/22/26 to 20/26/32/38
+	Talents
+		Level 10 Talent changed from +90 Gold/Min to +1% Cold Embrace Heal
+
+Witch Doctor
+	Base armor increased by 1
+	Talents
+		Level 15 Talent changed from +120 Gold/Min to +100 Maledict AoE
+

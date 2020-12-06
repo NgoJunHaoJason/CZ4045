@@ -1,0 +1,167 @@
+
+For some more context this is a project I have been working on for about 2 months around full time studies, mirror display is all made using the tkinter library and each frame has its own looping function to continuously update, has date, time, weather at my location, BBC news headlines, if Leicester city football club are playing it'll display the live score in the middle, if my face is detected my uni schedule displays, if my girlfriend's face is detected it logs in to her work website and fetches and displays her work timetable, calendar event system at the bottom continuously updated and loops through upcoming events, more events can be added through voice control, music can be streamed from YouTube with voice control, will tell you the output of flipping a coin through voice control and can do calculations through voice control. Total spend on hardware was about £150.
+Do you have a repo with the code? What libraries did you use?
+You my friend, are Tony Stark.  Pardon my ignorance, but I never looked into smart mirrors before. How do you actually get everything to display?
+May i please ask what library you used for voice recognition? Been trying to figure out implementing that feature but never seem to succeed. Thanks in advance :D
+Awesome! I wish I had the perseverance to build something like this.
+I'd love to see the code.  I'd love to just write up something like that with my shared family google calendar for the wall of my kitchen.
+Live demo por favor ( because I dont know what this is)
+Hey thats awesome! Nice work.
+Wow you just reminded me why I want to learn programming. This is cyberpunk af.
+Well, happy birthday Christina!
+This could either land you a huge job or you could market this as a Kickstarter.
+Link to the hardware parts you used?
+Amazing... I'm very impressed 
+You did it so quickly..
+I wonder if you could give us your GitHub repository ? It Could be great  :D
+What the fuck?! You are a genius!!
+Cool!
+This is super cool!
+Congrats!!! Very cool :)
+*The Mirroraculous*
+
+<3 IT!
+I'm new to programming and started college 2 Months ago. This is the kind of stuff that keeps me motivated. Soooo dope!! I wish you the very best for your future!
+Fuck me thats neat
+I’ve been working on a smart mirror in a electron and didn’t even think about using python. I have to learn it for machine learning next semester so thanks for making me realize I can use it for both!
+I want to hire you. I just dont know what for or have any money.
+I would like to be your friend
+Good work! I just hooked my raspberry pi up to an old tv I mounted in my kitchen to keep track of what my roommate and I need to buy / bills. Not nearly as cool as this, but projects are dope
+Is that a fleshgod apocalypse t shirt
+Hey man, just want to say this is a really inspiring project you have going here. Really Awesome!
+Happy birthday Christina!
+This is awesome!
+Nice box you got your monitor on
+Love it! Good job!
+That is amazing. Great job.
+Woohooo! Amazing work.
+That's really awesome, I hope it be able to do stuff like this one day!
+What tutorial did you follow?
+Wow! That is awesome!!! you will have a great future on technology world.
+A-mazing
+This is really freakin awesome!!! Nice work!!!
+u/TheBrickeyz
+I am just in awe
+Meanwhile  I am here today just struggling to get my widgets aligned and resizing properly.
+Calm down, Stark.
+Mad respect for the monitor "stand"
+Pretty fucking dope!
+Purdy awesome! Well done. And happy birthday, Christina!
+I've just started learning python for my intro to programming class, and I had no idea python could do stuff like this. I've just been playing with turtle and making a shape generator using if and else statements lol.
+Badass
+This is amazing and inspiring. How long have you been programming?
+Are you gonna share your code on Github ?
+Happy Birthday Christina
+Please make video about it...
+Happy Birthday Christina!  
+
+
+Good Job :)
+A7x? Nice
+This is pretty amazing. Have you considered implementing gestures? And how did you implement your own voice control and facial recognition? 
+
+I have a kinda similar project in my mind and would like some pointers. Do you happen to have the source code online, on Github maybe?
+That's wild. You have a promising career ahead of you.
+amazing.  just amazing.
+Awesome work
+Woooow, what an amazing work! I am so impressed, I even what to do it myself but I have no idea how you do the mirror thing hahaha, do you have a YouTube channel? 
+
+I would like to see a video of how you make the display into the mirror. I think it looks so futuristic and make a cool first view impression.
+How do you get it to show on the mirror? Is there like a thin monitor behind it? And how hard was facial recognition?
+Amazing? What equipment specifically did you use?
+wow, great job.
+Looks cool, but did you do anything to keep the "Shower Rain" part from burning the screen over time?
+This is so cool! 
+Just asking for your opinion - for a complete beginner to python(the most complex thing I know so far is dictionaries ahah), is a personal project like this a good idea, or even achievable?
+Awesome!!
+Amazing! 😍😍
+Respect. Tkinter to boot too! Very impressive. Double points for using a video card box as a stand like a true engineer.
+Wow! 😳
+Hey can you let me know how can I make a similar one like this on my own?...I am not asking for your code but a tutorial or a post or something...also I am totally in awe about this smart mirror thing.I have an experience of building a voice assistant in python.Also i am new to programming so help or tips are greatly appreciated.
+This is super cool man, one of those projects I've always wanted to make but never started it so far, will for sure now! Good inspiration
+Good to know that I am not the only person who put a box under the monitor. Why do they keep making them stands so short.
+I cannot wait to make an Iron-man style HUD with this stuff
+Awesome! 💯
+Nice shirt!
+Now that's epic.
+Don't forget Christina's birthday tomorrow!
+Great work!
+I know nothing about code, so I'm just here to say rad a7x shirt
+That's cool
+u/tzakary
+And what if it is hacked and our nude images (because it's a mirror) are used to blackmail us. It will be very dangerous.
+Love that subtle Titan flex lmao
+
+Seriously though, that's so cool!
+Wow! This is awesome! I'm planning on starting a similar project soon! Now I got some inspiration! Thanks ;)
+What if u r trying bikini in front of it ? Please now don't say don't try bikini in front of it. Then what is the use of this mirror ? To see only face and get open  to hack our face data.
+That is just amazing, never seen something like it . You are truly gifted with creativity.
+Got me with that 👌
+Now make it look like a mirror :). When I built mine, I build a wooden frame for it and had the monitor portrait instead of kandscape
+How did you go about doing this? I've always wanted to do it but never known even where to start some advice from anyone would be appreciated
+That's in python? Wowy.
+Fucking awesome. Good job!
+Have you thought about implementing some kind of bad hair day feature? Like maybe you can set your desired "perfect everyday hair" and the mirror does some kind of diff against your current hair shape and shows you if something is out of place? Just a silly idea. Awesome work.. really impressive!
+Awesome 👏 planning to do same for my mirror. Based on face detection identify person and show personalised information on mirror
+You're the reason I'll be using Tkinter in the future.
+Coming from a moderately inexperienced coder, I hope it holds weight to say this is spectacular to do solo in two months especially as a full time student. Your talents will take you far and you will make significant impact in the world of tech in the future.
+That’s amazing! Great job!
+Can you marry me?
+Nice tv stand
+How did you implement the news? I'm currently trying to get news data but I can't find a decent API.
+This reminds of a project from HackerShack 
+
+https://youtu.be/fkVBAcvbrjU
+Cool! But I d change the font though, maybe something similar to San Francisco? Idk, well done!
+That is awesome great work
+Wow, this is awesome, keep up the great work!
+Amazing! This is absolutley fantastic!
+
+
+
+
+
+I wish I could give this a platinum, I'm broke tho
+nicely done, looks great!
+
+RemindMe! 1 day
+This is just amazing! Great work! btw Have you posted it on GitHub?  It would be great if you could do that!
+I'll make sure to upvote every single comment on this post to show you all how much this means for us! Thank you for supporting him and his project so far! You all keep doing your best and practise! 
+-Christina
+That is insanely cool
+Does it tell you how pretty it thinks you are?
+Do post the Github repo link once you upload the code :)
+\+1
+Do you have the code in a git?
+oh my god
+Thank you. I have the information and knowledge to make these but I just don't have the patience to do it.
+
+Your post make me actually want to finish and wrap all of them to a single finishing product.
+Yo I’ve seen your YouTube channel
+Wow that's impressive bro keep up the good work
+This looks amazing. I've been recently messing around with tkinter, could anyone like explain to me how to achieve this kind of UI with it? Because my tkinter looks like blocks. Thanks.
+Cool project, do you mind sharing how do you get the weather/news updates? I assume your code scrapes the web?
+What is that screen?
+Good job! May I ask you about hardware? Where did you buy mirror, ect?
+Beautiful work, my friend. So proud of humans.
+Thats amazing and I hope to create something like that one day. 
+
+How long have you been coding?
+That’s actually amazing. Congratulations!
+A genius things XD
+Aye Schuster UoM
+ I found this thread very helpful and extremely valuable. I've put together a blog post about 10 Python beginner Project and thought it'll help your audience and anyone who want to grasp the Python basics quickly and easily 
+
+https://www.astateofdata.com/python-programming/python-projects-for-beginners-learn-with-examples/
+October 25th is my birthday!
+I was expecting some sort of video demo...
+You should have done it with Java it's less features but very convenient..
+BuT Ur A gUrL
+So you wanna tell my that you are a girl which can program and plays video games and you are real?
+AMAZING!  
+
+
+If you can build and sell for less that the $5500 Samsung charges, i'd say you got a great business opportunity!  
+
+
+ [https://www.amazon.com/55-Smart-TV-Mirror-Frame/dp/B01J77TZG6](https://www.amazon.com/55-Smart-TV-Mirror-Frame/dp/B01J77TZG6)

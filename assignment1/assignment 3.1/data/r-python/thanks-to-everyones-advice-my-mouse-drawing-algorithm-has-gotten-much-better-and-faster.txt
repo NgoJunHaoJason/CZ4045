@@ -1,0 +1,102 @@
+
+I hate to break it to you but that looks nothing like a mouse.
+[https://github.com/Nekose/Mouseomate](https://github.com/Nekose/Mouseomate) if anyone wants to take it for a spin. Lemme know if you run into any issues.
+Cries in ‘Hello World’
+Wow! Looks incredible! 
+
+How did you bypass the speed limitations that you commented in the last post?
+You're telling me you can program that, but you can't record your own screen ?
+Ahh this is like a stroll down memory lane.  Feels like I’m trying to download a picture of Cindy Crawford over 28.8 modem.  Good times!
+so what has changed that your program has become so much faster? did you just speed up mouse or there are some changes in the algorithm?
+I made a program just like this. I used pyautogui to simulate mouse actions and PIL for image data.
+Now add machine learning and have it draw police sketches based on descriptions suspects’ appearances.
+Every day we grow closer to iRobot becoming a reality
+I've got many years of programming experience and I've often thought about making something like this for fun.
+
+Yet, I never got around to it and you did. Congrats!
+https://imgur.com/a/KIW3eWc
+DAMN
+Cool job mate. I will definitely check it out
+This is amazing. Definitely going to use it to entertain my nephew.
+I don't get how someone can be able to make a program to draw the Mona Lisa yet not know how to take a proper screen recording.
+
+Looks real good though 👍
+This is AWESOME!
+Damn I really wanna know how I can make something like that! Amazing!
+Keylogger spyware hate this one trick.
+Great job, OP! I for one am seriously impressed!
+Just tried it, working good!
+this would be so funny if it worked on those pictionary online games
+Now i can be good at skribbl.io
+Hey! This seems really cool and I want to try it for myself but I use Mac.... How do you make this work on Mac? Would it work if I just found an app similar to paint on Mac?
+Next, optimize it even more by using the flood fill algorithm to find the contiguous areas of an image and then a sort of bridges-of-konigsberg graph algorithm to determine how you can move through them with the fewest mouse moves. :)
+HOLY SHIT dude I'm just...
+
+I got no words.
+
+Mad respect!
+Nice
+Wow. Just wow.
+Great work
+"dickbutt.jpg"
+Can you add multiple drawers one for each core?
+
+This is going to be more involved since you need to figure out how to have multiple cursors.
+That was Internet Porn back in 1995
+Nice job.
+why algorithm? Link please.
+Check out Screen2Gif for recording.
+This would be so funny to use in some online Pictionary game or something
+Source code
+Now do it in Kid Pix with the wacky random brush
+How did you code this? I wanna get into python and this is really cool
+how do yo decide  which pixel to draw(or which pixel to be black) when converting image to b/w, if you can tell?
+Nice job mate. I got a challenge for you. Try to paint the dots using layers from lighter to darker image parts. You make the base and after you dusk. Probably it may need to duplicate original image and apply different filters to get the layers. The another part is painting these different images on the same map space. If you do this, you may be able also to use CMYK colors and get serigraphy effect. I think it may be look more like painting than downloading as guys said.
+This is the first time I see this project. It's amazingly cool!  
+It perfectly captures the types of projects that I always wanted to do once I learned python. I now  know (some) python, but the inspiration hasn't come back yet...
+should have gone with the dickbutt.jpg
+One way to make it even faster is to use system specific APIs. On windows you can access the Windll API using the library ctypes. Thats how I did my skribbl.io [bot](https://www.reddit.com/r/Python/comments/fnlpkf/skribblio_bot_in_python_simulate_mouse_inputs/?utm_medium=android_app&utm_source=share).
+cool. that speed is awsome
+Is the original image you used also black and white?
+Source?
+This is so cool.  I never would have thought to do something like this.  Nice work.
+Can we see your mouse?
+This looks amazing! Can you give a short explanation of how you did it, Libaries used and the raw outline? I think I could learn a lot by coding something likte this myself.
+Nice. Do you have a version that draws not top-down rather more randomized? I don’t look at your code but something like popping randomized point from all points draw it and repeat?
+Can you share the code for this
+Now try it with mouse acceleration on
+It’s almost 2 am and the first thing that pops in to my head: haha mouse go zoom
+Tested on Ubuntu, apart from changing the slash to the image directory it worked perfectly!
+Looks nice, I hope you don't mind me taking inspiration from this. Its looks fun to make.
+Python Matrix printer
+You gotta do that at work and once it’s done just start manually clicking in a few places as people walk past
+r/oddlysatisfying
+Wow. Fucking impressive.
+I was expecting one of the hands to be the circle.
+this is insane dude, well done
+Could you share your code? Or a link to git?
+This is lit af
+Definitely going to give this a look to see if it can be manipulated to work for something like skribbl.io by adding color options.
+
+Thanks for the foundation!
+Nice. Why did u chose to invert the image in the code, i dont get it?
+Now make it kinda random, so the video looks like you drew it manually
+Can you please help me to set it up using Pycharm?
+Could share the code? Great job!
+I created something similar that supports vector graphics to make it faster and uses colors on a Webex board or app: cs.co/drawit3 for those interested.
+I remembers a few years back using this autoit3 script that did the same. It had a few different drawing modes. One made the mouse traverse randomly until the whole image was finished.
+That would be dope for Gartic
+beautifully done :) 
+
+would you share the code ?
+dot matrix printing
+Wow that’s cool
+Good job op, now you need an AI to generate memes
+source code please
+It’s amazing, I don’t have Paint, do you recommend some other app where I can “run it”?
+I was 100% sure I was going to get circle gamed at the end.
+HOW
+
+I'm learning how to add one list to the other...
+No Epstein?
+It's cool. Now what's the point of it?

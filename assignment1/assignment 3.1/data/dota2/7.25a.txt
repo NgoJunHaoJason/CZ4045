@@ -1,0 +1,30 @@
+Heroes
+Bounty Hunter
+	Talents
+		Level 15 Talent reduced from +75 Shuriken Toss Damage to +65
+		Level 20 Talent reduced from +90 Jinada Gold Steal to +65
+
+Meepo
+	Divided We Stand
+		Divided We Stand clone XP gain reduced from 40% to 30%
+	Talents
+		Level 10 Talent reduced from +10 Strength to +8
+
+Night Stalker
+	Strength gain reduced from 3.2 to 3
+	Void
+		Void damage reduced from 90/160/255/335 to 80/160/240/320
+	Talents
+		Level 25 Talent reduced from +110 Hunter In The Night Attack Speed to +100
+
+Ursa
+	Movement speed reduced by 5
+	Fury Swipes
+		Fury Swipes damage reduced from 10/20/30/40 to 9/18/27/36
+	Overpower
+		Overpower cooldown rescaled from 16/13/10/7 to 15/13/11/9
+
+Visage
+	Gravekeeper's Cloak
+		Gravekeeper's Cloak max damage reduction is now fixed at 80%
+

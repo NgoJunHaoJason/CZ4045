@@ -1,0 +1,101 @@
+General
+	When two players pick the same hero in a round, the hero is banned instead and the round restarts
+	All Pick hero selection duration reduced from 25 to 20 seconds
+	Wards can now always be attacked by the owning player
+	Harpy Stormcrafter mana capacity reduced from 150 to 125
+
+Items
+Ring of Regen
+	Health regeneration reduced from 2 to 1.75
+
+Soul Ring
+	Health regen reduced from 2.5 to 2.25
+
+Headdress
+	Health regen reduced from 2.5 to 2
+
+Mekansm
+	Health regen aura reduced from 2.5 to 2
+
+Pipe of Insight
+	Health regen aura reduced from 2.5 to 2
+	Recipe cost increased from 800 to 1000
+
+Helm of the Dominator
+	Health regen aura reduced from 5 to 4.25
+
+Ring of Tarrasque
+	Health regen reduced from 4.5 to 4
+
+Royal Jelly
+	Health regen reduced from 2.5 to 2.25
+
+Necronomicon
+	Strength reduced from 10/15/20 to 6/12/18
+
+Vladmir's Offering
+	Recipe cost increased from 450 to 550
+
+Dust of Appearance
+	Cost reduced from 90 to 80
+
+Heroes
+Beastmaster
+	Call of the Wild Hawk
+		Call of the Wild Hawk no longer blocks neutral camps
+	Talents
+		Level 15 Talent reduced from +35 Boar Damage to +30
+
+Centaur Warrunner
+	Retaliate
+		Retaliate attack damage per charge reduced from 6/8/10/12% to 4/6/8/10%
+
+Clockwerk
+	Strength gain reduced from 3.7 to 3.5
+
+Death Prophet
+	Base damage reduced by 2
+	Spirit Siphon
+		Spirit Siphon manacost increased from 70 to 80
+	Exorcism
+		Exorcism Scepter damage multiplier reduced from 1.75 to 1.5
+
+Huskar
+	Berserker's Blood
+		Berserker's Blood attack speed reduced from 140/200/260/320 to 130/190/250/310
+	Talents
+		Level 15 Talent reduced from +10 Burning Spear DPS to +8
+
+Keeper of the Light
+	Chakra Magic
+		Chakra Magic cooldown reduction from 4/5/6/7 to 3/4/5/6
+	Talents
+		Level 20 Talent reduced from +250 Will-O-Wisp AoE to +200
+
+Lycan
+	Shapeshift
+		Shapeshift cooldown increased from 110/95/80 to 125/110/95
+
+Meepo
+	Base agility reduced from 24 to 17 (base damage and armor unchanged)
+	Divided We Stand
+		Divided We Stand now level requirement increased from 3/10/18 to 4/11/18
+
+Phantom Lancer
+	Base agility reduced by 3
+
+Phoenix
+	Fire Spirits
+		Fire Spirits damage reduced from 20/40/60/80 to 15/35/55/75
+	Talents
+		Level 15 Talent reduced from +40 Fire Spirits DPS to +35
+
+Snapfire
+	Firesnap Cookie
+		Firesnap Cookie damage reduced from 90/160/230/300 to 70/140/210/280
+
+Wraith King
+	Base damage reduced by 2
+	Mortal Strike
+		Mortal Strike skeletons duration reduced from 90 seconds to 60
+

@@ -1,0 +1,100 @@
+
+Now you need machine learning to determine the attractiveness of the picture.
+Note: If you swipe right to all the people, the Tinder algorithm is going to deem you as 'desperate', and therefore, not very attractive. And it's going to lower your ranking so you'll get shown less and less to the most attractive people.
+Her: “so I’m curious, what made you swipe right?”
+Me: “My python”
+Her: “oh you’re python, well how big is it?”
+Me: “Let’s just say it’s way past 3.6”
+
+Tinder has a web interface? 
+You can also do this with an Android phone using the `adb` tool. 
+
+First [download the android debug bridge](https://developer.android.com/studio/releases/platform-tools.html).
+Then [enable your phone to use adb](https://developer.android.com/studio/command-line/adb.html#Enabling).
+
+Then plug in your phone and type into a terminal:
+
+    while true; \
+    do ./adb shell input touchscreen swipe 300 800 1000 800 100; \
+    sleep .$[ ( $RANDOM % 10 ) + 1 ]s; \
+    done;
+
+I went through some of the chapters of Automate the Boring Stuff, and I've always used Selenium for stuff like that. Is pyautogui better? 
+I did the same thing using adb commands a couple of years ago. This was when there was no concept of Super Likes and daily swipe limits. 
+
+Surprisingly it worked pretty well then, because tinder was new and didn't restrict such "I lswipe right all behavior". These days profiles that swipe everyone right are ranked pretty low. 
+I just recreated this program! It never ends, though - do not recommend. 
+I know it's fake because you got a match.
+I use the pyautogui to automate the login process on the system in wich I work. I like very much! It´s perfect to me.
+
+ps. I´m from Brazil and I´m not english speaker! Sorry for any error
+This is great
+Well, that's hilarious
+Videos in this thread: [Watch Playlist &#9654;](http://subtletv.com/_r7kpme8?feature=playlist)
+
+VIDEO|COMMENT
+-|-
+[Al Sweigart, "Automating Your Browser and Desktop Apps", PyBay2016](http://www.youtube.com/watch?v=dZLyfbSQPXI&t=673s)|[+70](https://www.reddit.com/r/Python/comments/7kpme8/_/drgiiy6?context=10#drgiiy6) - There's a link to a conference the guy who made/maintains the library gave on it. The first part is about test automation. The part i skipped to is where he talks about GUI automation. You can use it to make web game bots too, shits pretty cool.  Per...
+[Creating a Tinder Bot with Python](http://www.youtube.com/watch?v=2WIrxGn3H9o)|[+4](https://www.reddit.com/r/Python/comments/7kpme8/_/drgg3lq?context=10#drgg3lq) - I actually made a project a while ago that used Python with ADB to swipe left/right on Tinder depending on the amount of people in the photo.  I put up a tutorial on youtube and the project on Github.
+[Money Can't Buy Me Tinder Matches - But a Slab of Meat Can](http://www.youtube.com/watch?v=snDeLy8cu24)|[+1](https://www.reddit.com/r/Python/comments/7kpme8/_/drgov3j?context=10#drgov3j) - make web game bots too, shits pretty cool.   Or you can use this device:
+[MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement  Cassie Jaye  TEDxMarin](http://www.youtube.com/watch?v=3WMuzhQXJoY)|[0](https://www.reddit.com/r/Python/comments/7kpme8/_/drgksxf?context=10#drgksxf) - I wouldn't call that racism because "racism" implies something bad that I have control over, that I can deliberately decide to follow or not. I don't want to be put into the same box with nazis just because I have some cultural subconscious imprints ...
+I'm a bot working hard to help Redditors find related videos to watch. I'll keep this updated as long as I can.
+***
+[Play All](http://subtletv.com/_r7kpme8?feature=playlist&ftrlnk=1) | [Info](https://np.reddit.com/r/SubtleTV/wiki/mentioned_videos) | Get me on [Chrome](https://chrome.google.com/webstore/detail/mentioned-videos-for-redd/fiimkmdalmgffhibfdjnhljpnigcmohf) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/mentioned-videos-for-reddit)
+Could I train a machine learning model based on my swipes as to what kind of pictures I find attractive? I wonder what kind of horrifying image would come out when ran backwards (I don't know machine learning or the term for having it synthesize based on a model)
+Ah, the old nuclear bomb approach. 
+Al Sweigart would be proud (?)
+GUI automation is the least reliable form of automation but it is also the easiest for newcomers to understand and to do. I would encourage people to try GUI automation first but to then move on to using APIs.
+I use keyboard macros for gaming that have a similar end-result.
+It’s easier and less complicated to do with JS and can be done entirely within the browser.
+That's one way to not get matches. 
+You are right, Tinder is boring stuff.
+Code is not visible, can someone provide the github link ?
+This is cool
+TIL you can use Tinder on the web
+Did you make everyone hot there? 
+Brilliant. Could be the hook that gets more millennials into code. 
+Might want to put NSFW on this...
+I probably won’t get a single match even with this 
+Genius.
+You can use tinder in a browser? Since when? 
+Tell me more about this witchcraft called Pyautogui...
+Oh, so that's what it looks like when you get matches.
+This is very cool and i just tried it out, but it doesn't seem to like multiple monitors.
+Source please
+Or, If you own a mac, just use AppleScript: [Download here](https://github.com/Kevin-De-Koninck/tinder-swipe-script)
+Who can name all those extensions?
+This guy Tinders.
+Can anyone tell me what this is accomplishing (in the gif)? Just clicking through pictures?
+
+Also, "till a baby" is a terrible username for a dating site IMO.
+Isn’t this the same as selenium? 
+Very cool. This actually inspired me to write few bots
+Interviewer: “Do you have any special skills?”
+Me: “I have 20.000 tinder matches”
+Cool post
+Cool post
+Whats your github ?
+I tried to do this in selenium. I had no luck finding the tag. I bet this could be used for a lot of other things.
+import pyautogui
+pyautogui.position() 
+import time
+
+while True :
+
+time.sleep(0.5)
+pyautogui.click()
+
+#using reddit as a text editor 
+##nextlevel
+
+i guess this would work if your goal was to match with a python chat bot
+
+or ugly chicks.
+Wow, I'm a bit shocked to see this type of post here. And some of the comments... Yikes!
+[removed]
+Lol I’m confused why did he pick tinder to demo that? It’s just clicking on the like button right ?
+That is great, awesome library tip.
+
+But I have to mention that if you google you'll find services that let you mass swipe people on tinder. I've never used them, might be phishing. But I have seen them.
+google garyshood auto clicker, and avoid this stupid python shit lmao

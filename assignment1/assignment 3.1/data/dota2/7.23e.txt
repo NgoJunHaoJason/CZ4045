@@ -1,0 +1,103 @@
+General
+	Outposts XP is now every 10 minutes instead of every 5 (XP is 20*Min-50)
+	Removed the two non-Roshan Shrines (initial delay from 5 to 7 minutes, cooldown from 5 to 4)
+	Removed all XP talents
+
+Heroes
+Abaddon
+	XP Talent is now replaced with +10 Strength
+
+Bane
+	XP Talent is now replaced with +20% Magic Resistance
+
+Beastmaster
+	XP Talent is now replaced with +30 Damage
+
+Bounty Hunter
+	XP Talent is now replaced with +25 Damage
+
+Dazzle
+	XP Talent is now replaced with +2 Mana Regen
+
+Drow Ranger
+	Marksmanship
+		Marksmanship agility bonus reduced from 35/40/45% to 28/36/44%
+
+Jakiro
+	XP Talent is now replaced with +350 Health
+
+Keeper of the Light
+	XP Talent is now replaced with +6% Spell Amp
+
+Legion Commander
+	XP Talent is now replaced with +2 Mana Regen
+
+Omniknight
+	XP Talent is now replaced with +30 Movement Speed
+
+Oracle
+	XP Talent is now replaced with +15 Intelligence
+
+Pudge
+	XP Talent is now replaced with +5 Armor
+
+Shadow Demon
+	XP Talent is now replaced with +100 Cast Range
+
+Shadow Shaman
+	XP Talent is now replaced with +10% Spell Amp
+
+Skywrath Mage
+	XP Talent is now replaced with +8% Spell Lifesteal
+
+Snapfire
+	Lil' Shredder
+		Lil' Shredder damage per shot reduced from 40/55/70/85 to 35/50/65/80
+	Mortimer Kisses
+		Mortimer Kisses movement slow reduced from 25% to 15/20/25%
+
+Techies
+	XP Talent is now replaced with +25% Magic Resistance
+
+Tidehunter
+	XP Talent is now replaced with +4 Mana Regen
+
+Treant Protector
+	Strength gain reduced from 4.1 to 3.7
+	Overgrowth
+		Overgrowth DPS reduced from 100 to 75
+	Talents
+		Level 25 Talent reduced from 700 AoE Living Armor to 550
+
+Tusk
+	XP Talent is now replaced with +10 Health Regen
+
+Ursa
+	Strength gain reduced from 3.1 to 2.8
+	Earthshock
+		Earthshock manacost increased from 75 to 85
+
+Vengeful Spirit
+	Strength gain reduced from 2.6 to 2.4
+	Magic Missile
+		Magic Missile stun duration reduced from 1.5/1.6/1.7/1.8 to 1.4/1.5/1.6/1.7
+
+Visage
+	XP Talent is now replaced with -3 Armor Corruption
+
+Void Spirit
+	Strength gain reduced from 2.8 to 2.6
+	Base armor reduced by 1
+	Astral Step
+		Astral Step charge restore time increased from 25/20/15 to 30/25/20
+		Astral Step mana cost increased from 80/90/100 to 100
+
+Warlock
+	XP Talent is now replaced with +10 Armor
+
+Weaver
+	XP Talent is now replaced with +8 Agility
+
+Zeus
+	XP Talent is now replaced with +250 Health
+

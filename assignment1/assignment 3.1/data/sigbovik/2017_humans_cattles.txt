@@ -1,0 +1,132 @@
+Distinguishing humans from other forms of cattle
+
+Boppity Bob Martinez, Flokkkaº Haurilet
+Frungy Institute of Technology,
+Zoq-Fot-Pik Capital, Alpha Tucanae I
+
+March 11, 2017
+
+Figure 1: One is a dangerous cow, the other is a delicious human. Can you tell
+which is which without aid?1
+
+Abstract
+
+We, the Zoq-Fot-Pik, found out by accident that human meat is de-
+licious, even better than Frungy. This discovery wake up the Zebranky
+inside us, and once this happened, there we could not stop helping us with
+tasty human meat. Sadly, humans are not very cooperative to the idea of
+being eaten by us, so we tried to discreetly abduct them a few at a time
+to supply our needs. The problem was, as we found out, that the Earth is
+thriving with many species, and most of them are inedible and even dan-
+gerous! We have significant trouble distinguishing between humans and
+non-human Terrestrial beings. To this end, we have acquired a human
+algorithm that, once activated in the correct way, allow us to locate and
+distinguish between humans and other similar beings (e.g., cows). In this
+contribution we present the evaluation of such algorithm named YOLO.
+
+1 Introduction
+
+We, the Zoq-Fot-Pik made contact with humans during the Ur-Quan war
+in 2156, at the time, as you know, we were all vegetarian. However, in
+2160, long after the Ur-Quan conflict was over, we had an epiphany when
+there was an incident in Suppox space, and a some of Zoq-Fot-Pik became
+strangled with a herd of humans. One thing lead to another, and the Zoq-
+Fot-Pik were vegetarian no more.
+
+Still, our ships are weak in comparison to the human armada, so we
+have no chance to capture their ships (mmm... delicious canned humans).
+We tried to eat other earthly beings, but we found out that humans are
+a key ingredient of Soylent Green Fig. 2.
+
+This is when we started to send our ships to capture humans from
+their home world. We needed to capture them inconspicuously, to avoid
+risking our diplomatic relations, but we had a hard time distinguishing
+humans from the other species that habit their home world.
+
+We are particularly impressed by human cows, which are large, dan-
+gerous, absolutely inedible, and roam freely through the fields of Earths,
+see Fig. 1.
+
+To us, humans and cows are practically indistinguishable, and so is the
+same for even our best algorithms developed by Zoq-Fot-Pik scientists. We
+needed a human approach to distinguish between cows and humans, and
+we just were lucky that we received an ancient radio transmission from
+the year 2016 Earth containing an algorithm named YOLO [2] that should
+serve our purpose.
+
+In this SIGBOVINE 2170 contribution, we show our evaluation on
+the YOLO, hoping that it will help to avoid cow related tragedies while
+helping us with yummy yummy humans.
+
+
+2 Evaluation on Milky Way species
+
+To establish the performance of the system on well known living species,
+we have evaluated YOLO on 15 of the inhabitants of the Milky Way.
+Results can be seen in Fig. 3. As YOLO was released before the Earth’s
+first contact, it can not recognize most of the species. Not even the Syreen,
+which closely resemble the humans, are detected by YOLO, on the other
+hand, the Arilou Lalee’lay, the Thraddash, and, surprisingly, the Orz, are
+detected as humans.
+
+
+Figure 5: YOLO results on clothed cows. Note that in the right side of the left
+picture there is a hunam, not a cow. Also note how fancy dressing can make a
+beautiful cow look younger, as dogs are cow younglings.
+
+3 YOLO on humans and cows
+
+We then evaluated YOLO on humans and cow images, and the results
+can be seen in Fig. 4. YOLO is able to successfully distinguish between
+cows and exquisite humans quite successfully in this very simple test. It
+can even recognize dogs as it can be seen in the lower right image. Our
+experts agree that dogs are a the offspring of cows.
+
+4 YOLO on clothed cows
+
+Some suggested that YOLO worked by means of distinguishing between
+clothes (the colorful skin that humans segregate), and fur, which is the
+very similar skin but of different nature, that cows generate. However, this
+is not a general rule as, in our investigation, we found out both hunams
+covered in fur, and cows covered by clothes.
+
+Figure 6: YOLO results on furry hunams. The always adaptive humans may
+have started to suspect our strategy and develop camouflage. Note the military
+use of camouflage in the leftmost figure.
+
+In the case of cows covered by clothes, YOLO has no problems finding
+them, as seen in Fig. 5.
+
+
+5 YOLO on furry humans
+
+We are receiving increasing reports that humans are developing a cam-
+ouflage involving fur that might be able to beak our detection. At the
+moment, it is unknown if this camouflage is a biological automated reac-
+tion to a perceived threat, or a result of conscious design. In Fig. 6 we can
+se several examples of humans in camouflage. Very reliable sources have
+assured us that, under that cover, there are real mouthwatering humans
+inside. Still, YOLO is able to recognize 50% of them with ease, including
+the one from the military (the leftmost one).
+
+6 Conclusions
+
+We have evaluated YOLO in challenging conditions on the task of distin-
+guishing between the noble and dangerous cows, and the savory hunams.
+In easy conditions, YOLO has no trouble distinguising between them, but
+humans seems to be already developing a countermeasure to it, in the form
+of furry camouflage.
+
+In the future, we plan to use YOLO to further investigate human
+beings. To be precise we want to check the rather wild claim that humans
+have sexual dimorphism, and answer the questions: do they really have
+63 different genders [1]? Which of them are the yummiest?
+
+References
+
+[1] Apath. 63 genders. apath.org/63-genders, 2000.
+
+[2] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi. You
+only look once: Unified, real-time object detection. In Proceedings of
+the IEEE Conference on Computer Vision and Pattern Recognition,
+pages 779–788, 2016.

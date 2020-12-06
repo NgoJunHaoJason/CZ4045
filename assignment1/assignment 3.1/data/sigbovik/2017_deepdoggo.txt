@@ -1,0 +1,150 @@
+One proposed mechanism to evaluate dog goodness includes the training of dogs to perform
+“tricks”1. These “tricks”, which include sitting or shaking a paw on instruction, vary in difﬁculty
+and quality of execution. Thus, the evaluation of such “tricks” naturally induces a partial ordering
+on the set of dogs. However, this ordering requires pre-trained dogs.
+
+Unfortunately, the reliance on biological neural networks makes dog training procedures computa-
+tionally intensive. Even with recent hardware advances, speedups remain ﬁxed at approximately 9
+dog years per human year(Larson & Bradley, 2014). These limitations leave dog owners unable to
+compare the goodness of either untrained dogs or rare puppers. Furthermore, dogs are often good
+dogs for reasons that are unrelated to tricks (Knight, 1940; Dunham, 1993). As dogs are frequently
+selected to be pets when they are untrained puppers, our inability to estimate dog goodness has led
+dog owners to select suboptimal pets.
+
+Here we pursue the natural extension of constructing an artiﬁcial neural network to classify dogs
+as either good dogs or bad dogs. This approach has several advantages over current rating systems.
+First, it has the ability to evaluate dog goodness for all dogs, not just trained dogs. Secondly, it is
+extensible to evaluate many facets of dog goodness, such as the ability to get help when one falls in
+a well. Finally, and perhaps most importantly, it is deep learning.
+
+There has been almost no related work on this problem as it is completely useless.
+
+2 RELATED WORK
+
+3 DATA
+
+Pictures were taken from Google Images after searches for “good dog” and “bad dog”. As most
+dogs in the world are very good dogs, we represent this class imbalance by using 360 pictures of bad
+dogs and 585 pictures of good dogs. Standard data augmentation procedures, including subsamples,
+translations, and rotations, were followed to generate the full training dataset. Data was split into
+60% training data, 20% validation data, and 20% test data.
+
+We used the pre-trained Inception-v3 model (Szegedy et al., 2016) as a base, and retrained a ﬁnal
+layer to classify dogs as good or bad. This approach is justiﬁed because the Inception-v3 model is
+easy to download in Tensorﬂow.
+
+Our model successfully converged to 73.0% classiﬁcation accuracy. This is signiﬁcantly higher
+than the 61.9% classiﬁcation accuracy of the naive baseline which labels every dog as a good dog.
+Representative dogs and their classiﬁcation labels are shown in Table 1.
+
+4 MODEL
+
+5 RESULTS
+
+6 DISCUSSION
+
+6.1 THE MOST GOOD DOG
+
+A natural question is which dog is the most good dog. Here, we answer this question by identifying
+the sample in the training set that maximized the good dog output value. The most good dog,
+with a good dog score of 0.902, can be seen in Figure 2. Areas of signiﬁcant contribution to the
+classiﬁcation label are highlighted in colored rectangles. As these areas are concentrated on the the
+dog’s face, we recommend that dog owners looking to increase the goodness of their dog increase
+the size of their dog’s face. To continue the search for the most good dog, we have constructed the
+website deepdoggo.com, where users can upload new images and receive dog goodness scores.
+
+1They’re illusions, Michael.
+
+285
+
+Under review as a conference paper at SIGBOVIK 2017
+
+Table 1: Representative Samples
+
+Model
+
+Classiﬁcation (Goodness) Ground Truth
+
+Good (0.895)
+
+Good
+
+Good (0.732)
+
+Good
+
+Good (0.566)
+
+Good
+
+Bad (0.468)
+
+Bad (0.350)
+
+Bad (0.277)
+
+Bad
+
+Bad
+
+Bad
+
+6.2 ADVERSARIAL DOGS
+
+Unfortunately, adversarial examples can fool this classiﬁer. This is bad; a bad dog wearing an
+imperceptible noise ﬁlter should not be treated the same as a good dog. One adversarial example is
+shown in Figure 3.
+
+7 FUTURE WORK
+
+This work raises several questions for future work. In particular, we are interested in the possibility
+of training generative models of dog goodness. In a similar spirit to Crichton (2012), generative
+models will enable us to engineer the next generation of more good dogs.
+
+We are also interested in the implications that this work has for the future of the dog training indus-
+try. Current training procedures involve the use of supervised treat-based reinforcement learning;
+however, it is possible that the rich literature on stochastic optimization will have much to offer the
+dog training industry.
+
+
+Under review as a conference paper at SIGBOVIK 2017
+
+Figure 2: The most good dog from the training set, with areas of signiﬁcant contribution to the
+classiﬁcation label highlighted.
+
+(a) A very good dog.
+
+(b) An imperceptible ﬁlter.
+
+(c) An image classiﬁed as a
+bad dog.
+
+Figure 3: When (a) a very good dog and (b) an imperceptible ﬁlter are combined, they form (c) an
+adversarial image which is classiﬁed as a bad dog.
+
+8 ACKNOWLEDGEMENTS
+
+We would like to thank Michael Guo, Willie Neiswanger, and Christine Vetter for helpful comments,
+especially about the proper usage of memes.
+
+REFERENCES
+
+Crichton, Michael. Jurassic park: A novel, volume 1. Ballantine Books, 2012.
+
+Dunham, Duwayne. Homeward bound: The incredible journey. Movie, 2 1993. homeward.
+
+Knight, Eric. Lassie Come-Home. The John C. Winston Company, 1940.
+
+Larson, Greger and Bradley, Daniel G. How much is that in dog years? the advent of canine
+
+population genomics. PLoS Genet, 10(1):e1004093, 2014.
+
+Laveaux, C.J. and King of Prussia, F. The life of Frederick the Second, King of Prussia: To which
+
+are added observations, Authentic Documents, and a Variety of Anecdotes. 1789.
+
+Szegedy, Christian, Vanhoucke, Vincent, Ioffe, Sergey, Shlens, Jon, and Wojna, Zbigniew. Rethink-
+ing the inception architecture for computer vision. In Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition, pp. 2818–2826, 2016.
+
+WeRateDogs. they’re good dogs brent [tweet]. Twitter, 9 2016.

@@ -1,0 +1,87 @@
+General
+	Passive gold income no longer increases with hero level
+	Tome of Knowledge initial stock capacity reduced from 2 to 1 at 10 minutes
+	Hero kills XP bounty reduced from 40 + CurrentXP * 0.14 to 40 + CurrentXP * 0.13
+	Outpost experience reduced from 18 * Min to 15 * Min
+
+Items
+Elixir
+	Removed
+
+Poor Man's Shield
+	Agility increased from 6 to 7
+
+Iron Talon
+	Damage increased from 40% to 50%
+
+Clumsy Net
+	Ensnare duration reduced from 2 to 1.75
+	All stats increased from 5 to 6
+
+Nether Shawl
+	Self armor reduction reduced from -4 to -3
+
+Greater Faerie Fire
+	Attack Damage increased from 30 to 35
+	Heal reduced from 500 to 450
+
+Helm of the Undying
+	Removed
+
+Orb of Destruction
+	Armor reduction reduced from 6 to 5
+	No longer pierces Spell Immunity
+
+Enchanted Quiver
+	Bonus magic damage increased from 225 to 270
+
+Telescope
+	Attack range bonus increased from 125 to 150
+
+Illusionist's Cape
+	Illusion duration increased from 20 to 30 seconds
+	Bonus Strength and Agility increased from 10 to 14
+
+Havoc Hammer
+	Base damage reduced from 35 to 30
+	Now deals 175 + 1x your strength in the area around you
+
+Flicker
+	Now provides +30 Movement Speed
+
+Faerie Fire
+	Cost reduced from 125 to 70
+	Damage reduced from 3 to 2
+	Heal reduced from 100 to 85
+
+Heroes
+Bloodseeker
+	Rupture
+		Rupture cooldown increased from 60 to 70
+
+Crystal Maiden
+	Base mana regeneration from 1.5 to 1
+	Arcane Aura
+		Arcane Aura self multiplier increased from 2 to 3
+
+Drow Ranger
+	Multishot
+		Multishot damage reduced from 95/125/155/185% to 90/115/140/165%
+	Talents
+		Level 15 Talent reduced from +14 Agility to +12
+		Level 25 Talent reduced from 50% Cooldown Reduction to 40%
+
+Lina
+	Base damage reduced by 2
+
+Outworld Devourer
+	Sanity's Eclipse
+		Sanity's Eclipse damage multiplier from 0.5/0.6/0.7 to 0.5
+
+Treant Protector
+	Leech Seed
+		Leech Seed manacost increased from 80 to 110
+		Leech Seed cooldown increased from 16/15/14/13 to 22/19/16/13
+	Overgrowth
+		Overgrowth cooldown increased from 100/85/70 to 100
+

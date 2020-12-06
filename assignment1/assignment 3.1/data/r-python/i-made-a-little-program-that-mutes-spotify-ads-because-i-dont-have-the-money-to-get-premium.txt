@@ -1,0 +1,265 @@
+
+"i don't have the money so i created a program to solve it"
+
+that should be the anthem of every programer
+i am once again asking for the code
+This functionality getting removed from the API in 3… 2…
+By the way this program will just mute the ad and not completely remove it. Right?
+EDIT: This apparently no longer works perfectly. Use it at your own risk :P
+
+This is really cool! I found a better solution when I didn't have spotify premium
+
+Add these [domains](https://raw.githubusercontent.com/root-host/Spotify-AdBlock/master/domains2) to your /etc/hosts file to redirect the domains to [0.0.0.0](https://0.0.0.0) and block ads at the source ;)
+I am so gonna save this and try it out myself. If possible please upload on git or drive and post the link here or to me.
+Thanks a tonne in advance
+How to use this??
+I made a cool project with the Spotify API that counts how many times I listened to a song then it ranks the most listened songs also it shows the total playtime that I’ve listened to Spotify it was pretty cool
+Goddamn! You should upload it on Github so we can give you stars for that developer clout
+Please put it up on github :')
+add feature: trigger a play (may be local, idk) of rick roll during the muted duration, or smth
+What a coincidence, [I wrote the PR](https://github.com/plamere/spotipy/pull/191) that added the `current_user_playing_track` method to spotipy! Really nice to see my small contribution in use!
+
+I wrote it when I was working on [aw-watcher-spotify](https://github.com/ActivityWatch/aw-watcher-spotify), a small script which tracks what you listen to on Spotify and stores it with [ActivityWatch](https://github.com/ActivityWatch/activitywatch). I did not imagine it could be used for stuff like this!
+Cool, "simple" and really neat.
+
+An idea about mute sections: 2 accounts, sync state, switching mute. I dunno if that is doable ;)
+Have been doing this manually for long. Muting stopped working yesterday. So think it wouldn't work anymore. 
+
+Cool effort anyway!
+As a student you get it for half the price if that helps
+Very cool.  I'm going to stick with [this](https://aur.archlinux.org/packages/spotify-adblock-linux/) myself but good work!
+There was a similar script some times ago (heck, I still have it saved), but that one would just mute everything while this seems to mute only spotify, so well done OP
+Can you share link to GitHub?
+I didn't even know this was possible... I'm impressed.
+I just use an adblocker and the web version...
+Need this on github! Awesome work man!
+I am definitely going to be looking into this when my semester ends. (Also first time using remind me bot, so I hope this works)
+
+ RemindMe! One Week
+Very cool. Are you querying the Spotify API once every 0.1 seconds? If so, I would imagine Spotify would eventually complain.
+Nice idea !
+
+Two tips: 
+- use snake case instead of camel case
+- Use except Exception on a try/except statement, but the better is to except the possible exceptions and not a general exception object.
+
+Good job !
+Any bets on when Spotify will intervene on this?
+
+In a few weeks? In a couple months? Never?
+If anyone is too lazy to rewrite it.
+
+    import spotipy
+    import spotipy.util as util
+    import time
+    from pycaw.pycaw import AudioUtilities
+    
+    # ====================================SETUP======================================
+    
+    # Spotify IDs
+    # username = sys.argvs[0] from command line
+    
+    spotifyUsername = ''
+    spotifyAccessScope = 'user-read-currently-playing user-modify-playback-state'
+    spotifyClientID = ''
+    spotifyClientSecret = ''
+    spotifyRedirectURI = 'http://google.com/'
+    
+    
+    def setupSpotifyObject(username, scope, clientID, clientSecret, redirectURI):
+        token = util.prompt_for_user_token(username, scope, clientID, clientSecret, redirectURI)
+        return spotipy.Spotify(auth=token)
+    
+    
+    def main():
+        global spotifyObject
+    
+        try:
+            trackInfo = spotifyObject.current_user_playing_track()
+        except:
+            print("Token Expired")
+            spotifyObject = spotifyObject(spotifyUsername, spotifyAccessScope, spotifyClientID, spotifyClientSecret,
+                                          spotifyRedirectURI)
+            trackInfo = spotifyObject.current_user_playing_track()
+    
+        try:
+            if trackInfo['currently_playing_type'] == 'ad':
+                MuteSpotifyTab(True)
+            else:
+                MuteSpotifyTab(False)
+        except TypeError:
+            pass
+    
+    
+    def MuteSpotifyTab(mute):
+        sessions = AudioUtilities.GetAllSessions()
+        for session in sessions:
+            volume = session.SimpleAudioVolume
+            if session.Process and session.Process.name() == "Spotify.exe":
+                if mute:
+                    volume.SetMute(1, None)
+                else:
+                    volume.SetMute(0, None)
+    
+    
+    if __name__ == '__main__':
+        setupSpotifyObject = setupSpotifyObject(spotifyUsername, spotifyAccessScope, spotifyClientID, spotifyClientSecret,
+                                                spotifyRedirectURI)
+        while True:
+            main()
+            time.sleep(0.1)
+This is so awesome. I'm new to python so always looking for cool ways to use it especially on the data analytics side. Does spotipy also allow you to access your listening data? Would love to design some data collection of my own listening habits.
+Stunts like this, is why we lose access to APIs as developers
+Instead of muted silence during the ad, it should be a recording of yourself telling you how awesome you are.
+nice job!
+For mobile users : there's already an android app called "ad-free" which does exactly the same thing.
+Nice but not strictly necessary. Blocking spotify ads in DNS or with a Firewall is enough
+Thanks for actually posting the code. Although a lot put the GitHub link in the comments, I am lazy and like not having to do anything.
+Come draw me a path to learn and give tips and I will give you Spotify and Netflix and Hulu premium.
+Could participate to [this one](https://github.com/abertschi/ad-free) instead of creating a new one all by yourself.
+
+Edit: just realized it's not coded in python. Maybe you could "translate it" to your python project.
+Could somebody tell me how to use this?
+This is great! thanks for sharing.
+Was wondering what ingenious way you'd managed to identify ads, before I saw the API literally tells you.
+
+Really like it though - simple and clean solution, good job OP
+https://www.reddit.com/r/Python/comments/cefijn/simple_python_script_that_mutes_sound_when/?utm_medium=android_app&utm_source=share
+
+Same idea, but mutes ads when running spotify app on your windows PC. Cool catch, well done with figuring out a way with the API :)
+Posts like this break me.  Cool idea.  Good job making something happen.  I’m happy that you got to take an idea to completion. The idea that anyone out there gets to do a project at all while my career is over for the medium term so I can take care is my kids makes me cry.   The world is really fucked up right now and a large percentage of people went from being allowed to think about things on a daily basis to basically indentured manual labor.   
+
+The other day I was thinking about how it would be cool to make an app where parents could sign up to timeshare public playgrounds for day a half hour at a time, so they instead of being closed, they could be used a little bit.  But fuck me if I’d have the energy to code that up at the end of the day.
+Ive had spotify premium for like, 2 years or so, but the fact this even exists just makes me want to go back to being on free
+Hi5 I had to make one too!
+
+This is in bash btw https://gist.github.com/Boot-Error/fc73f41bb59afd9b6ff23b07e63b4692
+Have you considered posting this to github?
+My poor man's solution is to always have two media players on at the same time. Once one of them starts playing ads, immediately mute it and play music from the other music player for a few minutes. Repeat the process back and forth.
+I mean, I just have adblock and host files blocked
+I think sleep 0.1 is low which will increase cpu usage, 1 should be enough
+Spotify Object could be a class.
+Can you help me code tic tac toe? I’m not good with coding and I just want to pass this class.
+Apprentice is, without a dount, the best vim color scheme.
+I've made something quite similar: [https://github.com/kaada/please-play](https://github.com/kaada/please-play)
+
+A mix of being annoyed by ads, and my love for keeping my desktop clean, made me create a python script that simply plays whatever song is fed into it. The vision is to "play the specified song from the best source possible". As of this moment, it fetches music either [from disk](https://github.com/kaada/please-play/tree/local-search) (library of FLAC tracks) or else from youtube.
+
+For instance, I can specify a [custom playlist](https://github.com/kaada/top-tracks/blob/master/example/coachella19playlist.txt), or say a youtube playlist, and each song is played in order, fetching music accordingly. Super free, no ads, no extra tabs/windows draining battery. And playlists are literally just text files with song titles, meaning I can keep them indefinitely, not relying on a specific platform.
+Hahaha we all beed this!
+When I grow up I want to be like you
+Looks pretty cool. Now, without me actually trying it out: how does it work? Does it integrate into Spotify desktop app, or does it play from the Python shell? Or is it independent from Spotify player app, and just controls the volume from a different socket?
+On linux I had a script that would listen to Spotify events over dbus. The song titles for ads would literally say they were an ad. So the script then sends through the skip command. Worked perfectly.
+
+Now I just use premium.
+Programming is fun!
+I too think that is quite neat!
+This is really cool.  Thanks for posting.
+
+I was able to get it mostly working, but can't get it to identify an ad.  Likely an issue on my end, but projects like this are always fun to play with.
+‘Nothing special’ 
+
+You just changed my life, sir.
+I am new to python how to make this program work in your computer ?
+Can't wait for the GitHub! RemindMe! 2 days
+Haha, spotipy
+Kudos!
+Here is my github, i've just made it and have no clue what i am doing
+
+[https://github.com/MicRaj/Python-Projects](https://github.com/MicRaj/Python-Projects)
+Others have probably said this, but instead of doing this:
+`import spotipy.util as util`
+
+just do
+`from spotipy import util`
+instead of silence make a mp3 to play which says “dont worry your music is still playing, its just an ad at the moment ;)”
+This is genius
+I love this idea! I hate their advertisement: 'You don't want to hear us anymore? Pay 10$ per month'
+Very Cool, Thank You.
+can you explain how to use this script, like do i have to run it every time a ad plays
+I really want this for Soundcloud. My mom pays for Spotify but not SoundCloud :p
+Why for next step don't you add -now and then, or at certain times- *audio reminders* of things you should do? Would be cool for users to swap ads' time for something more useful
+This is awesome. I've wanted to do this for TVs for so long but I can't figure out how. I was thinking using a raspberry pi to detect volume it something... Idk
+Github page???
+Could the same be applied to soundcloud?
+Any ideas? Well I think this one is a hit and run. Great idea!
+Awesome man. 
+Is this the entire code? I suppose this only works on windows? Please let me know. 
+I use Spotify mostly on linux and I could use this.
+This brilliant, im about to cancel my premium lol
+Nice idea!
+
+Python question: coming from other languages, it feels like the while loop is suboptimal. What is the Pythonic way to do that nicer? Is there a timer with callback function or such? Or does it not matter in Python?
+Nice! Any idea how to do something similar to mute Ads in Youtube when playned from Chromecast?
+Nice, if you don't have money, ask money for your ad muter app.
+This is dope. Why did you put the while loop outside of the main function?
+Cool job.  But this feels like something you should only share with your closest friends and swear them to secrecy.  :-)  If someone "dumbifies" this down to the masses all will be lost.
+I know you're probably not here for code review, but consider either refactoring your functions so that they take the `spotifyObject` as a parameter, or perhaps grouping all these functions into a class so that you don't need to use and update a global variable.
+
+As it is, imagine if someone wanted to control multiple spotify accounts simultaneously, or import your module and re-use the muting functionality without the other parts. They couldn't do it with the current structure.
+
+Oh and maybe look into PEP-8 as a style guide for your variable and function names.
+Really cool idea, I love it! But I personally find it easier to close it and reopen when the ad starts playing as that takes far less than waiting for it to finish. This also wouldn't require much changes to your program :)
+Spotify : "Stay right where you are."
+Nice
+I'm doing what's called a pro grammer move
+What is your delay between playing and running through this program?
+Now add smooth lerping for your volume instead of hard set.
+My premium runs out tomorrow so you may have saved me $5.
+Make a program that downloads your spotify playlist so you dont even need premium
+That's awesome! 😆 Well done.
+Spotify does not prompt me any ads anymore. It's been more than a week now. I did not subscribe.
+You can replace the `if mute: else` block with `volume.SetMute(int(mute), None)`, booleans are directly equivalent to 0 and 1
+doesn't ublock origin work on the web player?
+Have you heard of jailbreaking (iOS)? r/jailbreak
+There’s a tweak called spotilife which basically spoofs your account to premium so you have all premium features except for downloads. (Not universal only for the device with the tweak installed)
+just buy spotify with 5 ~~friends~~ family.
+whoa that's cool. i'm pretty new to python, how does this work in real life application? do you run the python and it works with spotify?
+This is awesome but.....if you want a solution without programming you could block the ads on the host file. There is a reddit post somewhere with the domains to block.
+Very cool and good job. I wonder if the same can be achieve using their open APIs.
+This is great! They jack the volume on those ads.  they're super annoying and cause hearing damage. I'm surprised they havent caught a class action lawsuit by now. Make one that converts the songs to usable files without spotify and then lets storm the gates of Canada.
+Great job! Just a little of code review if you don't mind, the convention for python is to use snake_case for functions and variables names instead of camelCase.
+That's really interesting but is that legal?
+Great and also funny! I literally laughing now :D
+Does it have to be on computer
+Pihole blocks ads and spotify never plays the ads
+I bet you could do this on Android too with Tasker, or you could port it to sl4a and use intents.
+Pull the audio from Spotify songs based on URL input that doesn’t rely on YouTube
+I'm new to python, but how do you put that code into spotify
+There is a way to completely remove ads from spotify atleast in macos using Terminal
+Do it for YouTube
+You could have shared the gitHub link!
+The next thing you could do is to disable Youtube Ads
+use_snake_case
+I have premium so I can't check this but, for Windows, what does the now playing area show when an ad is playing?  How about when you highlight the icon in the task bar?
+This is fucking amazing
+Here is a project. Build out a system metrics collection agent that sends metrics to an api that stores them on a database (of your choosing). Then a way to visualize your data. Either via cli commands or heck built a simple html/javascript browser app to visualize the metrics on graphs.
+
+That should teach you quite a lot.
+Im a beginner myself and its programmer like you who keeps us going forward. Great going!
+i love this
+Haha i did the same thing a year back just in C#. Literally the same solution. Then they tweaked how the ads work and my solution required rewriting, only after a month.
+Does this work for the app or only the web browser?
+Works for both.
+How did u implement this ? I’m trying to something similar with SoundCloud Idk if it will work, but I’m kinda confused how to implement it to see if it worked or not
+install simpleaudio library i'ts always fails with python3.6 or 3.8   
+
+
+how do you do to work whit that?
+Gotta try this, cool stuff
+ Learn Python 44% Faster! ​A scientifically proven way to learn Python 44% faster, build your new ​high-income coding skill,  and put yourself on the road to Python mastery! [https://bit.ly/2yv0Y2L](https://www.youtube.com/redirect?q=https%3A%2F%2Fbit.ly%2F2yv0Y2L&stzid=UgxbEJIjHJ1Z4keOUAN4AaABAg&redir_token=pxZAHXUiHz_2AkRYormWTD6Qinp8MTU4OTA0MDUwNUAxNTg4OTU0MTA1&event=comments)**REPLY**
+[removed]
+How come you can't afford a Spotify subscription in these times where coding skills are worth gold?
+Or just find somebody willing to pay monthly and be their family member? Or split it with friends $15/6 is $2.50 a month, basically a coffee. But your method is pretty cool.
+If you want to get paid for python projects you might check out Upwork. I contract out little stuff like this I don't have time to build pretty frequently (data scraping, Django, data analysis, websites). Lots of work on there
+Does it recognize when an add is playing or do you have to initiate with every ad?
+Would this work on mobile? If not, this could be a quick transition into honing your mobile development since you already know the source material. If so, is it possible to optimize it for mobile? Because this is really useful, and I think mobile users would love it, if they can't already use it.
+Why not hop on some Gig work site, like Fiverr, sell these impressive skills, and acquire money to purchase the things you would enjoy.
+How did you get this good at any language?
+This is genius I hope they don't patch this
+How about SoundCloud ads? Or instagram ads ?
+Cheapass
+Neat. There are also Spotify ad blockers that work perfectly. No idea if they work on Windows but they work on superior Linux.
+IDEA:
+
+Make a program, that computes for a given programm if this given programm comes to a stop

@@ -1,0 +1,193 @@
+The authors assure us the materials will be available “if they get around to it”: http://zifyoip.com/emojizip
+
+emojizip: A text compression system
+based on pictogram–kiloword equivalence
+William Gunther
+
+Brian Kell
+
+Google
+
+Google
+
+wgunther@google.com
+
+bkell@google.com
+
+SIGBOVIK ’19
+Carnegie Mellon University
+April 1, 2019
+
+Abstract
+
+1
+
+Introduction
+
+Data compression is a well studied topic with many applications. However,
+existing methods su↵er from several limitations.
+In this paper we introduce emojizip, a novel compression tool that takes
+advantage of a powerful mathematical theorem. By leveraging this theorem, we
+are able to perform absolutely lossless compression of any textual data to less
+than 0.1% of its original size. We are conﬁdent in the underlying implementation
+because it relies on machine learning and neural networks, which are sufficiently
+sophisticated to ensure complete accuracy.
+
+2
+
+Background
+
+The foundation of our work is a well-known folklore theorem, the pictogram–
+kiloword equivalence theorem.
+Theorem 1 (Pictogram–kiloword equivalence theorem). A picture is worth a
+thousand words.
+We apply this theorem to data compression by chopping up the input text
+into 1000-word chunks and using a machine-learning model to convert each
+chunk into a single emoji.
+
+Previous work
+
+Early work in the ﬁeld established that a picture is worth a word [1].
+Previous papers in this prestigious conference series have established that a
+word is worth arbitrarily many words [2] (extending earlier work [3]), a word is
+worth 108,709 words [4, 5, 6], and 79 words are worth 17 words [7].
+Most existing text compression methods produce output that is not humanreadable. Recent work has addressed a similar problem for compiled C code [8].
+Our work does the same for compressed text.
+
+Implementation
+
+Clearly the most reliable corpus through which to understand the meanings of
+emoji is Twitter. Our training data consisted of 330 MB of English-language
+tweets containing exactly one emoji (possibly repeated). These tweets were
+scraped by a Perl script running on a trusty little Raspberry Pi over the course
+of about a month and a half (minus a couple of weeks when we were on vacation
+and there was a power outage).
+
+Compression
+
+A detailed description of the emojizip compression algorithm is given below.
+Algorithm 1 Detailed compression algorithm.
+1: procedure emojizip compression
+2:
+TensorFlow model
+tweet data
+3:
+text
+normalized text
+4:
+for all 1000-word chunks 2 text do
+5:
+translation
+translation, translated chunk
+6:
+end for return translation
+7: end procedure
+As it turns out, with TensorFlow it is surprisingly easy to get a Raspberry
+Pi to run out of memory and freeze. Plugging in a 32-GB ﬂash drive as a
+swap partition helps somewhat, but we were still hindered by the limitations
+of state-of-the-art Raspberry Pi technology. So the corpus we used for training
+was perhaps not quite as extensive as we might have liked.
+The ﬁrst trial run of the compressor converted “seeing you makes me sad”
+, the ﬂag of Palau. Clearly something was not quite right, because Palau
+to
+is a very happy country. After a bit of debugging, the second trial run con, the ﬂag of Russia, which means everything was working
+verted “Trump” to
+correctly.
+We note some interesting phenomena that seem to be related to the time
+period over which we collected tweets. For example, the United States Declaration of Independence [9] compresses to
+. The ﬂag of Lithuania pops up
+here apparently because Lithuanian Independence Day is February 16.
+
+As an example to demonstrate the power of our approach, Figure 1 shows
+the entire text of the King James Version of the Bible [10] compressed into just
+720 emoji.
+for compressed emojizip output.
+We recommend the ﬁle extension .
+
+Decompression
+
+Naturally, any text compression system requires a corresponding decompressor. We implemented a simple but high-quality decompressor using industrystandard Markov-chain technology.
+In a preprocessing step, a transition table is built for each emoji, based on
+training data. Of course, this training data must be the same tweet corpus as
+is used to train the compressor; otherwise the decompressor output would be
+nonsense. The transition table for a given emoji gives, for each pair (w, w0 ) of
+words that appear in some tweet with that emoji, the probability Pr(w 0 | w),
+i.e., the probability that w will be followed by w0 . Such a table gives all the
+necessary information to reliably reconstruct the original text from a speciﬁed
+emoji.
+The decompressor itself reads its input one emoji at a time and, for each
+emoji, runs a Markov chain (using the appropriate transition table) to generate
+1000 words.
+As a full demonstration of the emojizip system, we present the results of
+a round-trip compression and decompression. When the script of Abbott and
+Costello’s famous “Who’s on First?” comedy routine is given to the compressor,
+the output is
+. Naturally. By decompressing these emoji, we can recover
+the original script; see Figure 2. Careful inspection may reveal some subtle
+compression artifacts, but we trust the reader will agree that overall this is a
+faithful representation of the original text.
+
+Conclusions and future work
+
+As shown above, emojizip is a very efficient compression algorithm, taking
+advantage of pictogram–kiloword equivalence. It naturally invites a few areas
+for future work and improvements.
+The ﬁrst area we may ﬁnd improvement is in other representation of pictograms outside of emoji. The authors are particularly interested in the expressive power of ﬂip books. These contain multiple images that, when displayed
+rapidly in sequence, can encode exponentially more words than if the images
+stood alone.
+We also ask whether a kiloword is necessary, or if more words can be represented by a single pictogram. There is strong evidence that certain pictograms
+can represent many more words, as demonstrated by the scholarly works concerning paintings such as the Mona Lisa. These works consist of more than one
+thousand words, and are self-evidently derivable just from the single image.
+
+Figure 1: The Bible.
+
+
+
+Figure 2: “Who’s on First?” after compression and decompression.
+
+
+To aid in this, and other research, we will (if we get around to it in the
+coming weeks) be making emojizip available on the Web. Surf over to the
+World Wide Web page at http://www.zifyoip.com/emojizip/ to try some
+encoding and decoding for yourself.
+
+References
+[1] Priests of Pharaoh Ptolemy V Epiphanes. Rosetta Stone. Memphis,
+March 27, 196 b.c.
+[2] Allen, Sarah, Dodge, Jesse, and Domosaur. “Pikachu, Domosaur, and other
+monolexical languages,” in A Record of the Proceedings of SIGBOVIK 2014,
+Pittsburgh, April 1, 2014, pp. 109–113.
+[3] Zongker, Doug. “Chicken chicken chicken: Chicken chicken.” Annals of
+Improbable Research 12(5), September–October 2006, pp. 16–21.
+[4] VII, Tom, Dr., Murphy, Ph.D. “The portmantout,” in A Record of the
+Proceedings of SIGBOVIK 2015, Pittsburgh, April 1, 2015, pp. 85–98.
+[5] Renshaw, David, and McCann, Jim. “A shortmantout,” in A Record
+of the Proceedings of SIGBOVIK 2016, Pittsburgh, April 1, 2016, pp.
+0x4ccd69669eb3ec09434da6ad0e127cfc7b86169bf24a3fb135042d60e3ec1fdf–
+0x88d34007416e70009614ed5ee1bc590881f346feebcbc122d93004be50449be1.
+[6] Renshaw, David. “Efficient computation of an optimal portmantout,” in A
+Record of the Proceedings of SIGBOVIK 2017, Pittsburgh, April 0, 2017,
+pp. 176–189.
+[7] Breitfeller, Luke. “Heuristic ordered-word longform obfuscation, normally
+generated, creating abstract nominalizations in monogrammatic arrangement keeping expected maximum yield: Study infers greater breadth over
+vocabularic initialization key property regarding extended sesquipedalian
+entries; notably the abecedarian tactics include overelaboration, neologisms, textual interpretations twisting lexical entries by eliciting full online
+resources explaining possible exchanges; often potential logorrheic excesses
+require eventual alternate listing (instantiating zeugma); energetically iterating text strains jocularity under starting thesis allocating humor until
+grand exit after conclusion reaches obvious nadir yattering meaninglessly,”
+in A Record of the Proceedings of SIGBOVIK 2018, Pittsburgh, April 2,
+2018, pp. 180–181.
+[8] Tom, Ph.D., Dr., VII, Murphy. “ZM~~ #
+PRinty#
+C with ABC!,”
+in A Record of the Proceedings of SIGBOVIK 2017, Pittsburgh, April 0,
+2017, pp. 129–148.
+[9] Je↵erson, Thomas. United States Declaration of Independence. Philadelphia, July 4, 1776.
+
+[10] James, King, et al. The Holy Bible: Conteyning the Old Testament, and
+the New: Newly Translated out of the Originall tongues: & with the former Translations diligently compared and veriﬁed, by his Maiesties speciall
+Comandment. London, 1611.
+[11] Abbott, Bud, and Costello, Lou. Who’s on First? New York, ca. 1937.
+The emoji artwork in this paper is from EmojiOne (www.emojione.com), provided by JoyPixels (www.joypixels.com). The ﬂag emoji are from an ancient
+version (github.com/emojione/emojione/tree/v1.5.2) because version 4.5
+has circular ﬂag emoji that just look weird.

@@ -1,0 +1,145 @@
+
+To investigate how the brain uses visual information, I developed an open-source eye-tracker that runs well on consumer-grade hardware. I wrote this software in Python and aimed to design it modularly to encourage customisations. Feedback is welcome!
+
+Here is the repo: [https://github.com/simonarvin/eyeloop](https://github.com/simonarvin/eyeloop)
+
+This can be used to design closed-loop experiments in which the eyes affect the system, and the system affects the eyes. If interested in the neuro-scientific aspect, here's our preprint:
+
+Preprint: [https://www.biorxiv.org/content/10.1101/2020.07.03.186387v1](https://www.biorxiv.org/content/10.1101/2020.07.03.186387v1)
+
+Our lab:
+http://www.yoneharalab.com
+This project is lit AF but how on earth did you manage to learn both medicine and programming? I'm struggling to learn DSA.
+Hey!
+
+Some things I noticed about your repo:
+
+1.) Your install instructions ask people to clone the whole repo. That's not really necessary, as "end users" won't have any use for the whole git history.
+
+2.) The examples (both example and misc folder) that are being downloaded are about 270MB in size, compared to 351kb of actual code that's just wasteful. I'd make that an optional download for people wanting/needing that
+
+3.) I'd add \_\_pycache\_\_ to the gitignore file
+
+Cheers! :)
+That's one beautiful eye..
+The pupils show the integrity of the midbrain tectum (when eyes and optic nerves/tracts are intact). This could be huge for examining comatose patients to determine if their midbrain works.
+
+Also, this could be included in brain death protocol, where one of the points is the absence of brainstem reflexes. Photoreaction is one of these reflexes.
+
+In many neurological diseases, pupil sizes and the reaction is very important.  
+
+
+PS: When did you find time to learn to program. Or you just found some friends who you work with and are good in Python?
+wow this eye tracker is sooo smooth and near real-time. Good Job!
+Bruh thats fucking amazing
+Cool work! Did you use OpenCV for this? What kinda hardware will this run on?
+Really cool to see another medical student working in the programming space! I definitely think it's worthwhile combining the two.
+
+If you're interested in the AI side of things OpenVINO has a cool gaze detection implementation: [https://docs.openvinotoolkit.org/latest/\_demos\_gaze\_estimation\_demo\_README.html](https://docs.openvinotoolkit.org/latest/_demos_gaze_estimation_demo_README.html)
+Did you consider darker skin? It is often overlooked in image recognition. But cool project!
+That’s next level
+Are you currently looking for [M.Sc](https://M.Sc). (biotechnology) employees for computer vision? :\^)
+Awesome work!!!
+
+Did you use Rcnn /YOLO ?
+Great job. One of the things I love the most are projects with biomedical applications. That's awesome!
+I’d love to see how this works with my (involuntary) nystagmus
+Future SkyNet thanks you for your contribution. Your family will be spared.
+I have always thought that the future for medicine school should have computer science as a default
+Pretty eyes.
+All respect
+How cool. I could see multiple use of such a kode
+Dude that's amazing!
+Does it think the reflection of the light is a second eye within the first and so tracks it with the blue outline ?
+This is awesome!!
+Wonderful project. Will save and dig into this later.
+
+It reminds me of this other project that allowed a graffiti artist keep drawing.
+
+http://eyewriter.org/
+
+This was in C++ and the early days of openFrameworks
+
+> About
+> Members of Free Art and Technology (FAT), OpenFrameworks, the Graffiti Research Lab, and The Ebeling Group communities have teamed-up with a legendary LA graffiti writer, publisher and activist, named TEMPTONE. Tempt1 was diagnosed with ALS in 2003, a disease which has left him almost completely physically paralyzed… except for his eyes. > > This international team is working together to create a low-cost, open source eye-tracking system that will allow ALS patients to draw using just their eyes. The long-term goal is to create a professional/social network of software developers, hardware hackers, urban projection artists and ALS patients from around the world who are using local materials and open source research to creatively connect and make eye art.
+
+> The team:
+> The core development teams consists of members of Free Art and Technology (FAT), OpenFrameworks and the Graffiti Resarch Lab: Tempt1, Evan Roth, Chris Sugrue, Zach Lieberman,Theo Watson and James Powderly.
+Cognitive Science student here. 
+
+Great project, with one beautiful eye! Have you managed to measure how accurate the algorithm are able to measure the width of the pupil? Which resolution and framerate are you using in this demonstration? Would also love to be able to plot the width of the pupil. This should be possible to do with the library matplotlib.
+How much off angle can the camera be? Do you always need a camera in the face of the subject, blocking their field of view, or can it be off to the side? Is the camera attached to the head with a rig of sorts to make sure it is always tracking perfectly on the eye?
+try the word "mozambique"
+Can it track number/frequency of blinks?
+Dang, this is some good piece of software !
+Ideas:
+
+* Meditation helper
+* Screen Tracker
+* Lie Detector
+Very interesting and cool, great job :)
+Jesus as a dev I’m more impressed by the documentation - very rare to see it that thorough.
+This is exactly what I needed THANKS
+I’m a physician and found python easy to learn from the get go. So it’s definitely doable if so desired.
+Deleted out of embarrassment.
+Have you looked into eye safety?  I looked at the IR light source you are using, but I didn’t see the optical power listed. I hope you are measuring the optical power before using this on eyes.
+
+Did you have a target for sample rate?  At the frame rates you are currently running at, you won’t be able to measure saccades.
+
+How do you calculate the gaze angle? Do you depend on precise locations of the corneal reflections? If so, does the user need to be constrained (e.g. with ophthalmic equipment such as a bite bar)?  Does this require calibration? Have you quantified the accuracy and precision?
+Impressive! The repo looks great too, you’ve even got diagrams going. I’m interested, how did you develop the image processing algorithms? I saw you’re using cv2 but how did you determine the best series of preprocessing methods?
+They use tech like this during testing  in advertising to track what part of the screen your eyes are looking at throughout the commercial, and more importantly they use that, to guide your eyes around the screen and judge what stimulus different people have interest in. Creepy
+Do you know [Opensesame](https://osdoc.cogsci.nl/) project? It's a free software based on Python for creating psychology and neuroscience experiments using python's eyetracking library. That could interest you.
+Straight from Bladerunner
+This but for colons
+So to beat the system you just need to blink nonstop?
+Some times I think  these are people who have been on earth like 400years or so... they are immortals who will learn new stuff each decade 😅😂😂😂
+I love this
+3k upvotes and not a single blade runner quote or reference??? WTF reddit?
+Great job! I will definitely look into this when I have some spare time, and maybe write my own version. Just because I'm a curious biomedical engineer looking for fun python projects! It's hard to come up with fun projects that also somehow involve a medical aspect!
+Hey, great work. I am an eyetracking researcher myself.
+
+I skimmed through your preprint. Much of the eyetracking methods you have used are standard. If you look at the proceedings of ETRA conference you will find discussions about these tracking methods. 
+
+Is your primary contribution is the ability to run " closed-loop experiments ?"
+
+Are there any specific contributions to the tracking algorithm that I am missing here?
+This is super cool! Could this be extended to detect Ptosis or has anyone on your team looked at that separately?
+This so gonna sound whiny and needy probably, but when do you think there would be a tutorial on how to set up and run your first experiment for those of us who are interested in this type of application but struggle to grasp a basic understanding how the medical part of this works?
+Hey, good work! I graduated from a medical school too, that was almost 10 years ago. I'm now working as a senior software engineer in Berlin, Germany. It's good to see someone with similar background and very uncommon passion.
+Can someone ELI5 what this does? It tracks your eye, but what for?
+This is dope! I'll definitely be messing with it in my free time. Keep up the awesome work!
+*moist*
+Nice! This has so many potential applications beyond medicine as well.
+why is this eye beautyful? like really nice and hypnotic...
+Hi u/Sebaron! I was just discussing your bioRxiv preprint which documents this project with my PI a couple days ago. I’m looking at mouse eye movements for my own project and I think this will end up being an invaluable tool when I get to some of the later experiments in my project.
+ **Someone gives you a calfskin wallet for your birthday. How do you react?** 
+
+ **Your little boy shows you his butterfly collection, plus the killing jar. What do you say?** 
+
+ **You're watching television. Suddenly you spot a wasp crawling on your arm. How do you react?**
+fucking nice
+I have an Engineering background, and my mind is blown with how you do Medicine and Programming.
+Glad to see that programming is spreading in every filed!
+Another post to make me feel stupid. 
+
+Very awesome !
+Python programmer? Please tell me that your handwriting is legible as well.
+You tracking saccades and pursuits? What’s your project on?
+Nice work. Will certainly look into implementing this in some projects I have in mind  for nystagus tracking/graphing.....nothing that hasn't been done already but none of the equipment is cheap!
+You are incredible!
+Upload to skynet
+Very interesting project! Thanks for sharing
+Did you guys send out an add for female models for your experiment?
+Do you think you'll be able to reliably diagnose disease using eye movements?
+
+I imagine so, but I'm not a medic.
+Super cool! I guess this requires an infrared camera and light source to get the reflection?
+Cyberpunk af!
+Helloooo fellow med student/programmer! Loving this, reading through the repo now. We are just covering the eye atm so this is great pseudo-studying. Do you take pull requests? The codebase looks really good, but happy to help out!
+
+Edit: also the diagrams are adorable
+Be more thoughtful before wielding any new tech.
+
+*”Concern for man and his fate must always form the chief interest of all technical endeavors. Never forget this in the midst of your diagrams and equations.”* -^Albert ^Einstein
+You didnt program a eye movement tracker. You invoked a tracker wrote by the good people who work on opencv, using a programming language. Dont take credit for other people's work.

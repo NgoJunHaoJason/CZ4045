@@ -1,0 +1,93 @@
+
+Nice
+Btw u forgot the worst of them all 
+== and =
+[Rubber Duck Debugging](https://rubberduckdebugging.com)
+
+Edit: Fixed a word
+Great sheet! If you don't mind me asking, what did you make it with?
+I think it would be helpful to include a reminder that a SyntaxError might be caused by a mistake on a previous line: if line 29 has a SyntaxError and nothing looks wrong, you should check line 28 or 27.
+Thanks! This should help our students who seem alergic to reading error messages before asking for help :p
+The most common source of `NameError` for me is when I create variable in `if` block, but not inside `else` block and then try to access it after the whole if/else.
+
+The best way to avoid this especially for deeply nested set of blocks is to define the variable before if/else and set it to `None` or other sensible default. It definetely beats the whole process of arguing about the conditions where the variable might be undefined and simplifies the reasoning for any other guy that reads your code.
+Very nice graphic. But in all my years of programming I've never had an instance where a "cheat sheet" like this could have been useful. When a bug happens, you read the error message (which often includes the offending line), Google it if you had to, roll up your sleeves and wade into the code to see what's up.
+Is there something like this for C Programming?
+r/learnpython
+Beautiful
+This is amazing. Thank you.
+Really helpful. Obviously logical errors could be one of many different reasons but this is a great starting point for common mistakes
+I'd also highly recommend this chapter on debugging from **Think Python** book: https://greenteapress.com/thinkpython2/html/thinkpython2021.html
+
+and this article: https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
+which one do you guys think is the sneakiest? 
+
+I think it's type error: "an object which you expect to have a value is actually None"
+Not sure who the intended audience is, but for someone who learned by doing and has no theoretical knowledge at all that top left description might as well say "harblegarbleblarvle". I guess I should bother learning the correct terms.
+Excellent infographic Sir
+My code often working but not the way I expected.
+Trying to get back into Python rn so this will come in handy, thanks u/HotTeenBoy
+99% of my errors are because I'm calling a method on an object that doesn't exist for that object but there's another object named similar to that object in the same library that has the same method but of course this similarly named object doesnt.
+
+That or calling an argument for a function in a library that has a similarly named function with the same argument so of course I think it will work but it doesn't.
+Nice, automods should reply to every help question with stuff like this, good for people to learn.
+>[I am trying to loop over a collection of strings, but am getting an individual characters](https://youtu.be/FnhljbEY9mg?t=44)
+You're trying to write a file that isn't opened with "w".
+I was just expecting a giant arrow pointing to stack overflow! :)
+I’ve found variable scope to be the problem that confuses me the longest. Probably because it doesn’t come up often, and can reek havoc on what values are vs what you expect them to be.
+Thanks a lot! This will help me a lot while learning python
+Very helpful
+Nice! Thanks for sharing!
+Where is OSError?
+Wish i could use something like this for debuggin
+What if it's an IOError when trying to write to a file that does exist that only happens every other day at midnight because the TCP buffer becomes full due to the log aggregation server doing automated maintenance which makes it stop accepting packets?
+
+(I still have PTSD from that one)
+Python for biologists?
+
+Also, kinda disappointed, expected some joke in there :c
+My code doesn't work because python refuses to accept that the variable exists
+Thanks so much
+Great job 👌
+>does the code use loops or if statements
+Hopefully people aren't using Python 2 too often.
+Honestly, I should make this to save myself the 600 questions a day I deal with from JR level developers. Which usually amount to this:
+
+My code isn't working.
+Did you check the logs?
+Yes
+Seems on line 24 you're receiving a key error when looking for this key, that's a weird key, why are you looking for it.
+Some long convoluted explanation or a simple oops.
+
+And my focus has been broken, 15m lost, or worse the convoluted explanation revealed a convoluted design that now has to be explained (see: argued) why it won't work.
+
+All the while I totally get it, you think you had an ingenious idea and I really support the creativity and the reaching out when you had a problem. But A, you were given a design to follow, stick to it if it didn't hold water than before approaching a new path you need to check to see if other avenues exist to keep the original intended design, B, you showed that you can't read basic error logs.
+
+And keep in mind, for everything you're asked to code I'm expected to perform 4-8x with half the time as you (on paper) even though I'm also juggling 6-8hr meetings a day. And somehow still fit in time for design, guidance, ticket mgmt, etc etc etc. 
+
+Sorry, feeling a little burned out reddit.
+Frick where was this in my fundamentals class
+i wish it was this simple...
+Last resort: disturb and ask your very busy colleague who is wearing a headphone every 10 minutes to help you debug your code
+Little known fact: all of these branches end with you finding a small change you made three months ago that broke everything.
+This chart, if you read it carefully says "you're using a non typed language".
+
+I wrote python for 8 years. I love python. But I write go now at work, and the amount of errors I used to make in python that are caught during compilation is amazing
+Ah if only.. imo the worst bugs happen at the infrastructure or config level. Hell hath no fury like trying to debug code running on misconfigured infrastructure
+Absolutely recommend for beginners and pros
+So many programmers at my work need a very simple version of this which basically says: my code won't work!  -> did you read the error message or traceback? -> no -> read the traceback.
+It is really helpful, thanks
+„What error did you get?“
+
+„Yes“
+Were that it were so simple
+Nice! But am I allowed to save this pic in my gallery? I want to save it because sometimes I have errors while coding.
+Time for a new wall poster for my office.
+Put this in a code!
+Imagine having to use a cheat sheet to understand what your errors mean. I use python sometimes myself but lol
+You forgot the stackoverflow answer isn't working with the new version of the api.
+\#becoming desktop background no, i love the one i have but, if i did'nt this would be it, sooooooo usefull!
+I rather use print statements of variables at random points in the code.
+> Does the code use loops or if statements
+
+I was not aware that I had to choose!

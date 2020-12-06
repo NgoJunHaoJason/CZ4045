@@ -1,0 +1,321 @@
+9045 upvotes,
+
+1005 downvotes
+
+and 420 comments!
+Reminds me of the Tom Scott video where his title is his current view count. Was this inspired by his video?
+Good job. But honestly, add a sleep timer of a few seconds. This will eventually get your IP banned on reddit if you bombard them with too many requests.
+Cool! Could you share it?
+This is awesome. I want to just upvote it but I can't resist upvoting, refreshing, downvoting, refreshing ad infinitum.
+how often does it refresh? seems like it's changing quite a bit!
+This comment has:
+
+42 characters
+
+1 colon
+
+92 upvotes
+I just want to make to comments go up by one with this comment. Nice post
+Comment
+I think it broke
+I wonder how many refreshes it has...
+Testing for 54 comments,,,
+
+EDIT: It Worked!
+I wonder why the real upvote net total is 1 more than the displayed message. Did you round up or down somewhere?
+I am gonna be that guy but Is this open sourced? I wanna see how other people make reddit bots
+nice
+Wow
+Wow! Good job.
+Cute
+13
+Add one
+Very cool thing, nice job
+test
+Now it has 17 comments
+Well done
+Cool
+boop
+this is dope!
+haha this is cute! nice job :)
+Hi :)
+Test
+35?
+Beep
+It’s super wrong now :)
+So cool OP! How long did this take you to build?
+You're lying to me, this post has 697 upvotes!!
+
+^/s
+\+1 to the comment count!
+V.Nice
+(:
+Hmm +1 comment
+74
+I was gonna do this but couldn't figure out how to make a bot take over my acc, could you share the code?
+lol
+Hi ,what does praw do?
+84th comment. Let's see if the post shows this...
+I down voted to see the number but it didn't change so keep my down vote
+Check
+:\^)
+Haha, bet u can’t update for my comment
+Nice
+Comment
+hello
+Well done
+So sick!
+Wow dude! Great job. Keep up the creativity and good work
+Comment
+Commenting just to test it
+Testing
+120*
+Guessing this is a python script also commenting to see how fast it is
+Test
+Up
+Test
+woah dude
+How did you do this?
+nice
+I didn't think these numbers were accessible? I thought they were intentionally obfuscated.
+Hu
+I just wanna see the comment count go up
+141 comments*
+neato
+Here I am toggling the upvote and downvote buttons to see it change. I love this
+yo who are the 300-350 ish people downvoting this? this is fucking cool
+Are you just scraping the page every so often and edit the post? Can you edit posts.....I dont think you can.
+Yes
+Cool!
+I hate that the tester in me had to upvote and down vote multiple times to watch the counts. Definitely not commenting to see the count jump to 150 either.
+Ass
+This is sick
+Okay this is pretty cool
+Beep
+Hi
+Nice
+lol
+Fancy
+No there isnt
+Who would downvote this!?   Seriously, explain yourselves downvoters
+How?
++1
+How do you go about doing this? I want to
+Learn a little :)
+Nice, I wanna see the counter go up
+cool
+What happens if you get an award?
+Cool
+I love things like this, they are so simple yet so satisfying
+178th comment gang
+ok
+.
+182
+Adding a comment to make sure it changes
+test
+Wow
+187th comment
+I just wanna be a part of the comment counter.
+lets check how fast it updates itself
+quite fast
+The question is can it detect fake downvotes?
+Can I do this on facebook?
+Test
+Test 2
+No
+Test
+X
+hohoho!!! This is amazing! Bringing up the comment count to 199!
+How it works? Is it showing the real value of upvotes and downvotes?
+Let me test something
+Hi
+Test
+A coment to see if the counter change
+This is very nice.
+209th comment
+210 comment
+test comment
+Test
+Numbers!!!
+This is really ducking cool.
+am i the only one who sees a higher number of upvotes in the post than the amount that the reddit app shows me edit: forget is, i forgot to subtract downvotes
+J
+Wait if you create a statistic from the amount of karma and the amount of upvotes/downvotes, over time maybe you could find out the sacred karma algorithm..
+222 ya punk
+No it doesn't
+THAT IS SO COOL
+
+But how does it work... It doesn't say edited on it...
+Lol
+This feel oddly simular to braking the 4th wall, but this situation is not called that... unless it is? Cyber wall? breaking the Cyber wall? I don't know. It's cool though.
+what
+## # ##
+Wow! Very cool but uh the upvotes are wrong
+Is this live??
+Test
+cool
+237
+Nice
+Comment
+Comment
+This is cool, any source code?
+Cool
+Just a test
+So, my app is showing 4.2k upvotes, but your script has 4762 upvotes and 589 down.  Are you counting total votes instead of upvotes?
+Damn
+Who would’ve thought
+No
+how do you upload this to reddit
+pretty pog
+Gg
+Hhk
+a
+a
+Wot
+u/Visfire stole this and put it on r/teenagers
+261 comments now.
+Hey dude, some asshole stole this and put it in r/teenagers. But I like this idea, and this is awesome!
+This is epic
+This is cool
+wak
+Now it's 268 comments.
++1
+Test
+ok
+Test
+Nice
+Dat awkward moment when I leave a comment so the post is inaccurate
+test
+Cool bot dude!
+278 now?
+Test
+Peeeeebis
+Does it now?
+Test
+Here I am, trying to figure out if I should update cuz it's cool, or downvote to test it
+That actually really cool. We can see how upvotes are fudged too
+I thought that reddit didnt disclose the ratio and obfuscated the karma number?
+290th
+Test
+Reddit should start showing number of downvotes it feels Facebook type platform without that
+Comment #294
+gg
+299
+Hi
+Butts
+T
+This is the kind of content I like to see on this subreddit lmao
+Hi everyone =)  
+Checkout my new project on Python [https://github.com/Alex014/CryptoContainer](https://github.com/Alex014/CryptoContainer)  
+It's an encrypted messaging system
+306
+307
+No!
+Let me check
+Comment
+just checking!
+Whoa! This one is amazing!
+#include <test_comment>
+Why so many downvotes?
+Test
+you should have your bot make random callouts of users
+
+hey /u/jpflathead what's with the downvote?  
+hey /u/jpflathead watch your language!  
+hey /u/jpflathead thanks for the bitcoin!
+Make it one more
+Welcome to the wonderful world of APIs!
+testing comment count
+Not completely accurate, but that can be reddit sucking dick
+Test
+very cool!!!
+I feel like this is inadvertent bait but im falling for it anyway
+are you sure???
+really?
+Great work but how'd you do that?
+339th comment, just testing that it still works...
+340?
+this is the good shit
+Testing 123
+Great
+You are updating it very often, it seems. Doesn't Reddit API consider this flood?
+Really huh
+This is so cool! Well done, how did you do this?
+Poop
+test
+This is very cool
+This is so cool! Good job.
+Test
+woah
+Hello
+852 ᴄᴏᴍᴍᴇɴᴛs ʏᴏᴜ sᴀʏ?
+353th comment
+Just checking
+I'm late, but 355.
+ok small question. how is this acceptable cuz its not python related at all (not being mean but im new here and curious)
+nice!
+Cool
+Let's test it
+can someone link a tutorial to write something that does this
+M
+363
+Nice
+Damn
+This is amazing!
+hi
+Nice
+No
+Test
+Cool
+Just commenting to increase the comments
+now that's cool
+up the comment
+.
+Commenting just to see if this gets updated.
+Test
+385
+Lol
+386 comments test...?
+I upvoted, but it didn't change. :/
+
+Is it not instant?
+Awesome stuff man.
+Lol
+testing
+Comment
+Test
+Is this script still running?
+Wait, I’m so confused
+394
+nice
+when it rains it pours
+Awesome
+Q
+pog
+h
+Hmmmm
+
+Does this update in real time?
+
+Still, great job!
+Does it update fast enough!
+Wow
+Fuck off
+💦💦💦
+o
+Test
+Test
+Yeet
+Make that 415
+417\*
+Epic
+:o
+Testing testing 123
+422
+This post has Ligma
+impressive !
+Someone here watch’s Tom Scott
+wow nice
+Cool
+Nice
+No it doesn't It has 2916 currently

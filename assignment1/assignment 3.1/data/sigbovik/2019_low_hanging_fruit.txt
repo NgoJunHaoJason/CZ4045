@@ -1,0 +1,115 @@
+Towards Automatic Low Hanging Fruit
+Identiﬁcation For the Steering of ML Research
+Nick Frosst, Aidan Gomez
+February 2019
+Abstract
+In light of the ongoing explosion of interest in the ﬁeld of machine
+learning, we must ask ourselves how researchers can best allocate their
+resources and determine which problems deserve their attention. We identify and explore the perennial problem of low hanging fruit detection in
+machine learning research organizations and present a novel, state-of-theart AI solution to this pertinent problem, which we believe will greatly
+increase the output of research papers in the machine learning community.
+
+1. Introduction
+
+The ﬁeld of machine learning is undergoing a period of rapid and accelerating
+growth. The commercial viability of recent research developments and the public notoriety thereby achieved, has lead to the establishment of several large
+scale academic institutions devoted to the development of artiﬁcial intelligence
+through machine learning. Moreover, many commercial entities have started to
+fund purely research focused machine learning groups. This has lead to a period
+of rapid progress, made possible by the cross institutional collaboration of researchers and the public forums in which they share their work. This veritable
+renaissance of artiﬁcial intelligence however comes with a downside; it is increasingly difficult to stand out among the growing ﬁeld of stellar researchers and
+fruit enthusiasts. It would appear that as a consequence of the rapid and sustained growth in our ﬁeld, many have become increasingly concerned about the
+supply of low-hanging fruit. This paper presents a novel solution to this problem in the form of a state of the art Low Hanging Fruit Detection model. Our
+model is able to accurately identify the lowest hanging fruit and subsequently
+orient the research objectives of this new cornucopia of research entities.
+
+2. Prior Work
+
+Much e↵ort has been put into the identiﬁcation of low hanging fruit (for details,
+please see all machine learning papers published in the past 3 years with citation
+
+Figure 1: Low hanging fruit detection has been a concern for humanity throughout the ages. Our modern times however, have made this problem all the more
+pertinent. It is of no coincidence then that it is with modern technology that a
+solution can be found.
+numbers exceeding 234, excluding those written by the authors of this paper, we
+do good work, and that one about the dancing [1], that was top quality stu↵).
+Yet little has been done on approaching this important problem from an algorithmic perspective. The potential for automated low hanging fruit detection to
+give researchers the opportunity to focus on problems that take way more time
+and are just kind of hard and tiring to work on, is enormous.
+Furthermore, there is an abundance of research papers devoted to the subject of autonomous orchard management and the various fruit related machine
+learning problems therein [4, 3, 2, 5]. Many of these papers were long, and
+complicated, and so we leave reading them and determining their relevance as
+an exercise to the reader.
+
+3 Data
+
+In order to train such a system, we ﬁrst needed to collect a dataset of low
+hanging fruit and high hanging fruit. Our initial strategy was to create a web
+crawler of machine learning arXiv submissions to collect the abstracts of papers
+submitted within the past 3 years. We were to label all those authored by
+individuals with papers per year in excess of 3 as low hanging, and the rest as
+high hanging fruit. We would then train a classiﬁer on this dataset, present the
+ﬁndings here in this paper, and reap the rewards. After careful examination
+we decided that this approach was too hard, and achieving state of the art
+results may actually require a fair bit of work. With this in mind, we focused
+our attention on real fruit instead. We collected a dataset of images of apple
+orchards and drew bounded boxes around the lowest fruit in each image. We
+ﬁgured that training a model to identify the bounding box of the lowest hanging
+fruit in each image would be sufficient for a workshop paper at least.
+
+We trained a simple CNN with methods mostly established in the early 2010’s
+on all the data we could ﬁnd, This resulted in state of the art scores for the low
+hanging fruit detection task which we had just established. We benchmarked
+our model against randomly labeling things. Our model greatly outperformed
+this baseline. Having achieved state of the art results, we found no need to
+further reﬁne our approach or explore any other alternatives.
+
+Figure 2: Our research team did some ﬁeld work to understand the nature of the
+problem. Here we have pictured our research collaborator grasping for obviously
+not low hanging fruit. Why is she doing?
+
+Grasping The Fruit
+
+Our model is able to accurately detect low hanging fruit in orchard related
+images, but the standard CNN alone is only able to identify the position of the
+low hanging fruit, not grasp the fruit once it has been located. Augmenting our
+approach to enable such capabilities would result in an end-to-end fully learned
+and deployable low hanging fruit production pipeline. This development would
+be indispensable to the machine learning community. With this in mind, we
+created a model relying on the most recent cutting edge ML developments,
+using RL to train a robotic fruit grasping hand, and stacked invertible residual
+neural ODEs to draw bounding boxes around the fruit. We did not actually
+train this model, as it was not particularly easy to do. We leave it instead as a
+fruitful area of future research, but do note to future researchers that this ﬂag
+was planted here ﬁrst, which means you need to cite us.
+
+Discussion
+
+In the interest of public safety, and in light of recent trends, we have decided
+not to release any code or model checkpoints, or results for that matter; our
+
+low hanging fruit model is simply too powerful. We would also like to take this
+time to announce a new private for proﬁt spin-o↵ of our research and welcome
+any VC investment in our seed funding round.
+
+Conclusion
+
+We have presented a novel approach to the perennial problem of low hanging
+fruit detection. Our model achieves state of the art performance on the low
+hanging fruit detection data set which we have created. We believe this model
+will be an indispensable tool to guide the research objectives of the ever increasing onslaught of ML research institutions. We have decided not to release
+the trained model parameters or any code at all actually, over public safety
+concerns, i guess.
+
+References
+[1] Caroline Chan, Shiry Ginosar, Tinghui Zhou, and Alexei A Efros. Everybody
+dance now. arXiv preprint arXiv:1808.07371, 2018.
+[2] A Gongal, Suraj Amatya, Manoj Karkee, Q Zhang, and Karen Lewis. Sensors and systems for fruit detection and localization: A review. Computers
+and Electronics in Agriculture, 116:8–19, 2015.
+[3] Keren Kapach, Ehud Barnea, Rotem Mairon, Yael Edan, and Ohad BenShahar. Computer vision for fruit harvesting robots–state of the art and challenges ahead. International Journal of Computational Vision and Robotics,
+3(1/2):4–34, 2012.
+[4] Tianhao Zhang, Zoe McCarthy, Owen Jowl, Dennis Lee, Xi Chen, Ken Goldberg, and Pieter Abbeel. Deep imitation learning for complex manipulation
+tasks from virtual reality teleoperation. In 2018 IEEE International Conference on Robotics and Automation (ICRA), pages 1–8. IEEE, 2018.
+[5] Andrejs Zujevs, Vitalijs Osadcuks, and Peter Ahrendt. Trends in robotic
+sensor technologies for fruit harvesting: 2010-2015. Procedia Computer Science, 77:227–233, 2015.
+

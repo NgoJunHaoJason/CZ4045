@@ -1,0 +1,107 @@
+
+Thats some iron man shit right there
+Any chance of sharing the source code? Would love to have a play with that myself.
+As a geologist/geophysicist, this is a wet dream come true for me.
+
+Gonna be make those subsurface even sexier
+How does it know which points are higher or lower? Do you have to give it the color scale?
+One of the coolest project I've seen. Can you give us a tldr on how you did it and with what framework/library?
+I'm working on my first project making these types of maps for me and my brother to use for table top games.  I'd love to learn how to do something like this.
+
+Edit to give props this is very cool.
+I was today years old when I realized, you know what? I actually am terrible at Python.
+r/interestingasfuck
+Is that bathymetric or topographic data? Ps. That’s fucking cool!!!!!
+Are you planning to release the source code? Looks great, keep it up!
+This guy is too OP. here i am happy with my small scripts.
+By any measure that's the coolest thing I've seen in a long while
+Excellent. I deal with bathymetric (sea floor data) derived with multibeam echosounder (MBES) at work, and can see this being super useful.
+
+Are there any plans to release it?
+That's cool
+That's pretty cool.
+
+You should try it on a picture of a canyon with the sun shining on the north side vs. the south side.  My guess is it's a lot harder.  The shadows are opposite, so they don't follow the right behavior.  Topographical maps often have an artificial light coming from the "north" to help with that.  It makes it really confusing if you view it upside down.
+
+Similarly, a light shined down on an indentation will shade the indentation in a way that's clear (shadow on the top, light on the bottom), but shine a light from the bottom and your perception of depth is changed.
+So, I'm guessing you have to stick with Matplot-lib-related color sets? Or can you adjust and tweak the ranges?
+Woah. You gotta keep us updated.
+Holy shit that's a great idea.
+Thats pretty cool man. Nice job
+This is honestly the best so far
+Now that is hot!
+😮😮😮😮😮😮😮😮😮
+Are you at [DynamicLand?](https://dynamicland.org)
+Didnt even know this was possible with pytyon ._.
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+Tony Stark would be proud. 
+This is epic !
+You're making the future
+This is awesome bro
+This is cool
+Fuck, that is a nice toy.
+Using python ?
+
+
+Wow, Amazing, legit made me scream.
+r/BrandNewSentence
+!RemindMe 3 weeks
+/u/pineapplepizza7
+Can this adapted for use with board games?
+That's cool, I'm guessing you use the colors for depth. Maybe you could create a QR code or something beside the figure for more accurate 3d models? Sick idea though, very futuristic. If Google Glasses had taken off this wouldve been one of the best features
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+!RemindMe 3 weeks
+🤓 That's super badass!
+🤓 That's super badass!
+DOPE
+Wow ! This is Amazing!!!!!!!
+!remindme 4 weeks
+r/nextfuckinglevel
+Cool beans what about just making sure that a legend is present and using the legend to map the heights. Just because there can be so much variation for what gradient was chosen.
+
+Allow the ML to do presscriptive stuff, instead of just  
+deterministic heatmaps.
+
+They could be totally custom, but then you need the legend present. Cool work though
+This is some seriously futuristic shit right here. But I have to ask, why go web --> paper --> mobile app when you can just publish interactive html?
+This guy is living in the year 3000
+How did you get the idea for this?
+How??
+As a headsup : the default rainbow map has a bias which isn't completely obvious but Google made a unbiased alternative called turbo. [Google turbo](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html?m=1)
+One day i will be as good as u man i wish i was better 😭. Thats so cool tho good luck man :).
+Wow amazing.
+Yo. This is sick.
+Which HIRISE pair is that?
+
+I have a powerful wanting for this app.
+Is this purely made with python? I'm a beginner in Python it's the only language I can code in. If no what all languages did you use?
+Wow...thats incredible !!
+!RemindMe 4 weeks
+Hory shiiittt!!!
+
+That is awesome man!
+Duuuude, that’s so dope
+Oh wow that is good
+Great!!!!
+!RemindMe 3 weeks
+!RemindMe in 3 weeks
+Wow!!!!!!!!
+!RemindMe 3 Weeks
+!Remindme 3 weeks
+Is this available in the app store or will there be an APK for it?
+back
+! RemindMe 1 minute
+This is awesome!  I hope I have these skills someday lol.
+Cool. 
+What did you use to create this? AR kit?
+The future is now!
+Absolutely 5 stars
+Yo that awesome!
+Dope
+I hate the word deving..

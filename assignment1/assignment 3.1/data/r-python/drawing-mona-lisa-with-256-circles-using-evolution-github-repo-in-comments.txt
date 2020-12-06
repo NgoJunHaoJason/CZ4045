@@ -1,0 +1,86 @@
+
+\[Github\] [https://github.com/ahmedkhalf/Circle-Evolution](https://github.com/ahmedkhalf/Circle-Evolution) 
+
+Please note that this is a very early and undocumented version. I plan on adding color, and improving speed, then later putting it on PyPI. Push requests are appreciated :)
+This is great.
+
+It gets a really good match, especially if you unfocus your eyes / squint / look out the corner of your eyes. Then your brain doesn’t get distracted by the circles and just sees the shading.
+
+I’d suggest at you include a requirements.txt or a Pipfile so other people can more easily use the code and see what packages you installed.
+Love that the solver couldn't figure out Mona Lisa's smile either
+Fun project! Congrats!
+I didn't read the code, yet I'm wondering: what kind of compression rate do you achieve?
+How to learn it? Every time I try to get involved into machine lerning it's so overwhelming. Where to start? Do I have to get deep mathematic understanding?
+Cool! My first question is: how did you prevent the loss converging on a local optima?
+Love it. And the code is clean and simple.
+how is fitness measured, in this context?
+I'm curious if this could be used as a compression algorithm for pictures. As you only need to store 256 centers (x,y), radious and colors
+If this was the ps5 it would be triangles.
+Now check out the Mona Lisa made with [emoji](https://dxnn.github.io/bogomoji/#https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg)! It takes around 30 seconds to get to a recognizable point
+*Evolution is a mystery...*
+Try with triangle,
+Well thats just copy and paste with extra steps
+holy shit this is amazing
+What if there was an image format which encoded any image as the difference from the vectorial base provided by this algorithm?
+The effect might be even better if you used "circles" with transparency given by the function:
+
+1 / (x ²  + 1)
+
+or simmilar
+That's really cool! Nice work! Just wondering how long did it take to run?
+Very nice! Maybe consider plotting log(100-fitness) instead or in addition to capture the late-stage slight improvements to convergence.
+As a person with literally 0 programming knowledge, how tf do you even begin on a project like that?
+This is **super fucking cool** dude/dudette.
+Could you explain:
+
+fit = (np.square(specie.phenotype - self.target)).mean(axis=None) 
+
+fit = (self.maxError - fit) / self.maxError 
+
+I get the first line since its just MSE, but where does the logic of the second line come from? could you elaborate on that ?d
+Wow this is really neat!
+But... where are the hands?!?
+Wow!!! amazing!!
+I am always amazed at how people can do this. Great job!
+These things are actually amazing
+That's brilliant great job!
+u/vredditdownloader
+Have no clue how this works, looks cool though! Just a suggestion.. add gridlines to the log plot and make the x axis readable at glance.
+Very cool, looks like you used a lot of the same implementations for a super similar [project](https://ericdavidwells.com/home/projects/polyvolve/) I did awhile back.
+I'd love to see a fitness vs. number of circles plot as a way of visualising quality vs compression ratio.
+This is great, and I'm going to be playing with it all day.
+
+If I'm interpreting your code correctly, having worked on a similar project before I do have one suggestion: instead of spawning only one offspring per new generation, then testing the fitness of that offspring, try spawning multiple offspring with each new generation, testing the fitness of all the offspring, then selecting the best mach as the progenitor for the next generation. This will massively reduce the number of generations required for the model to converge because each generation will produce a larger increase in fitness and opens the door to parallelization. Though I imagine it could become a bottleneck if the training machine is short on cores.
+
+Just some thoughts!
+I might be too high but I think this is awesome way to visualize material purity
+Question: Would this be a very efficient approach to lightweight landscapes for video games? With a Gaussian effect, I'm thinking.
+I think you mean to be writing “species” instead of “specie” everywhere?
+With your code could this be done in 3D too? 🤔 Did you post your code on Git? I'd love to look at it. This gives me an idea for a blender plugin.
+This is really cool, nice work!
+It would be interesting to see if there are different ways of measuring fitness that could be applied to this. The relationship between how fast the fitness function was increasing and how quickly the picture "seemed" to come into focus were nearly inverse. 
+
+This isn't a criticism, by the way, this is really cool. It's just interesting to see different ways of measuring similarity.
+How is that at 95% fitness, it was just a bunch of circles and at 99.5% fitness, it was practically picture perfect?
+Can anyone explain what is going on here?
+Mona Lisa poping gum.
+Not much else I can say other than... cool!
+this is awesome! good job!
+is it really only 256 circles? looks like a lot more than that to me.
+I cant imagine the happiness the first time mona lisa started taking shape. Nice work.
+How did you came up with the solution, I mean the approach by which you are able to do this, this is nice!
+Are you calling it the Chuck Close algo?
+Zeno would like to have a word
+Neat, but the algorithm doesn't value the facial detail (especially the eyes) like a human brain does. It would be cool to mark that as an area where the detail is more important. Could be automatic even using facial recognition, or maybe just looking at high contrast areas is enough.
+Are you using crossover (breeding) of your best individuals? 
+
+It almost looks as if you're only using mutation.
+Did a similar thing with [triangles](http://blog.4dcu.be/programming/2020/01/12/Genetic-Art-Algorithm.html) and with [voronoi cells](http://blog.4dcu.be/programming/2020/02/10/Genetic-Art-Algorithm-2.html) 
+
+I've been using the Evol library to evolve a population rather than one individual.
+That is amazing
+Wow cool! Why a 3% incrment in fitness corresponds to a HUGE difference in image recognizability?
+This is brilliant!  I read a blog post paper several years ago by a guy who had tried something similar with overlaid, color rectangles.  He had a graphics library that, for example, showed green where a blue shape and a yellow shape intersected, but I don't know what library it was.  Starting with grayscale was a good idea.
+Lol! Fitness doesn't mean goodness of fit.
+good old genetic algorithm... Fell in love with it. I even made a small project by applying it to the Infinite Monkey theorem, this is actually a really good application! Congrats!
+Got a little Hitler-y at the end there. Good job!

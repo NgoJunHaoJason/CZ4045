@@ -1,0 +1,28 @@
+General
+	Denies no longer grant gold
+	Deny XP given to enemies increased from 40% to 50%
+	Melee Creeps base bounty increased by +5
+	Neutral Creeps base bounty values increased back 10%
+	Towers now grant +1 HP Regen Aura for Tier 1 Towers, and +3 for Tier2/3/4 Towers
+	XP required to reach level 9/10/11/12/13 increased from 780/810/840/870/900 to 890/930/970/1010/1050
+	Reliable gold is now given only for passive income
+	AoE Gold increased from 45 + 0.027*NW to 45 + 0.033*NW
+	Neutral item drop times for T1-4 changed from 7/15/25/40 to 7/17/27/37
+	Tier 2+ towers health increased by 500 and damage by 25
+
+Items
+Healing Salve
+	Duration increased from 8 to 10 seconds (same overall heal)
+
+Gloves of Haste
+	Cost increased from 400 to 450
+
+Blades of Attack
+	Cost increased from 430 to 450
+
+Ring of Basilius
+	Recipe cost increased from 175 to 200
+
+Hood of Defiance
+	Now has a 200 gold recipe
+

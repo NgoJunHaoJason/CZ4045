@@ -1,0 +1,219 @@
+General
+	Outpost XP reduced from 25 per minute to 18
+	Level 10 XP talents reduced from 20/25/30/40 (most were 25/30) to 20%
+	Level 15 XP talents reduced from 35/40/50 to 35%
+	Glyph duration on creeps reduced from 7 to 4
+	Innate Damage Block now works against player units again (same rules as regular damage block now)
+	Innate Damage Block changed from 100% for 8 block to 50% for 16 block
+	Innate Damage Block no longer stacks with damage block instances
+	Courier items that are locked will now not be delivered nor will they be returned to the stash
+	Courier base movement speed increased from 275 to 280
+	Neutral Items no longer roll if there is an enemy of the killer within 600 AoE of the dying unit
+
+Items
+Grove Bow
+	Now provides 10 Attack Speed
+	Debuff duration reduced from 10 to 6
+
+Essence Ring
+	Health increased from 375 to 425
+	Cooldown reduced from 25 to 20
+
+Vampire Fangs
+	Lifesteal increased from 14 to 15
+
+Enchanted Quiver
+	Bonus damage increased from 175 to 225
+
+Imp Claw
+	Cooldown reduced from 10 to 8
+
+Third Eye
+	Removed
+
+Telescope
+	Changed from Tier 4 to Tier 3
+
+Mind Breaker
+	Silence duration reduced from 4 to 2 seconds
+
+Repair Kit
+	Now provides you with +13 Health Regen while carrying it
+
+Greater Faerie Fire
+	Charges increased from 2 to 3
+
+Havoc Hammer
+	No longer increases base attack time
+	Bonus damage reduced from 60 to 35
+
+Illusionist's Cape
+	Now provides +10 Strength and +10 Agility
+
+Boots of Travel
+	Now has the same 6 second teleportation delay when teleporting to outposts
+
+Buckler
+	Recipe cost increased from 250 to 300
+
+Bracer
+	Recipe cost reduced from 215 to 210
+
+Wraith Band
+	Recipe cost reduced from 215 to 210
+
+Null Talisman
+	Recipe cost reduced from 215 to 210
+
+Vladmir's Offering
+	Recipe cost increased from 350 to 450
+
+Drum of Endurance
+	All stats reduced from 6 to 4
+
+Sentry Ward
+	Replenish interval reduced from 95 to 90
+
+Silver Edge
+	Bonus damage increased from 36 to 40
+
+Heroes
+Abaddon
+	Base intelligence reduced by 3
+	Base damage reduced by 2
+
+Bloodseeker
+	Bloodrage
+		Bloodrage heal percentage reduced from 16/19/22/25% to 13/17/21/25%
+
+Clinkz
+	Death Pact
+		Death Pact health gain increased from 200/300/400/500 to 250/350/450/550
+
+Crystal Maiden
+	Arcane Aura
+		Arcane Aura no longer provides Magic Resistance
+	Crystal Nova
+		Crystal Nova cooldown reduced from 14/12/10/8 to 11/10/9/8
+	Talents
+		Level 15 Talent changed from +14% Manacost/Manaloss Reduction Aura to +10% Magic Resistance Arcane Aura
+
+Enchantress
+	Base movement speed increased from 315 to 320
+	Base intelligence increased by 3 (base damage unaffected)
+	Sproink
+		Sproink distance increased from 400 to 450
+
+Juggernaut
+	Base attack speed increased from 100 to 110
+	Talents
+		Level 15 Talent increased from +20 Attack Speed to +25
+
+Kunkka
+	Torrent
+		Torrent slow duration from 1.75/2.5/3.25/4 to 1/2/3/4
+
+Lone Druid
+	Summon Spirit Bear
+		Summon Spirit Bear base damage reduced by 5
+
+Magnus
+	Skewer
+		Skewer Scepter reduces manacost by 50% rather than 100%
+		Skewer Scepter cooldown increased from 4 to 6 seconds
+
+Mars
+	Bulwark
+		Bulwark Front damage reduction increased from 25/40/55/70% to 40/50/60/70%
+		Bulwark Side damage reduction increased from 12/20/27/35% to 20/25/30/35%
+
+Medusa
+	Mana Shield
+		Mana Shield absorption increased from 60 to 70%
+	Stone Gaze
+		Stone Gaze movement speed bonus increased from 25% to 35%
+
+Monkey King
+	Base armor increased by 1
+	Talents
+		Level 15 Talent increased from +75 Jingu Mastery Damage to +100
+
+Nature's Prophet
+	Max base damage reduced by 4
+
+Oracle
+	Base intelligence increased by 5 (base damage unchanged)
+
+Phoenix
+	Base armor increased by 1
+
+Puck
+	Base armor reduced by 2
+	Waning Rift
+		Waning Rift damage reduced from 100/160/220/280 to to 70/140/210/280
+	Dream Coil
+		Dream Coil level 1 scepter duration fixed to not be lower than original (1.5 to 1.8)
+
+Riki
+	Base movement speed increased from 315 to 320
+	Base HP regen increased from 2 to 3
+	Tricks of the Trade
+		Tricks of the Trade damage increased from 55/70/85/100 to 70/80/90/100
+
+Shadow Fiend
+	Strength gain increased from 2.5 to 2.7
+	Requiem of Souls
+		Requiem of Souls fear per wave increased from 0.6 to 0.8
+		Requiem of Souls max fear duration increased from 2.2 to 2.4
+
+Sniper
+	Agility gain increased from 3.1 to 3.4
+
+Templar Assassin
+	Talents
+		Level 15 Talent reduced from +25 Movement Speed to +20
+		Level 25 Talent reduced 1.5s Meld Hit Bash to 1.25s
+
+Tidehunter
+	Kraken Shell
+		Kraken Shell damage block increased from 5/10/20/40 to 12/24/36/48 (as a result of the innate damage block changes)
+
+Tiny
+	Tree Grab
+		Tree Grab building damage reduced from 50/80/110/140% to 20/50/80/110%
+
+Treant Protector
+	Now has an innate Nature's Guise passive ability. Whenever you haven't taken damage in the last 3 seconds, you gain the ability to path through trees. While in trees you gain 25% more regeneration and heal as well as a 15% Movement Speed bonus. (Once you have the ability to walk through trees, you don't lose it until you aren't near trees.)
+	Scepter now also causes trees to respawn every 10 seconds instead of the default 5 minutes
+	Living Armor
+		Living Armor is now global.
+		Living Armor bonus armor reduced from 7/10/13/16 to 4/6/8/10
+		Living Armor now heals over 12 seconds instead of 8
+		Living Armor total heal reduced from 60/120/180/240 to 60/100/140/180
+	Talents
+		Level 10 Talent changed from +10% Cooldown Reduction to Nature's Guise Invisibility
+		Level 10 Talent changed from +60 Living Armor Heal to +50 Damage
+		Level 15 Talent changed from +90 Damage to +60 Living Armor Heal
+		Level 20 Talent changed from Gains Tree Walking to +15% Cooldown Reduction
+
+Undying
+	Tombstone
+		Tombstone Zombies damage increased from 33 to 36
+	Flesh Golem
+		Flesh Golem damage per second increased from 15/25/35 to 25/35/45
+
+Ursa
+	Strength gain reduced from 3.3 to 3.1
+	Talents
+		Level 10 Talent reduced from +3 Mana Regen to +2
+
+Vengeful Spirit
+	Vengeance Aura
+		Vengeance Aura attack range reduced from 60/90/120/150 to 50/75/100/125
+		Vengeance Aura illusion outgoing damage from 100% to 70/80/90/100%
+
+Venomancer
+	Poison Sting
+		Poison Sting regen reduction reduced from 30% to 15/20/25/30%
+		Poison Sting damage reduced from 6/14/22/30 to 6/12/18/24
+

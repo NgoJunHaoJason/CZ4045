@@ -1,0 +1,178 @@
+
+Hey u/atqm-, this looks awesome!
+
+Do you have any relevant source code for this project? I'm sure viewers here would love to take a look :)
+It would be great to show an animation example of how the trained model performs on an unseen track.
+[Longer version on Youtube](https://youtu.be/B0ptl-NChJQ)
+
+Tools:
+
+* pyglet for graphics
+* numpy for nn
+
+EDIT:
+
+Thank you guys for all the feedback! This is my first bigger programming project and  I'm glad you like it.
+
+* There is a lot of source code requests and I am currently working on it. My code is a mess because I never really thought I would share this project with someone. Its also written in czech :D When I'm done, **I'll make another post.**
+* To train the NN I used a simple evolutionary algorithm. Best (fastest) cars in each generation are chosen to be parents of next slightly mutated generation. The NN has 2 hidden layers (5x4x4x2)
+* I will also train the NN on other tracks.
+
+**EDIT 2:**
+
+[**GITHUB REPO**](https://github.com/aTom995/NeuralNetworkRacing)
+Is it on github where we could look at your code in awe?
+Damn Im jealous of your skills and now gonna code an AI to wipe my tears
+Did it actually learn to race though? Or did they just learn to traverse this specific track, it would be a lot more interesting to see what happens when you put them on a different track.
+You should show this to Ferrari
+"After 20 generations they learned to turn left" sounds like a dig at NASCAR
+This is very cool. Well done. You should share the code on GitHub
+you know it's a good neural network when ferrari is still 10th
+Is it possible to see the code?
+r/formula1 is leaking and I love it. Don't forget to share your code!
+Not taking away from OP’s work, I love watching this kind of stuff, but if you want to see a ton of videos on these types of algorithms, there’s a YouTube channel called [Code Bullet](https://m.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) run by a hilariously sarcastic Aussie who does a lot of these types of simulations.
+
+I wish I had the time to delve into this stuff these days, I spent a little time on it when I was studying but haven’t had much use for it since, but it looks like it would be a really interesting field to get into.
+Nice, did you put 4 inputs with the four detectors and for the outputs, one for the speed and one for the angle ?
+Are you willing to provide the source code? I made one of these a bit over a year ago but I don't know how to get the distance measurements for "vision" to work with a smooth course like you have. Mine worked using a grid system where there was either a block or no block. I've never worked with video game packages before so I wrote everything in the backend and used pygame(?) for the display process.
+
+I'm a physicist and I'd love to continue developing mine to use a physics engine that mimics the real world to some degree (air drag, tire grip...). I was thinking about making it run a small "series" where I would train the top 20 drivers and allow them to modify their cars during free practice (AI driver with AI tuned cars) and then have them race. I'd recreate Formula 1 tracks for them.
+Great job! Is it possible to share your code? I'd love to check it out
+Looks good, impressive, but what type of neural network did you use, reinforcement learning, genetic algorithm?
+How did you define your objective/fitness  function?
+Daniel Ricardo @ 3:22
+Can you teach me Master ?
+The first car looks like the livery of brawn gp
+Only 20 fenerations to become a NASCAR driver! Nice!
+I can tell you're an F1 enthusiast judging by the way you edited that Blue-Red overtake lol
+Anyone else get the notion in Race2 that Grey was actually an advanced experimental mutation in which it attempted to shortcut the rest of the cars by bypassing that extra loop. Like it was smart enough to think, "The road I'm supposed to get to is like *RIGHT THERE*... I'm just gonna cut the gap and jump ahead of all these buckos."
+It is so amazing, can we see your code please?
+Fun to watch. Thanks. "Go Blue!"
+Looks like every online race I've been in going into turn 1
+That's it. No more F1 on Sundays. Im just going to spawn a random track and wait for my favorite (Cyan) to win. 🤣🤣🤣🤣. Congrats!!! Nice work :)
+Nice
+This is amazing! Often you don't see such a visual example of how a neural network learns.
+"After 20 generations they are able to turn left."
+
+You built the opposite of a NASCAR driver.  Neat!
+“After the first 20 generations they are able to turn left..” sound like the punch line to a NASCAR joke haha 
+
+Great simulation though!
+1. Verstappen (Red Bull)  
+2. Kvyat (Alpha Tauri)  
+3. Perez (Racing Point)
+I made a similar project for a course in school last year. It used blender as a game engine, but all the logic was coded in python.
+
+Here is the [Github page](https://github.com/hcleves/BlenderGeneticCar). The code is a bit messy, especially cause it's mixed with bits of english and portuguese, but I guess with the help of google translate and the explanation on the readme, its kinda understable.
+
+[Video with results](https://www.youtube.com/watch?v=K3c_hVrH8Zo)
+Quite similar to how neural flappy bird works.
+Super cool.
+This was so satisfying to watch unfold.
+Very cool stuff.
+Awesome. Would love to see code to learn this.
+Very good!
+
+Forgive me, but I may failed to understand where is the NN in this concept, because the generations usually occur in evolutionary algorithms.
+Where did you learn to do this beautiful masterpiece?
+Hey why not just make the left/right weights equal?
+Have they learnt how to drive generally or have they learnt that exact track?
+
+You could set up a fascinating distributed computing project here. Make a game that was interesting enough to people to play and have the learning take place on the computers of the people playing. I wonder if  you could get the computer to learn from the human players as well.
+Forza Horizon 4 lobbies (2020, colorized)
+Could you share the source code please?
+!RemindMe 3 hours
+Puts it in real F1 cars... That got expensive quick.
+You seem to have found footage of me practicing on iRacing
+Does it seem to continue reusing the same path once it figures out how to get around a corner, or does it actually modify the path in order to be quicker? Such as slowing down even more for turn 1 in order to enter turn 2 with a better angle so that coming out of turn 2 will be faster. Seems like once it figured out how to get around a corner, that was it. Job done. Now work on the next corner.
+!RemindMe 12 hours
+Can ANNs be generational like this? (Actually didn't know that -- if true)
+
+Wouldn't this be a genetic/stochastic style algorithm? Combination?
+
+Just curious :)
+
+... Or are you displaying the training of the ANN?
+Man, seeing this being built could explain neural networks to me better than all of these freakin books and courses. Just this animation got me an “aha!” moment. 
+As somebody said already, I’m so jealous I’m going to wipe my tears with how much I still have to learn.
+Great job!
+This is incredible. Great job.
+Nice😍😍
+!RemindMe 1 day
+glad I watched until the end for the instant replay
+Where do i get started with genetic algorithm implementation?
+Incredible.
+Op I’m curious, if you were to restart the program does it have to learn everything all over again or is it stored in a file somewhere?
+
+I guess my real question then... if it is output to a file I’ve always wondered what the heck the computer is writing for later use, it must look like a bunch of gibberish?
+
+Genetic algorithms fascinate me and I understand what it’s doing in practice, I just wish I could see what kind of data the computer is generating and reading off of to keep track of what it needs to do next.
+So cool, can’t wait until I’m finished with basic learning of python to actually build my first project !!
+This is f**** beautiful, I love it
+Have you seen CodeBullet? Funny dude who talks about this stuff on YouTube. He's done one of these with cars that had drifting physics, after he let it run overnight they were basically Tokyo drifting the whole track.
+People like you made me pick up python books and inspire to learn tuples, lists, and print(‘hello world’). Well. Fucking. Done!
+This is very cool, great ideas too!
+!RemindMe 1 day
+What “environmental” inputs are there to the neural net that allow it to determine what kind of turn to execute at a particular time? In other words, how does the neural net for a car “see” what’s ahead in the track?
+Can someone explain please how this is different than a breath first search on the entire possible space of movements? Seems like the bot just kept going trying all possible choices and seeing which one works.
+It would be pretty cool if you added vehicle collision
+I bet on green car in race 3 and lost $10k man. :(
+
+Btw, awesome work!!
+Interesting!
+Is this a genetic algorithm?
+!RemindMe 1 day
+Awesome! You should upload it to youtube!
+i love it very nice code i love it
+plz make a github rep and upload source there to we are be able to read and edit it
+I love this kind of videos!
+What if you did this on a procedurally generated track?
+Yellow realized life was pointless in race mode
+u/thylakoids01 very neat!!
+!RemindMe 2 days
+Nice
+But have they learned to race, or just to go through this track?
+Wouldn’t it be much more efficient if it started the next tests from the last sample that it closest? Kind of a neural noob so correct me if I’m wrong
+Legend
+Awesome.
+This is awesome
+Why is the scoring based in what i assume is small decimals, but displayed in whole numbers...just seems weird
+!remindme 2 weeks
+Awesome job, great job on the graphics too. I'm curious about the inputs, and the method used - but will wait patiently in the hope you can clean up and present the code.
+
+Only downside... "Press 'P' to continue." Really? P?  /s 😁
+!remindme 2 weeks
+But can it win Monaco when your gearbox is jammed in 6th for the last laps?
+
+Just kidding. Cool video and project altogether. Do you think that allowing the cars to run on the kerbs would make the AI evolve faster?
+Just judging by the video, looks more like a GA implementation.
+CodeBullet on YouTube
+So does this work so that after a very large number of simulations, the cars end up taking the most optimal lines, and subsequently decrease their lap time by milliseconds each time?
+That is amazing
+Im an absolute noob, are there any resources to get started on this?
+It's lovely to see how those genetic algorithms are working in place.
+Maybe share me your GitHub repo and I can explore more of your stuff????
+Honestly more interested in the graphical visualization.
+!remindme 1 month
+Awesome
+Awesome, and even better drivers than Vettel and Leclerc
+This video: car crashing for 5 minutes
+
+Me: *interesting*
+My father didn't race, no wonder I suck at racing games.
+Now do it where each generation a new track is generated randomly so they aren't just overfitting to the one track.
+Charles Darwin approves this
+!RemindMe 1 month
+!remindme 2 weeks
+Dobrá práce, tohle je fakt super!
+The development speed after generation 30 is remarkable
+*Codebullet has entered the chat*
+ !remindme 2 weeks
+!remindme 2 weeks
+OMG That's so incredibly awesome. Ferrari here you go.
+!remindme 2 weeks
+Are there any relevant resources that would help me u understand how to do a project like this? 
+Do you write the code for the training, and then do the animations later? Or are the animations done within python ?
+!remindme 2 weeks
+How long did it take you to peogram this? And for how long have you been programming in python? I am just starting thanks for the motivation
+Any chance for us to see a code any time soon?

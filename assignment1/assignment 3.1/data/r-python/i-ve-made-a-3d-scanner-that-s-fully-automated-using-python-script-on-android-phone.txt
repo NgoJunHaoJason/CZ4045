@@ -1,0 +1,72 @@
+
+All the source code and 3d model files are available on Thingiverse: [https://www.thingiverse.com/thing:4167615](https://www.thingiverse.com/thing:4167615)
+
+The time-consuming photo taking process of the 3D scanner is automated using Arduino and Android script. The communication is carried on WiFi through a simple TCP channel.
+
+This is an open source project. Suggestions are welcome!
+Sorry I don't have more to contribute to this, but WOW, awesome project!
+:O :O :O
+
+This is INCREDIBLE!!! 
+
+Can I add this to the /r/3Dprinting wiki?
+Did you write the code that turns a series of images into a 3d object? If not what lib did you use?
+Very cool project! I assume you've thought of this, but why can't you rotate it smoothly and record video and then just splice every X frame from it? I doubt the motion blur would be that bad and it'd be a much faster/simpler process.
+How can you automate things on your phone with Python?
+You need a blue or green (for non apple stuff) underplate thing so you can crop out the bottom better
+Would this [stepper motor and driver pack](http://wiki.seeedstudio.com/Gear_Stepper_Motor_Driver_Pack/) work with this project?
+That's one of the most interesting, clever and ingenious things I've seen in a long time. Is there some kind of award program or such you can be nominated for with regards to this? This could be helpful to do many small time artists and even have further implications.
+Holy crap, that's actually really awesome!
+Projects like these inpsire me to code
+Hat off to you, sir
+How do you like them apples?
+That's fuckin' slick! Nice job!
+Sweeet!
+thats awesome! i really wana  get into arduino projects.
+YOU ROCK bro
+
+I am just wondering if you combined Arduino with python or what?
+This is REALLY cool!  Well done!
+Looks really cool!
+How do you process the images to get a 3d model?
+How do the Phone and the other stuff communicate?
+The breadcrumb motivates to take my electric circuits class a bit more seriously.
+Really cool!
+DUDE.
+Wow, great work!
+Filmed by three toed sloth
+Fantastic! Thanks for sharing.
+you can use this model to measure BRDF function.
+Great work
+Hot dog, hot dog, not hot dog
+You did an amazing job on an amazing project. I think taking the roundest apple you could find as an example was not a good choice though, since you can't show of the 3D scanning as well as with some more complicated object.
+Oh wow now this seems like a project I would be pumped to do.
+Excellent!
+This is what I’m talking about! Thank you for the inspiration.
+good job sir
+You can run python scripts on android? How?
+Not a hot dog
+Cool
+I don't want to belittle OP's work, but he has only created a 100 line script which rotates the Arduino engine, takes a pic, and sends to PC. For all the others that were super interested in the 3d reconstruction itself the software used is Meshroom - it seems awesome and completely open source. You can download a precompiled binary from fosshub. However, for the full reconstruction it requires a cuda GPU. You can do a very coarse reconstruction with only CPU, by computing the pipeline up to "StructureFromMotion".
+>awesome man
+What is the final accuracy of this approach? It would be nice if one could use it to make it into a 3d scanner and then 3d print the scans.
+I hope to be as knowledgeable as you someday.
+u/repostsleuthbot
+This is WILD!  Such amazing technology!
+Amazing work dude. I got something in mind ... Have you ever thought putting your phone on the rotating base to get 360° pictures?
+Wow incredible
+How did you connect the python script with arduino?
+Excuse me what tools do you use specially for python on Android? did you code in your phone? Or just passed the script from your PC? 
+
+I mean because i have used before python in an iphone before thanks to pythonista but haven't found something at least similar on android, at least to automate things in my phone.
+Damn!!! Thats what I would call advanced 😁💪🏻 congrats!
+Easily one of the most brilliant things I've seen from this subreddit, thank you!
+kudos!
+Why did you choose to do it with photos and not a video?
+I assume that you could make the process faster this way by breaking down the frames from the video instead of taking 1 frame each time. Right?
+I challenge you to use an Iphone
+This is genuinely the best project I've ever seen on here. Cheap 3D scanning like this could be the cornerstone that drives other innovation.
+
+I mean, something like this might be just what a small medical manufacturer needs to prototype a new heart valve or something, you literally may have just saved lives!
+
+Well done, sir.

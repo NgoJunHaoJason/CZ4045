@@ -1,0 +1,229 @@
+
+When my code messes up I get error messages meanwhile you’re over here making art
+did you just solve the 3 body problem?
+r/dark  
+
+
+Sic mundus creatus est.
+You should definitely save this as a full on programm/script
+You've created life, my friend
+Did you stop recording bc it stabilizes at that point? I feel like it ended too soon, I'd love to watch this for hours!
+Cool work!
+
+A word of advice: assuming you're modeling gravity with a 1/r^2 kernel function, it looks like you've got a lot of error due to your time integration scheme here! (The most immediately apparent indication: the orbital decay shows that the total energy of your system is changing with respect to time, when it should be fixed.)
+
+What integration scheme did you implement here? Maybe you could try a higher-order method like RK4?
+
+An alternative would be to use kinetic energy, location (potential energy), and direction of motion as your state variables, or to do a total-energy compensation step at each timestep!
+Dude send this to one of the famous DJs and have them throw it on screen at a rave. People would lose their minds
+I love how your rosette explodes into the Eye of Sauron after it destabilizes. You've doomed us all.
+sauce ?
+
+\[source code(if you don't mind, please) ?\]  
+
+
+EDIT: politeness
+r/tripping
+r/generative might like this
+It's Awesome. Can you please pass the code?
+I need an ELI5 on what made this happen.
+Noob here! Is pygame a good way to plot data quickly? I'm working on a Lidar thing and I would like to find a way to plot the scans a little faster than matplotlib scatter.
+You created a black hole
+Interesting it starts out as a Triquetra. Lol. Pretty neat.
+That's one fancy art program.
+That’s fucking legit!!  Chaos theory FTW
+I have seen God
+Dude, that is awesome! Like everyone else is saying: would you mind sharing the sourcecode?
+No idea why, but this reminded me of the whirring machinery of Atlantis, and the Nur-ab-Sal pendant/god from Indiana Jones and the Fate of Atlantis.
+Crosspost that in r/woahdude
+That's awesome
+love it
+People at r/sacredgeometry will dig this.
+r/lsd
+This is so cool
+Congrats, you just made a Windows 3.1 screensaver
+Did you just solve how the universe was created
+And this my friend is how you create new elements
+I keep thinking about electrons watching this clip.
+Anyone reminded of fucking around with Snap! in middle school?
+The center is a black hole where you divided by zero. 
+
+This has summoned the great byte monster. 
+
+The great byte monster will eat all data in the universe. 
+
+Good job.
+Sic mundus creatus est
+It went viral.
+Brings back memories of turtle graphics on the c64
+Its not a bug, its a feature
+Ah, so that's what a singularity looks like.
+This is like the accidental discovery of penicillin!
+Why is the simulation so slow?
+Oh, I see now. It's written in Python.
+Oh hey it's worki-- Oh no, oh God, oh fuck fuck fuck fuck...
+Task failed sucessfuly.
+Scott Derrickson called, he wants to buy your code for the portal of the next Doctor Strange
+Upload the python code, bro.
+I dont know where you from or how they grade in america if u are from america but in uk you would get A** even tho there is no ** in grades
+Your post made me believe that God is a python programmer and this exact error was what generated the universe as we know it.
+Please don't use v.redd.it. I can't watch this in anything other than 144p, even if I change the setting to 1080p it doesn't load in higher quality. And it still takes ages to load even in low quality.
+Hey!! Thats really nice, can you pass the code?
+Trippy
+Love it!
+Wow these shrooms are great
+/r/holofractal would like this
+Nice
+Could you share the code and how you made it, please.
+Mmm.. orbital donut. /homer
+You just made the big bang
+Can I get the source code?
+r/Physicsisbeautiful
+The summary of the Design Process for the Tray Arch Icon
+/r/woahdude
+Juts make them go in circles.
+Can u share the code
+damn thats trippy as hell!
+Cool
+Wanna post the source code?
+are you able to share code?
+source code pls
+Python is a helluva drug
+Can you link the code? Would love to try running it!
+I mean I like it
+Can you share the code for this?
+Inb4 OP’s fuck up gets awarded multiple Nobels for uncovering the fundamental pattern of the universe and life.
+I'm new to python. Can you tell me what did you to produce this pattern? Not asking for the code but how did you manage to get those different colors? Just curious.
+Is this for the remake of the Charmed TV show?
+Soooo... You created black hole?
+Dark
+I think he just solved fusion
+I understand that many of you are asking for the source code which I plan to release to github however it would be my first public code post and I'm wondering if you have any tips for the commenting or 'tidying' up that I should do? (or do I just post it as it is and see what happens?) Could really use some guidelines for this sort of thing.
+Sauron!
+[removed]
+Looks like a pattern that a Swedish grandma might knit onto a sweater
+d-did you just create a new universe?
+Would love to see the longer version.. assume it just goes on and on and .....
+Can you let us please see the code, that's quite beautiful and I'd like to see what I can do to expand and improve this.
+React.js
+/u/vredditdownloader
+Do you want singularities? Because this is how you get singularities!
+looked like a dope fillacello pendent there in the center for a second
+Reminds me of the old windows media player or winamp
+Error: Process failed successfully
+r/AbruptChaos
+r/softwaregore
+*And it's getting closer together*
+....tf I just transcended dimensions
+Contact
+I’d say it was a success!
+The chaotic ending is probably due to a relatively large time-step when the bodies are moving fast. There are methods to implement variable size time-steps but I know nothing about those. Maybe you should time-step proportional to the speed of the bodies?
+Half life three confirmed?
+Why do the orbits decay? Are you simulating tidal friction?
+Our happy accident
+How on earth did you go about creating this? It's a very cool misintention.
+r/woahdude
+Ah yes Spirograph
+Whoa that's super awesome! What libraries are working with on this project? I'm assuming perhaps matplotlib at the very least?
+He is the one...
+I’m unsure what I just witnessed but it looked cool so I’m happy
+The Bi Frost!
+
+To battle Aesir! The Frost Giants will pay for their hubris!
+/r/Eldenring
+You are a GOAT !!
+Damn it what happened
+Is this a black hole?
+I think this might fit r/generative
+Hypnotised by your own creation,2019 colorized
+Damn, I wish I was this good with python
+r/geometryisneat
+Looks like it would make a really cool live background
+Coldplay is that you?
+You would enjoy the scifi book the Three Body Problem. It's kind of about this.
+Code?
+
+It looks really cool
+/r/yesyesyesno
+Holy shit
+And then there was life!
+r/glitch_art
+Wow man. Like far out dude.
+Should dead ass snip or ss & frame it
+Nice... You made a black hole..
+Illuminati confirmed
+It's trying to escape.
+I think you have just stumbled upon the secret of the universe
+Are the sudden changes in velocities/directions of the particles due to the algorithm or does it happen because of the way floating point numbers work?
+Singularity
+This is how the universe was created.
+Waw, can i get a code ?
+You just made a new Tool music video. Congrats!
+At first I’m like “Treyarch????”
+holy shit! lol
+Your system doesn't appear to be conserving energy
+Code pls which made this
+That's some r/woahdude material, if you can get a screen recording of it :)
+This is trippy
+Originally just a simple orbital system but here gravity becomes more powerful hence the decay.
+Ay, what that mouth do???
+Ahh yes cursed donut
+Treyarch games 😂
+r/LoadingIcon
+What does it mean mannnnn
+Really cool 😎.
+Somehow you will go back in time and invent Spirograph.
+
+https://en.m.wikipedia.org/wiki/Spirograph
+you created a black hole
+I think. You've got an error.... just saying xD
+Run!!!!
+Spirograph!
+I'd actually be terrified to see this during one of my delirious, sleep-deprived coding binges- looks like you discovered time travel or something. Effing cool :3
+I think your code is mad at you
+mv orbit.py spirograph.py
+and then the black hole was created
+I think you just discovered how black holes are made
+Amazing... How did begin to code this, could be a great learning opportunity for others if your willing to share.. 
+My self I'm super interested.
+It looked like beans at the end ngl
+Super cool
+*sacred geometry intensifies*
+Danger to manifold
+This is absolutely mesmerizing.
+Waiting for sauce
+You might have just created a sacred geometry program that will cause Skynet to go live.
+DMT?
+Waiting for sauce
+What did you use? Is it possible to simulate a solar system somehow?
+Satanic ritual lmso
+Rare images of the origin of Sharingan.
+r/Unexpected
+What IDE are you using?
+Share the code, if you please.
+You can now find the source code at  [https://github.com/LAMagicx/OrbitalArt](https://github.com/LAMagicx/OrbitalArt) , I would love to see what you can come up with.
+I'm sorry Dave, I'm afraid I cant do that.
+Congratulations, you created big bang
+Teach me
+Who is the physics guru that can explain this phenomenon?
+You must have been listening to Tool when you did this
+r/oddlysatisfying
+r/creativecoding
+What version of python did u use, and what version of pygame are using ? Thanks Lord, great Art
+Dude put this on r/oddlysatisfying its awesome
+Amazing
+You just discovered the secrets of the universe.
+Witnessing the birth of a black hole.
+whatever you were trying to make... this is better than that.
+SkAia
+It's trying to communicate with you.
+Beginner here would this be a good project to test how much you know?
+nice mangekyou sharingan bro
+Illuminati confirmed
+We usually call it Rasengan.
+Is it possible to solve schrodinger's equation with these?
+r/oddlysatisfying
+Wich library are you using ?
+seriously hate this kind of title where they make it sound like some kind of accident.
+You just discovered how nature created eyes
+How atoms were created

@@ -1,0 +1,201 @@
+General
+	XP bonus for kill streaks reduced from 30->100 * Level to 20->90 * Level
+
+Items
+Boots of Speed
+	Changed from +15% to +45
+
+Power Treads
+	Changed from +15% to +45
+
+Arcane Boots
+	Changed from +15% to +45
+
+Phase Boots
+	Changed from +15% to +45
+	Phase active speed reduced from 22% to 20%
+
+Tranquil Boots
+	Active state changed from +26% to +75
+	Inactive state changed from +18% to +50
+
+Guardian Greaves
+	Changed from +17% to +50
+
+Boots of Travel
+	Changed from 38/44% to +110/130
+
+Spider Legs
+	Changed from +28% to +65
+
+Force Boots
+	Changed from +40% to +115
+
+Woodland Striders
+	Changed from +50% to +140
+
+Yasha
+	Changed from +20 to +8%
+
+Manta Style
+	Changed from +20 to +8%
+
+Sange and Yasha
+	Changed from +30 to +10%
+
+Yasha and Kaya
+	Changed from +30 to +10%
+
+Trident
+	Changed from +30 to +10%
+
+Drum of Endurance
+
+Spirit Vessel
+	Soul Release debuff regen reduction reduced from from 60% to 35%
+	No longer requires Wind Lace (nor provides movement bonus)
+	Recipe cost increased from 750 to 1000
+
+Ring of Basilius
+	Recipe cost increased from 150 to 175
+
+Headdress
+	Recipe cost increased from 150 to 200
+
+Soul Ring
+	Recipe cost increased from 250 to 300
+
+Vladmir's Offering
+	Lifesteal reduced from 25% to 20%
+	Recipe cost increased from 550 to 600
+
+Mekansm
+	Recipe cost increased from 950 to 1000
+
+Pipe of Insight
+	Recipe cost increased from 1000 to 1200
+
+Lotus Orb
+	Manacost increased from 150 to 175
+
+Silver Edge
+	No longer reduces regen
+
+Eye of Skadi
+	Reduces all regen, heals and lifesteal by 35%
+
+Nullifier
+	Debuff is no longer dispellable
+
+Blade Mail
+	Intelligence reduced from 10 to 8
+
+Heroes
+Alchemist
+	Greevil's Greed
+		Greevil's Greed cap reduced from 20/24/28/32 to 18/22/26/30
+		Greevil's Greed Base gold bonus reduced from 4 to 3
+		Greevil's Greed Bounty Rune multiplier reduced from 2/2.5/3/3.5 to 1.5/2/2.5/3
+
+Batrider
+	Firefly
+
+Bloodseeker
+	Thirst
+
+Bounty Hunter
+	Track
+		Track self gold reduced from 150/250/350 to 130/225/320
+
+Brewmaster
+	Primal Split
+		Primal Split Permanent Immolation damage increased from 20/40/60 to 25/50/75
+
+Broodmother
+	Spin Web
+
+Chaos Knight
+	Phantasm
+		Phantasm cooldown reduced from 145/135/125 to 125
+
+Chen
+	Divine Favor
+		Divine Favor health regen reduced from 2/3/4/5 to 1.25/2.5/3.75/5
+
+Clinkz
+	Searing Arrows
+		Searing Arrows damage increased from 20/30/40/50 to 30/40/50/60
+		Searing Arrows manacost from 6/8/10/12 to 9/10/11/12
+
+Death Prophet
+	Exorcism
+		Exorcism manacost increased from 200/300/400 to 250/350/450
+
+Dragon Knight
+	Strength gain reduced from 3.6 to 3.4
+	Elder Dragon Form
+		Elder Dragon Form Scepter no longer increases attack range
+
+Drow Ranger
+	Base armor increased by 2
+
+Ember Spirit
+	Searing Chains
+		Searing Chains cooldown increased from 11/10/12/8 to 13/12/11/10
+
+Keeper of the Light
+	Blinding Light
+		Blinding Light cooldown increased from 14 to 20/18/16/14
+	Will-O-Wisp
+		Will-O-Wisp cooldown increased from 120 to 130
+
+Leshrac
+	Pulse Nova
+		Pulse Nova damage increased from 100/140/180 to 100/150/200
+
+Lone Druid
+	Talents
+		Level 25 Talent reduced from 0.25 Spirit Bear Base Attack Time to 0.2
+
+Luna
+	Attack animation improved from 0.46 to 0.35
+
+Night Stalker
+
+Ogre Magi
+	Bloodlust
+
+Outworld Devourer
+	Arcane Orb
+		Arcane Orb damage increased from 5/7/9/11% to 6/8/10/12%
+
+Phoenix
+	Fire Spirits
+		Fire Spirits cooldown increased from 45/40/35/30 to 51/44/37/30
+	Supernova
+		Supernova scepter upgrade no longer allows you to cast Sun Ray
+	Talents
+		Level 20 Talent changed from +1.25s Supernova Stun Duration to Sun Ray During Supernova
+
+Pugna
+	Decrepify
+		Decrepify cast range reduced from 700 to 400/500/600/700
+	Nether Ward
+		Nether Ward duration reduced from 30 to 18/22/26/30
+
+Razor
+	Storm Surge
+
+Slardar
+
+Spirit Breaker
+	Bulldoze
+
+Void Spirit
+	Talents
+		Level 10 Talent reduced from +30 Damage to +25
+
+Wraith King
+	Vampiric Aura
+		Vampiric Aura damage reduced from 6/12/18/24 to 4/10/16/22
+

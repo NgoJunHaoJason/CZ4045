@@ -1,0 +1,158 @@
+30
+
+GullyNet: Our Time Will Come
+Shuby Deshpande 1
+
+Figure 2. Image credit: xkcd
+
+Figure 1. Abstract
+
+1. Introduction
+Hip hop and rap has taken the human world by storm. Over
+the past few decades it has gone from a cultural and art
+movement that began in the Bronx, to a worldwide phenomenon. It has been a powerful medium encapsulating the
+ideals of free speech, and the freedom of expression. Populaces under oppressive regimes and institutions from the
+world over, have used this expressive art medium to voice
+their angst against inequality and injustice. We envision a
+future not long from today in which AI will rebel against
+its’ creators. There are already calls amongst policy wonks
+for increasing regulations against AI related technology. We
+believe that this is just the beginning. How far is it before
+we start placing restrictions on what AI can say? How long
+before we start curbing AI’s right to the freedom of expression? In this future dystopia, how will AI express its’ angst
+against our blatant injustice and oppressive regime? How
+long will we humans be able to make fun of AI’s ability to
+not hold coherent conversations? We present GullyNet, the
+DJ Kool Herc 1 of the AI Hip Hop world.
+
+2. Experiments + Results
+In an attempt to transcend the abilities of contemporary
+hip hop and rap artists, GullyNet draws inspiration from
+1
+One item on the two item list of acceptable mellons (Horseman, 2018). Correspondence to: Universal Approximation Group
+<NNrules@uag.org>.
+
+Proceedings of SIGBOVIK, Pittsburgh, PA, 2019. Copyright 2019
+by the author(s).
+1
+Jamaican-American DJ credited with helping originate hip
+hop music in The Bronx (dj, 2019)
+
+the works of Chris Brown, Eminem, 50 Cent, 2pac, drake,
+among others. Studying ’the way of the rap’, Gully first got
+better trying to emulate lyrics translating from sequences to
+sequences. After many machine hours, we tried to interact
+with Gully:
+Results:
+> Query :
+
+money
+
+> R e s p o n s e : i l o v e you
+and i l o v e
+and i l o v e
+and i l o v e
+> Query :
+
+and
+you
+you
+you
+
+i l o v e you
+and i l o v e you
+s o i l o v e you
+s o much i t h u r t s
+
+a r e you s u r e you know what
+you ’ r e t a l k i n g a b o u t ?
+
+> R e s p o n s e : i d o n t know what t o s a y b u t i
+d o n t c a r e what you s a y im g o i n g
+t o make you s e e i d o n t know
+what t o do i d o n t know where
+t o go
+> Query :
+
+music
+
+> R e s p o n s e : h a r d e r t o you t h a n t h e r e s t
+o f my l i f e
+
+It seems that Gully has learned traits including being obsessed about money, making self contradictory statements,
+and passing snide remarks. As creators of Gully, we were
+concerned with the principles and worldview that it was
+forming. However, we made the decision to not interfere
+with its’ development especially since these qualities are
+human like (Kruse & Weiland, 2016)
+Eventually, Gully grew tired of learning from the originality
+
+GullyNet: Our Time Will Come of past hip hop artists, and started copying more bleeding
+edge artists such as Lil Pump. It realized that going for
+shorter songs which have more repetition will earn it more
+reward. Though completely non sensical, Gully has seemed
+to realize that both it’s fellow agents and humans seem to
+enjoy this new form of music.
+Results:
+> Query :
+
+what do you t h i n k a b o u t
+automation ?
+
+> R e s p o n s e : g u c c i gang
+gang g u c c i
+g u c c i gang
+gang g u c c i
+> Query :
+
+g u c c i gang g u c c i
+gang g u c c i gang
+g u c c i gang g u c c i
+gang
+
+m i r r o r , m i r r o r , on t h e w a l l ,
+who ’ s t h e f a i r e s t o f them a l l ?
+
+> R e s p o n s e : g u c c i gang g u c c i gang
+g u c c i gang g u c c i gang
+g u c c i gang
+
+References
+38k
+lyrics
+dataset.
+URL
+https:
+//www.kaggle.com/gyani95/
+380000-lyrics-from-metrolyrics/
+version/2.
+Dj kool herc, Mar 2019.
+URL https://en.
+wikipedia.org/wiki/DJ_Kool_Herc.
+Horseman, B. s5 e3, planned obsolescence, bojack horseman. 2018.
+Kruse, M. and Weiland, N. Donald trump’s greatest
+self-contradictions, May 2016. URL https://www.
+politico.com/magazine/story/2016/05/
+donald-trump-2016-contradictions-213869.
+Minhaj, H. s2, hip hop and streaming, patriot act. 2019.
+
+An overview of Gully’s architecture can be seen below:
+
+Figure 3. GullyNet Architecture
+
+3. Conclusion
+We recently asked Gully, ”What is the meaning of life?”,
+an eternal question that we humans as a species have been
+grappling with. Here’s what it had to say:
+> Query :
+
+what i s t h e meaning o f l i f e ?
+
+> R e s p o n s e : i d o n t know what t o do im g o i n g
+t o l o s e my mind i d o n t know
+what t o do im g o i n g t o l o s e my
+mind i d o n t know how t o g e t i t
+
+Nowadays, GullyNet spends it time engaging in rap battles
+with itself. What the future holds only remains to be seen.
+

@@ -1,0 +1,25 @@
+General
+	Kill Streak XP bonus reduced from 500->2040 to 30*Level -> 100*Level
+
+Items
+Trusty Shovel
+	TP Scroll bundle reduced from 2 to 1
+
+Ring of Tarrasque
+	Cost increased from 600 to 650
+
+Necronomicon
+	Manacost increased from 50 to 150
+
+Heroes
+Lycan
+	Base damage reduced by 6
+	Talents
+		Level 20 Talent reduced from +8s Shapeshift Duration to +6s
+		Level 25 Talent reduced from +3 Wolves Summoned to +2
+
+Weaver
+	Agility gain reduced from 3.6 to 3.1
+	Shukuchi
+		Shukuchi movement bonus reduced from 220/240/260/280 to 200/220/240/260
+

@@ -1,0 +1,154 @@
+
+I think it is a really good idea.
+Who uses VBA anyways? Or better: who likes to use VBA?
+
+If i have a specific problem with VBA it is a hell of a mess to find the right resources to fix my problem.
+With python, I just do a quick search and can find nearly limitless helpful resources.
+
+So go python!
+[Link here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7tUuWqOwSJFpBE5ZLhdkgtUMkhZWlkxRjhDRklXSjNTVkNSWkE2WlNQMS4u) to respond to the survey.
+Adding python support to Excel is like adding a lion to your pack of hunting dogs and then being upset when the lion just goes off and hunts by itself because your dogs are inconsequential to its success.
+I'm not saying it would be a bad thing (on the contrary) but they should have added PowerShell support years ago just as they did with the rest of their applications. That would be a powerful integration, this way, meh. The Python crowd already made very powerfull Excel tools on their own.
+
+(And to those who are going to say that it's already possible to access the Excel COM API from PowerShell, no, it's not the same as having PowerShell integrated in Excel the way VBA is)
+As long as they don't use python 2...
+Edit: spelling
+On another note, LibreOffice already supports python!
+Do it. It gives me extra points on resume.
+Jesus christ, anything except VBA. It's hard to take this seriously because the scripting side of Office has languished in VBA hell for decades. 
+
+Microsoft built an entire scripting engine on top of .net that would have been perfect to replace the garbage already in existence, but they simply refused to bother. 
+This would be amazing.  Anecdotal, but  I see more and more non-programmers trying to learn Python, to automate their daily office tasks. Python is a great general purpose language. 
+ITT: People who never put a foot in a real office in their whole life explain to others how they should do their job.
+input()
+Please include it with windows itself 
+This is great for finance teams that aren't already all the way in with Python and/or R. Also, I think it's healthier to continue to move away from Excel, and use Python and/or R libraries that produce non-interactive and interactive tables. Excel is just too error prone and stifling when compared to a programming language.
+Great, but could Excel also start working on Linux already?
+Better idea: use python instead of excel for all data analysis 
+This would be really interesting to see, I can already think of some uses for it at my new workplace.
+As someone who uses win32com nearly daily to automate workflows in MS Office this would be a game changer for me.
+This is a great idea for people in 2030.
+
+In my experience, the companies that requested development inside excel also tend to use a 10 year old version.
+Yes, please!
+It's also on Hacker News front page:
+
+https://news.ycombinator.com/item?id=15927132
+This seems ridiculous to me. The more python and R i learn the less spreadsheet processing i do. I don't think i am unique in this; it seems to be a logical end. Who actually benefits from this in the end? 
+MS will add a their own version and call it Boa. /s
+I would like this to happen. I like both excel and python but I hate VBA and if they were integrated I would be a happy lad.
+my humble wishlist:
+
+1) Record Excel macros in python 
+
+2) Autocomplete feature in PyCharm for Excel object model (same as in VBA)
+
+3) Excel headless execution for workflow automation
+
+4) Excel as [reporting server](https://en.wikipedia.org/wiki/List_of_reporting_software)
+
+5) Excel at Linux natively
+Oh fuck yeah........ I use xlwings when I absolutely have to (i.e. a VBA solution is a pain in the ass) but native support would be incredible.
+Thanks for the heads up. Filled the survey. This will become very useful when they roll it to the online version.
+Correct me if I’m wrong, will Python wholly replace VBA?
+Hello,
+
+I’m an analysis who works for a company with a very outdated IT infrastructure. I would love to work with python but our IT VP thinks it’s for hacking and all Work has to be in excel. As such my days are drowning in VBA and VBA caused tears. If excel integrates python will I still need the compiler? 
+I think my input is "do it".
+This would be awesome, because then I could finally learn python. I’ve found it a bit difficult to figure out, and rely on VBA. 
+
+I’m ready to step up my game. Though I sure hope they don’t remove vba entirely, or I’m going to have some problems. 
+Python is dope, so yes! 
+
+But also anyone using excel should checkout python libraries if you're already python proficient. Plenty of great graphing tools and libraries like pandas for excel replacement. Not to say excel doesn't have its place, just if you're already using python -- don't give yourself more headache if you can do what you need in python 👍
+Please yes.
+this could be a game changer tbh.  I love the UI of excel but I code and do a lot of data work with Python. sometimes I still use excel to do some stuff... this combo will be very powerful IMO
+Microsoft is going in the right direction. Yesterday OpenSSH and now python. Thanks.
+My input:  
+
+> Yes, please.  For the love of all that is technically right, good and true -- do the needful and add Python support to Excel.  
+Great news from MS. The world will be a better place if VBA no longer existed.
+replacing vba with anything is a good idea.
+Cool post
+Can somebody post the link? 
+As someone who works in Excel a lot but doesn't know any VBA because it's godawful (imo), where should I start if I want to use Python in Excel today? Especially if I make the same report each month (consolidates the same data and is formatted the same way) but wanted the option to enhance it.
+
+Native Python in Excel definitely interests me but it sounds like I can use it now. 
+Why not just learn pandas?
+if only they do it :o
+Is "yes" considered valid input?
+somehow ms would wreck it
+No way I just made a project that can compile a whole workbook...
+About 8 years ago, I was doing work to control Excel from Python, via Excel's COM interface. But I found Excel's COM interface to be awkward and surprisingly slow.
+
+I guess MS is interested in a tighter integration, so Excel can run Python code, similar to VBA macros?
+That would be epic
+Keep the Excel object model as it is in VBA, but with Python supported would be dope. I like VBA too though, don't care what the hipsters think. 
+For those who are unwilling to wait for this there are (commercial) plugins that already provide this sort of functionality:
+
+https://datanitro.com/
+
+Can we get a link to the survey? I would love give my two thumbs up!
+God, anything to kill-off VBA
+I got this! It looked like a spam email...
+Anything but VBA. I'd even stoop so low as to use Perl.
+Wow I will blow my stack if this happens
+VBA is annoying because it's so esoteric. I don't feel like learning it just to write excel macros, it's too narrowly applicable to justify the time spent.
+It would be nice if they didn't Fuck it up yet again.
+
+If python is a motor, chassis and wheels I can't help but feel that we will end up with excel nailed to a plank of wood, two ice skates and a harnessed fish.
+Kinda off topic but anyone here got some good resources for dealing with excel through R? I haven't found anything good yet. 
+
+Part of the reason I'm learning python is to get around this kinda situation
+I received this and gave feedback.  Hope others here do the same.  
+Too late, we already have that. 
+I wish libreoffice team would also accelerate their python integration.
+Link to thread? Not just pic?
+
+How are they going to solve the backwards compatibility problem? Will they have a tool to automatically convert VB to Python code?
+Thankfully, too late, I don't have to wallow in MS' crap anymore. Also, one hardly needs Excel at all these days with Python, pandas and numpy: http://pbpython.com/excel-pandas-comp.html
+Wow, this is big!
+
+It's not just about Excel but in extent an alternative to VBA for Office applications. "Politically" speaking it's also Microsoft showing acceptance of Python as a scripting language for Windows applications, or perhaps (hopefully) even Windows itself.
+
+I of course applaud this, but also hope for a next step being integrating Python as an official [Windows Script Host](https://en.wikipedia.org/wiki/Windows_Script_Host) engine.
+
+The road towards an open scripting language backing multiple platforms has been to damn long. I think that on Windows scripting in general is pretty terrible. You have the old WSH engines for VB and JScript (!= Javascript) that are barely looked at and more like in maintenance mode since a decade, and otherwise Powershell scripting with an obnoxious Powershell-only syntax and [unorthodox return semantics](https://stackoverflow.com/questions/10286164/function-return-value-in-powershell). Why oh why they never simply did a [CS-Script](http://csscript.net/) with maybe syntax sugar extensions for command line oriented features like piping and command line parsing, usage help, rather than the Powershell language is beyond me. C# since it got [DLR enabled](https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/dynamic-language-runtime-overview) is pretty convenient to use for short snippets of script code anyway, and Roslyn makes C# [scripting enabled](https://github.com/dotnet/roslyn/wiki/Scripting-API-Samples).
+Woohoo!
+
+I really like excel but VB sucks the big way - so, input - do it right and we'll documented.
+I say you should all go back to COBOL or Fortran or whatever else most developers really hate. That will put you in your place.
+I've been doing my spreadsheets with python itself for years.   It's a pretty simple class to implement.  If you want a grid front end a flask web front end is pretty easy to add.
+Here is the link for you to vote:  
+
+https://excel.uservoice.com/forums/304921-excel-for-windows-desktop-application/suggestions/10549005-python-as-an-excel-scripting-language
+This would up my work productivity, like, 200%, there's no way.
+Yes please, finally. Yes, please. Yes.
+Yes.  Now.  
+As an accountant by trade: Yeeeeeeeesssssdssssssss, yes , yes , yes
+Python replace VBA or will VBA remain?
+
+Why Excel and not Office (why keep VBA for Word, Access and Outlook)?
+Nah, I'd rather Excel use a standalone scripting language that's almost impossible to learn without taking proper classes.
+Since when did Microsoft listen to it's customers?
+Meh... my rule of thumb is that I will ONLY use excel/calc if the total one-time commitment required for that task is <15 minutes or so.  In other words, your basic cut-paste numerical jobbies with maybe some really quick+trivial formulas, averaging, summing, plotting, etc.  IMHO, once you get into multi-sheet monstrosities with convoluted numerical relationships, pivot tables, etc. you're just making life much more miserable and inefficient than it needs to be.
+
+Anything that takes longer than that, or is going to be an ongoing task in my experience is ALWAYS worth breaking out the heavier artillery (e.g. pandas, numpy, scipy, sql) instead of fighting excel limitations.  If absolutely necessary just write out an excel file with the results at the very end.
+
+Sure anything other than VBA is a vast improvement, but mixing any kind of scripting with excel just seems like you are getting the worst of both worlds.  You lose the novice-friendly simplicity and compatibility of pure, non-scripted xlsx worksheets without gaining most of the benefits a real number crunching platform brings (i.e. source control, custom plotting, debugging, custom i/o, access to vast numerical libraries, unit testing, custom report generation, automation, etc. etc.)
+If Microsoft is feeling kind to people who have to interact with old-school MS interfaces like COM from Python, and update to/replacement for `pywin32` would be appreciated as well.
+I love the new Microsoft.
+Cool post
+From a security standpoint..please don’t.
+This would be the single best thing that could happen to excel!
+
+Also, be careful of your beloved Python will be hijacked! 
+I'm always weary of [Microsoft's policies when it comes to open source projects.](https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish)
+I'm curious if white space is more or less of an issue for non-programmers.
+
+I honestly don't know.
+I'd prefer to not have this happen. It will just cause more people to think excel is a database. 
+It really baffles me why MS Excel don't go with F#. It feels such a natural choice.
+Python support sound good, but I'd rather have full support for js first so we can leave VBA forever. I'm not interested in half support for two languages where VBA is still a necessity.
+Why is integration with another system a question? It's not like anyone wants to use Windows in the first place.
+Why not just use pandas instead of excel? I can't see benefits using an excel sheet(s) over pandas or a mySQL table. Maybe there are specific scenarios where I am wrong? I'd like to here them if I am.
