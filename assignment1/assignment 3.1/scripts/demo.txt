@@ -1,0 +1,34 @@
+Nice
+Btw u forgot the worst of them all 
+== and =
+[Rubber Duck Debugging](https://rubberduckdebugging.com)
+
+Edit: Fixed a word
+Great sheet! If you don't mind me asking, what did you make it with?
+I think it would be helpful to include a reminder that a SyntaxError might be caused by a mistake on a previous line: if line 29 has a SyntaxError and nothing looks wrong, you should check line 28 or 27.
+Thanks! This should help our students who seem alergic to reading error messages before asking for help :p
+The most common source of `NameError` for me is when I create variable in `if` block, but not inside `else` block and then try to access it after the whole if/else.
+
+The best way to avoid this especially for deeply nested set of blocks is to define the variable before if/else and set it to `None` or other sensible default. It definetely beats the whole process of arguing about the conditions where the variable might be undefined and simplifies the reasoning for any other guy that reads your code.
+Very nice graphic. But in all my years of programming I've never had an instance where a "cheat sheet" like this could have been useful. When a bug happens, you read the error message (which often includes the offending line), Google it if you had to, roll up your sleeves and wade into the code to see what's up.
+Is there something like this for C Programming?
+r/learnpython
+Beautiful
+This is amazing. Thank you.
+Really helpful. Obviously logical errors could be one of many different reasons but this is a great starting point for common mistakes
+I'd also highly recommend this chapter on debugging from **Think Python** book: https://greenteapress.com/thinkpython2/html/thinkpython2021.html
+
+
+# try out code
+# print(os.listdir())
+# my_file = "./scripts/demo.txt"
+# f = open(my_file, "r",  encoding="utf8")
+# Lines = f.readlines()
+# print(f.read())
+# file_out =open(os.path.join(output, "demo.txt"), "w", encoding="utf8")
+# for line in Lines:
+#     file_out.write(convert(word_tokenize(line))+"\n")
+
+
+# for i in word_tokenize(example_text):
+#     print(i)
